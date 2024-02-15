@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;575658950,254496730,-1991098636,1345384699],Name:'Pot Of Amethyst',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg0YTI3NTU2ZDdhNjc4N2M4YjJhZjhkMjIyMDQ4NzUxODhhNzgyYzYwNDFjNTkwYjIwYjdkNjE0YTk0YTY1ZiJ9fX0='}]}}}"
+              "tag": "{SkullOwner:{Id:[I;575658950,254496730,-1991098636,1345384699],Name:'Pot Of Amethyst',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg0YTI3NTU2ZDdhNjc4N2M4YjJhZjhkMjIyMDQ4NzUxODhhNzgyYzYwNDFjNTkwYjIwYjdkNjE0YTk0YTY1ZiJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:block.amethyst_block.fall'}}"
             }
           ]
         }
@@ -23,7 +23,7 @@
         {
           "condition": "entity_properties",
           "predicate": {
-            "nbt": "{CustomName:\"{\\\"text\\\":\\\"amethyst pot\\\"}\"}"
+            "nbt": "{CustomName:'\"amethyst pot\"'}"
           },
           "entity": "this"
         }
