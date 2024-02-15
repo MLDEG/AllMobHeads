@@ -9,7 +9,7 @@
 			"item":
 				{
 				"item": "minecraft:name_tag",
-				"nbt": "{ \"display\": { \"Name\": '{\"text\":\"black\"}'} }"
+				"nbt": "{display:{Name:'{\"text\":\"black\"}'}}"
 				},
 			"entity": { "type": "minecraft:shulker" }
 			}
