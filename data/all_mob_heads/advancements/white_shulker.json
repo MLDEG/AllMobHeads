@@ -1,19 +1,21 @@
 {
-"criteria":
-	{
-	"amh:white_shulker":
-		{
+"criteria": {
+	"amh:white_shulker": {
 		"trigger": "minecraft:player_interacted_with_entity",
-		"conditions":
-			{
-			"item":
+		"conditions": {
+			"item": {
+				"items": [ "minecraft:name_tag" ],
+				"nbt": "{ display: { Name: '\"white\"' } }"
+			},
+			"entity": [
 				{
-				"item": "minecraft:name_tag",
-				"nbt": "{display:{Name:'{\"text\":\"white\"}'}}"
-				},
-			"entity": { "type": "minecraft:shulker" }
-			}
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": { "type": "minecraft:shulker" }
+				}
+			]
 		}
-	},
+	}
+},
 "rewards": { "function": "all_mob_heads:white_shulker" }
 }

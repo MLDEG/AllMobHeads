@@ -1,21 +1,24 @@
 {
 "criteria": {
-	"amh:lime_shulker": {
+	"amh:nitwit": {
 		"trigger": "minecraft:player_interacted_with_entity",
 		"conditions": {
 			"item": {
 				"items": [ "minecraft:name_tag" ],
-				"nbt": "{ display: { Name: '\"lime\"' } }"
+				"nbt": "{ display: { Name: '\"nitwit\"' } }"
 			},
 			"entity": [
 				{
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
-					"predicate": { "type": "minecraft:shulker" }
+					"predicate": {
+						"type": "minecraft:villager",
+						"nbt": "{ VillagerData: { profession: \"minecraft:none\" } }"
+					}
 				}
 			]
 		}
 	}
 },
-"rewards": { "function": "all_mob_heads:lime_shulker" }
+"rewards": { "function": "all_mob_heads:nitwit" }
 }
