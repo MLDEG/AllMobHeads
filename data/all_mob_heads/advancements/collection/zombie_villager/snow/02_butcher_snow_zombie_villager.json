@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1560094367,-1006745760,-1838790586,-1268374567],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2YmY5YzdiZWQ1NDQ3YjhiNGMyNmQ4MzMwMzU3OTBkZDZmMTNiMTA0NDM3MjgxMDAwYzBmM2IxMDQ1ZjIxZCJ9fX0='}]}}}"
+		},
+		"title": "Snow Butcher Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/snow/01_armorer_snow_zombie_villager",
+	"criteria": {
+		"02_butcher_snow_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1560094367,-1006745760,-1838790586,-1268374567],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2YmY5YzdiZWQ1NDQ3YjhiNGMyNmQ4MzMwMzU3OTBkZDZmMTNiMTA0NDM3MjgxMDAwYzBmM2IxMDQ1ZjIxZCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

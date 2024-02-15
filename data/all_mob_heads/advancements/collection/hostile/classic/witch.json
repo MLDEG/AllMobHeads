@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1466036749,-1520352852,-1171795614,1321559972],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIwOGVlZWRmNDVkZTZhNDYyMzMxN2RmNzQyN2E5YjVmYWYxM2EyMzIzMDhlM2M5M2VkYWYzMGJjNTAwODBkNSJ9fX0='}]}}}"
+		},
+		"title": "Witch",
+		"description": "0.1% + 0.1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/hostile/classic/cave_spider",
+	"criteria": {
+		"witch": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1466036749,-1520352852,-1171795614,1321559972],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIwOGVlZWRmNDVkZTZhNDYyMzMxN2RmNzQyN2E5YjVmYWYxM2EyMzIzMDhlM2M5M2VkYWYzMGJjNTAwODBkNSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

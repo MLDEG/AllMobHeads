@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:wither_skeleton_skull"
+		},
+		"title": "Wither Skeleton",
+		"description": "2.5% + 1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/vanilla/skeleton",
+	"criteria": {
+		"wither_skuleton_vanilla": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				  {
+					"items": [
+					  "minecraft:wither_skeleton_skull"
+					]
+				  }
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,184 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dirt_path"
+		},
+		"title": "Savanna Zombie Villager",
+		"description": "Savanna Zombie Villager Heads Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/zombie_villager",
+	"criteria": {
+		"01_armorer_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;585992755,1989692784,-1144024550,-1949615412],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU4Y2I5ODJiM2Q2NjRhZGVmNDI5YjljYzViZmM0NzNlZTcwNWVjNGY0YjczODVjNmM0MTYxMDU0NTgyMWE1NCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"02_butcher_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;2135760701,803095207,-1342121827,1243898730],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIwZTk4M2RhMjEwNzE2YzgwMDMyNjUzNDU4ZjBiMTJhYjM3YjczNWEzZWRhNDMyOTI5YmVmOWU3NzE5NmIwNiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"03_cartographer_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1818070912,-1915008225,-1411115077,-1041547142],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM0NTRmNmQ2NDY2MDNmYzcxMDU3OGM5NWI2NzcwMzAyYWNlM2E5NmJlMTQ4M2VhODBmNjE0Mzk2Yzg3YjIxMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"04_cleric_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1100281879,1662405851,-1446220879,-1595985812],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQzMWNiNTE0OTYyMTkyZWQyNWIyM2FhZmM2NTkxMjU3ZjkxYmQxMDA0MjlhMDgxMzM4MDY0OGVjMjM3MGNjNiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"05_farmer_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;162036788,-806010112,-1809295986,-1021725360],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0OWRiYmYwZWEzM2RlM2I0NjdmYWJlZjJhMGYwMjg4NDRjOThmODBlYWIxMTkyMjgxOWRlYjdiOTYzMTg0ZiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"06_fisherman_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;360067118,-1711124484,-1179908691,645149666],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmMzMyZDQzNDM1ZGMwYjI3NDQ3ZTZjMjllMTc1ZDUwYjE5ODVmZmEyYjFiNGVmYTMwNjJiNDI4ZTE4YzRmYSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"07_fletcher_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1372035476,-1435417141,-1404086407,1279984117],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjNDU2ZTM5NGQ1Y2YwMGMzZjUzYWVhMWEyNTg1MDg3OTgxN2IyODY4ZTI4YmU0MmYyMjA4ODRjOGNlOTNhMSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"08_leatherworker_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-416358401,681330116,-1699692867,-847126172],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIxNjg5ZTM5M2YxODgzNDhmZmU1YmM4ZDE5OTY4NjEwZTRjYjcxMWNjODU1N2E5MTY4ZDRkZjgyYmNiZDk0YyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"09_librarian_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1888326499,1790461615,-1318687964,-1502896197],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEzYjllZjkxNDMwYjUwNmM0ODNhOWEzOWVkMjQyMDA4NDQ3Y2UxMDJkZjc2NTZjNjJlNmRkZTg0MzNmNzI2MSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"10_mason_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1088801135,-1775418575,-1146236893,454028362],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3YTJlMzRjMGE5ZjI2MTc1NGFjMzkzOWQ5NGZlMGI2OTIzM2QzOWJkOTgwNzNhYzAwYmUwYTYyMTBhZGQ0NSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"11_nitwit_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-37969351,-1223932685,-1939080085,-2073747215],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEzMjg3ZjE1ZTIxZDgwMmZhNGFlOGJhMDdmYTdkM2RiMGEzZDgwYTUxZjUyMzAzNGQ1NzVmZWFiYzU2NGQ1In19fQ=='}]}}}"
+					}
+				]
+			}
+		},
+		"12_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;31608017,-195280330,-1403115470,2128580476],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIyNGVjMzk5ODI1MGY5NTA4MzYxMDM5MTgyMjY2Njg3MTAzYjg5NGVjOGI5NDg4M2ZlYWNkM2MzNTFkYjUwNiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"13_shepherd_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-983034184,790839347,-1552844202,-1414717635],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ0ZmI4NDNjNGRlMWI3YmY5NzExMTQyNTk5OWJhYjgxODFlMGFmYmE1MmViYzNkMWIzMjA3ZjgxOWEzMjRiZiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"14_toolsmith_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-2145393549,220217957,-1872537848,1714859033],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmMTFkYTQ0OTU5ZGJlNmZiMzFhNmViMzgxNzEyNDgyNmQyZmJkMGUxMzk5NjVkNWFkMzZjOTA3YzhkZGExYyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"15_weaponsmith_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-436332831,595149086,-1365369990,819332889],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MjViYzQxZTQ2NDFjMzQyYjVjYTFiMzQ3YTk3MTEzMmIxZGJhM2NhMWMyMWJhZTI3MzI3NjA1YmIwZTdmYSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "loot": [
+            "all_mob_heads:savannazombievillager"
+        ]
+    }
+}

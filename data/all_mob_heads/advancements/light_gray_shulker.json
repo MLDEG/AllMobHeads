@@ -1,0 +1,19 @@
+{
+"criteria":
+	{
+	"amh:light_gray_shulker":
+		{
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions":
+			{
+			"item":
+				{
+				"item": "minecraft:name_tag",
+				"nbt": "{ \"display\": { \"Name\": '{\"text\":\"light gray\"}'} }"
+				},
+			"entity": { "type": "minecraft:shulker" }
+			}
+		}
+	},
+"rewards": { "function": "all_mob_heads:light_gray_shulker" }
+}

@@ -1,0 +1,27 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:player_head",
+			"functions": [
+			  {
+				"function": "minecraft:set_name",
+				"name": {
+				  "text": "Golden Desert Villager",
+				  "color": "#FFBF00",
+				  "italic": false
+				}
+			  },
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{SkullOwner:{Id:[I;1682642316,-1315746820,-1240698930,743344588],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY2MGRjYmJiZDNlNWNkNTE0ZWVmNmVlMTYxMGI1Yzk1YjlmNmFjMTI5YjcyOTA3MjYzMDFmNDgzZTQ2MGNhMyJ9fX0='}]}}}"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

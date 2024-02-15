@@ -1,0 +1,27 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:player_head",
+			"functions": [
+			  {
+				"function": "minecraft:set_name",
+				"name": {
+				  "text": "Decapitated Zombie Villager",
+				  "color": "#900000",
+				  "italic": false
+				}
+			  },
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{SkullOwner:{Id:[I;770736031,-1295364241,-1764579357,1020782780],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIwNzg2YWM0NWE1YmQ2MDE3NDFlY2UwYjJhZGJlY2I2MWM0ZTllZDJhMTM3ZGI0OWRkNDM4YTA4Yjg3OGJhMSJ9fX0='}]}}}"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

@@ -1,0 +1,27 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:player_head",
+			"functions": [
+			  {
+				"function": "minecraft:set_name",
+				"name": {
+				  "text": "Golden Snow Villager",
+				  "color": "#FFBF00",
+				  "italic": false
+				}
+			  },
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{SkullOwner:{Id:[I;543662149,-1278131724,-1878901946,-769715685],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjNmYTA1MzZiZmYxYzkwYThiNjJlYmM5N2I0ZDYxMTVmMGQ1NTBiNjMwNGYwZDZiZTM0YTIzMmNiNmFkZjJkZSJ9fX0='}]}}}"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

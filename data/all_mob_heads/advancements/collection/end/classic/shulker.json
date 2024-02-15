@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1374103035,799557006,-1395864132,-219252636],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI4MDg5YWE3ZGM5MzQ4MWJmNDg2ODNmYzJiYTVhNjZiYzk2Zjk3ZTY2ZGY0OTdkYjgzMTFhOTg0NDAxNDg4In19fQ=='}]}}}"
+		},
+		"title": "Shulker",
+		"description": "0.8% + 1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/end/classic/endermite",
+	"criteria": {
+		"shulker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1374103035,799557006,-1395864132,-219252636],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI4MDg5YWE3ZGM5MzQ4MWJmNDg2ODNmYzJiYTVhNjZiYzk2Zjk3ZTY2ZGY0OTdkYjgzMTFhOTg0NDAxNDg4In19fQ=='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:player_head",
+			"functions": [
+			  {
+				"function": "minecraft:set_name",
+				"name": {
+				  "text": "Golden Pillager",
+				  "color": "#FFBF00",
+				  "italic": false
+				}
+			  },
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{SkullOwner:{Id:[I;56976788,-390509927,-1435727522,-2059288341],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZhODdkNzEwNTkwYzE4Njg2MWQ0ZWI2NjIwYWI1MzIwNTc4ZDcwODAyMzQxZDJiYTk2NWM3NjA2YWViYmU4MiJ9fX0='}]}}}"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

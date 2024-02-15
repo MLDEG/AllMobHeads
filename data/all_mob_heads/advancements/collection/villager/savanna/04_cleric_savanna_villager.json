@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1449786624,-1849078544,-1533801774,-1936601203],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZjYzhmYTgzNzk2NjVmYmI4YzkyNGU0NTIzNWRhMWM5ODhjMWM1MjNhZjFiMjQ3OTc5NmQ0YTQ5YWYxYzVjOCJ9fX0='}]}}}"
+		},
+		"title": "Savanna Cleric Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/savanna/03_cartographer_savanna_villager",
+	"criteria": {
+		"04_cleric_savanna_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1449786624,-1849078544,-1533801774,-1936601203],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZjYzhmYTgzNzk2NjVmYmI4YzkyNGU0NTIzNWRhMWM5ODhjMWM1MjNhZjFiMjQ3OTc5NmQ0YTQ5YWYxYzVjOCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

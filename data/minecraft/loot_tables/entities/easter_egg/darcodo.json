@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;255184197,1193821586,-1749148387,611415765],Name:'Darcodo',Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYwODE2NzM4MDgwOCwKICAicHJvZmlsZUlkIiA6ICIwZjM1Y2Q0NTQ3Mjg0NTkyOTdiZTFkMWQyNDcxNzZkNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJjb2RvIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I2YzZhZjA4YWExM2ZkOTc5ZjY3NGM5MmMxMDcwY2MyYzVlMDE4NmFhMmEzMTg2ZGZkMGNiOGQ2YTcyMDA5ZGYiCiAgICB9CiAgfQp9'}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{CustomName:\"{\\\"text\\\":\\\"darcodo\\\"}\"}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

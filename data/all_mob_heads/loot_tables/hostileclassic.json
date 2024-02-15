@@ -1,0 +1,27 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:player_head",
+			"functions": [
+			  {
+				"function": "minecraft:set_name",
+				"name": {
+				  "text": "Golden Creeper",
+				  "color": "#FFBF00",
+				  "italic": false
+				}
+			  },
+			  {
+				"function": "minecraft:set_nbt",
+				"tag": "{SkullOwner:{Id:[I;-1053646540,-1449442362,-1613362274,853188276],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjdlZmJlODE4NzhlOTNiZjNjYjUxMmI5NGMyMTY0MmFiNTgwYTNjOGIzNTU4Njk2NzRmZjhhMWM1N2Y0ZGQ4MSJ9fX0='}]}}}"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

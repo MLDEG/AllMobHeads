@@ -1,0 +1,19 @@
+{
+"criteria":
+	{
+	"amh:cyan_shulker":
+		{
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions":
+			{
+			"item":
+				{
+				"item": "minecraft:name_tag",
+				"nbt": "{ \"display\": { \"Name\": '{\"text\":\"cyan\"}'} }"
+				},
+			"entity": { "type": "minecraft:shulker" }
+			}
+		}
+	},
+"rewards": { "function": "all_mob_heads:cyan_shulker" }
+}

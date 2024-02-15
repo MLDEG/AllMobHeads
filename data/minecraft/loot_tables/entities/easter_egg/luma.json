@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;389161776,1148865676,-1831339998,-810726149],Name:'Luma',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUzMjdkZjgzMWUzMWU0YTkyOGE3OGE3NDA4NDQyODFkZjk1ZDIyMjNjZDU4MjUwNTllYmEzNWUxNDhiMTM5YiJ9fX0='}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{CustomName:\"{\\\"text\\\":\\\"luma\\\"}\"}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

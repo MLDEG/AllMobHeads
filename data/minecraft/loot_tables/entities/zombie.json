@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/zombie"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{CustomName:\"{\\\"text\\\":\\\"sossur\\\"}\"}"
+            },
+            "entity": "this"
+          }
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.01
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:entities/easter_egg/sossur"
+        }
+      ]
+    }
+  ]
+}

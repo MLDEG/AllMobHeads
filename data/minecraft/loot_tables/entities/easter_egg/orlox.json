@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;449219934,-232830021,-1595233816,361793310],Name:'Orlox',Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYwODE2NjkzNDM3NiwKICAicHJvZmlsZUlkIiA6ICIxYWM2OGQ1ZWYyMWY0YmJiYTBlYWE5ZTgxNTkwODcxZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmxveCIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83Nzg0MjA3Y2QzMWJiM2FmMmY4MzA2ZjZjZjViYmQ1MjVlN2RjMWExNmI2NTdlM2UyOGIwOGY1OTI4NmVmMzUxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0='}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{CustomName:\"{\\\"text\\\":\\\"orlox\\\"}\"}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

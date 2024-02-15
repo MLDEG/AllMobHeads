@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;136683008,-1927658252,-1407460015,-1872998937],Name:'ahl',Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYwODE2NzgyODc2MCwKICAicHJvZmlsZUlkIiA6ICIwODI1OWUwMDhkMWE0NGY0YWMxYmRkNTE5MDVjNGRlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGV2YWhsaWVyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJjMTRkZmZkYzZkNDg5NDg0YTc0MmQyYjYzYzNmZjcxMDk1MmYxODg4ZTdmNGJiMjIxZDY5ZDVkODA1MzI4NjMiCiAgICB9CiAgfQp9'}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{CustomName:\"{\\\"text\\\":\\\"ahl\\\"}\"}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

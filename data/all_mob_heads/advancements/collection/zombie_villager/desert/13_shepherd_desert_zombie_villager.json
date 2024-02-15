@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-386149778,2057653186,-1730139885,-137200749],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE1ZDM2NjdkMWNiNWE5MjAyMmYwOWQyMDA4ZmZhODQ4ODU3YzU4NjdiZGUxOTU1MmViMTQ3ZjA3ZDZjMjMxYyJ9fX0='}]}}}"
+		},
+		"title": "Desert Shepherd Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/desert/12_desert_zombie_villager",
+	"criteria": {
+		"13_shepherd_desert_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-386149778,2057653186,-1730139885,-137200749],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE1ZDM2NjdkMWNiNWE5MjAyMmYwOWQyMDA4ZmZhODQ4ODU3YzU4NjdiZGUxOTU1MmViMTQ3ZjA3ZDZjMjMxYyJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

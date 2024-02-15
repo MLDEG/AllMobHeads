@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-98247716,807357312,-1162984516,-1953319982],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiYjdiNzFmYzE2MjM4MDRhY2U3NjlmZjQ2ZDFmYzJhODFmNDEzZDEwNWIzOWI0ZTQ0NDdmOTRkNzU2NGYxMiJ9fX0='}]}}}"
+		},
+		"title": "Swamp Fletcher Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/swamp/06_fisherman_swamp_zombie_villager",
+	"criteria": {
+		"07_fletcher_swamp_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-98247716,807357312,-1162984516,-1953319982],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiYjdiNzFmYzE2MjM4MDRhY2U3NjlmZjQ2ZDFmYzJhODFmNDEzZDEwNWIzOWI0ZTQ0NDdmOTRkNzU2NGYxMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

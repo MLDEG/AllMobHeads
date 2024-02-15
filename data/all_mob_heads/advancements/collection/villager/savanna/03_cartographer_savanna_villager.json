@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;766057805,1464946505,-1156381516,350941810],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJmOTQ0MjIyZmY2OTNmZTA4OGJkNTQzYzhlZmRkMzI0NmVhYjZhMzQ5NzhhY2RlNzc0ZjdlMjk1ZGVlOWUxNiJ9fX0='}]}}}"
+		},
+		"title": "Savanna Cartographer Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/savanna/02_butcher_savanna_villager",
+	"criteria": {
+		"03_cartographer_savanna_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;766057805,1464946505,-1156381516,350941810],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJmOTQ0MjIyZmY2OTNmZTA4OGJkNTQzYzhlZmRkMzI0NmVhYjZhMzQ5NzhhY2RlNzc0ZjdlMjk1ZGVlOWUxNiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

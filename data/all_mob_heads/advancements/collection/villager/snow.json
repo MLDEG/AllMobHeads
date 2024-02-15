@@ -1,0 +1,184 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snow_block"
+		},
+		"title": "Snow Villager",
+		"description": "Snow Villager Heads Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/villager",
+	"criteria": {
+		"01_armorer_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-406455798,878725767,-1685553251,-1981978757],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjYjIxMDkwY2Q3ZTk3MDY2YTFmMWRjYWU3NzhjZGEwMzJkZjhhZjk1Mzc2N2QyYTA0ZjRhNzhkY2ZjMjQ5NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"02_butcher_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;380223201,-743620197,-1143922751,118520005],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiNWJmYTlhYzU0MTJlN2QxMTZmOWQ0MjRlMGZkM2ZhNDBlZWRjMmMzZTdjOTA2YzA1NWJiNWY0YzVjNTg3YSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"03_cartographer_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1803837764,-693809505,-1230428248,195693305],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0Mzg5NWIwNGNjZTdiM2FkOTU2NjIwYmI0OGQxYWFhYTZiYmRjYzEwYmIzYThjNGFhMGE1NTkzOWYwNTBiZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"04_cleric_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-666670755,-1769977066,-1600269115,-30720113],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UzZDM2MzVjZTQxMWFiZjFlNGYzNzNkMTYxZDA3YjhjNDdlMzU5YjZjNTZmNzRiNDEzY2I0OTRhYzc0NmUyZCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"05_farmer_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-744636638,285754094,-1849452063,665269920],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ5NWFkM2YzN2JiMzIzNzg1ZjhkNjgxNjc2M2U1YTczOWUyODE0ZDYxMWE3YWI0YWZmZjk3NmY5MTcyOWZhZiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"06_fisherman_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1534153196,1960002412,-1894430752,1945361901],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFkNjQ0NzYxZjcwNmQzMWM5OWE1OTNjOGQ1ZjdjYmJkNDM3MmQ3M2ZiZWU4NDY0ZjQ4MmZhNmMxMzlkOTdkNCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"07_fletcher_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1316472299,66931633,-1775777797,-875062280],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUxMjYxNTgyMjBlOTQ2NTE3YjJjMjBlMTM4MDU5MjhkZjA2ZTE5YzExMDFiZGVhMmJjNWE0ZmM5NWY5YzAxMSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"08_leatherworker_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1974479060,1812349771,-1087091548,-1570510924],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBlNGFhNmY1NDU1ZTMyMTA1OWUyMDJhYmM5ZDllMjM2NzU2NjMwNzBlOTJhMDc5ZThjYjU0NGY3YmU0Yzc1NSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"09_librarian_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;260997493,2042513961,-1777594629,-1713345847],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTgwNmY5NzY3ZjA4N2UzZTRjMDlhZDAxMmJmZDA2M2QwMTNiYTRjMzE2OWZiYjBlZmQ3NTM4ZTI4ZDdkODNkIn19fQ=='}]}}}"
+					}
+				]
+			}
+		},
+		"10_mason_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;139946958,874465775,-2042200825,-1715885341],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwN2U3MTkxMTQ5NDU4NDNkNWNlOWIxYzQ1Y2NlODgyM2MwZjczMzAwNjU1MjQ4NWE2MTFiMTI2YWNlMTQ4NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"11_nitwit_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1251311173,-360887151,-2052302231,2050580803],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NjMDIzNzJmNjI5MmExMzFhYTAzNWNlZjhlNTI0NzVlZmE5NjYzNTJlMDVjMmRiYTM3NGYxMzA5ZTU2OWRiYiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"12_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1916484369,-1900590899,-1579072812,816373953],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBjNjQxZTNkMzc2NGVkMWMxZjE5MDdjNDMzNGUyYjEzMDNlMjE1MmIxM2QxZWIwYzYwNTc2M2Y5N2ZiMjU4YSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"13_shepherd_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-513475763,1483622760,-2147319320,878179122],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE2NDRhNTUyZGQwNmY3OTc0MTNjMDAyZDQxZGE1MjkwNGE3YmNmZDc0NGM1ZDJjMWZlMzQ4ZDlmNjZjYmJlYiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"14_toolsmith_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1528170351,-1319546957,-2047901260,-1948744601],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU3ZGIzYTVjYjVkZDY4MTFmYTg3ZTJkMTEzYWE2MDU3YzY2OTA3OGRkNjJmZjI4YjM3N2YxNjgyNzdkOTVjZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"15_weaponsmith_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-2091716614,1984906532,-1328075001,-2112085863],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg0NGUzZmZjYzE3ZDRhYjBkMGVlYmI2YmZkYjk2MDNlMmY3YTA5NWQ3MDAwMjhjOWRiMjc1YWUxYTk1ZTdmMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "loot": [
+            "all_mob_heads:snowvillager"
+        ]
+    }
+}

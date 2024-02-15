@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;735271182,-1290779433,-2030560146,-390561247],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQxODMzYzY0ODMyNGU1OGQ2N2EzMWQ5YzA3ZGM3MzYwNWI4NzAyODhlNjJmOTY4MmYxMzFiMWRiYjVmZjMyZSJ9fX0='}]}}}"
+		},
+		"title": "Brown Slime",
+		"description": "100%. Rename a slime 'brown'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/hostile/slime/purple_slime",
+	"criteria": {
+		"brown_slime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;735271182,-1290779433,-2030560146,-390561247],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQxODMzYzY0ODMyNGU1OGQ2N2EzMWQ5YzA3ZGM3MzYwNWI4NzAyODhlNjJmOTY4MmYxMzFiMWRiYjVmZjMyZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

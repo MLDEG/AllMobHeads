@@ -1,0 +1,184 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_wood"
+		},
+		"title": "Taiga Villager",
+		"description": "Taiga Villager Heads Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/villager",
+	"criteria": {
+		"01_armorer_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1111194477,2029144676,-1483076589,66779108],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmZjOWZiZTE0MjJkNWIwZWRiZTA2NTBlNTExYjFkOWMyMjkxNDYwNzUyYjA2NmM0ZjcwMWMwMjk3YTYyMDFlOCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"02_butcher_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1156033835,-789033809,-1987882113,-145655643],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJlZmI1ZGQ4YTUwZDM3OGIzNmRiMDg4MDBmNTEzNzUwMDA4YmY3MTI0NmZhZWE0YjYzYzAwZDhiNzg4MzQ2MSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"03_cartographer_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;509143152,255348620,-1581910711,1737927867],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UxZmI1MmI3YWU4MmJiMDkxYzU0YzMzYjdmYTZiODBjOGEwMjUwMzcyYjlkMWNiZDZmNzk2NTIyZjY0NzlkIn19fQ=='}]}}}"
+					}
+				]
+			}
+		},
+		"04_cleric_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;554490388,1480674109,-1888422081,1367246933],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJmYWQzYjBmYzhkMTlhN2RkYTY4MDg3Y2Y1YTVlNjg2NWNjOWZhZjJlNzllZGYxMGFmNGJmYTcwYTRkNGJkOSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"05_farmer_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1466229580,-1982641601,-1624750362,-1700012518],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA4YmRiNTNjNTVmZWYzMmEwNjU4ZTFjNzk2NjYxNGFmMGJmZjYwOTEyNDliOGZlM2I3N2EwMjc1ZGE4MmU0MyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"06_fisherman_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-851343715,974340743,-2142454198,734465483],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM3ZjQ0YjUxMWY3MDYzMTg3ZDBmZTEyYzc0YTBjYjhjOTNmMzRkMGY1ODczMzhiMmE5YzIyZjNmYTJmMjEyIn19fQ=='}]}}}"
+					}
+				]
+			}
+		},
+		"07_fletcher_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1010736058,1659783873,-2122567987,481688325],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljNDVlZDIzOGUwYjBjNjY0ZGRlMDlkZTY0YmE5ZTYwMzhkZDIzMWRkNTg0NjZmYmRjZGNjOTExZTBmZmJkMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"08_leatherworker_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1509113623,1196770450,-1307379763,-893335437],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBjNmMzYTkxM2FmOTI5M2Q2MzcyYjBiZDRjMmRlMmNjNmQzYjZlNDczZTNmYTBmZmYwMzQ3NDFhNjEyODI5ZCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"09_librarian_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;601579793,-511229609,-1756539926,-1545647222],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRmMDRlYjIwY2QwYjgyYWFlZjI1MjBhZWQ5ODY3YzNjY2EyNDdhNGNkOTc1YTEyZWE1MGRmMDNhNzE3NjI0MSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"10_mason_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1555427832,-445035333,-1660434888,-1431951585],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxZWM2MTJmOGY3ODk4NGEwOGY4MjkwYmQzZjFjMTg5MmI0Zjc4MjdiNTI0ZGJhYjdlYWFjYzlkZDllMjJiMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"11_nitwit_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-502815606,354110032,-2073629225,-1891747116],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NmIzNDY1NTBlZjJjZjJmNjZiYzU4ZGU5MzAyZjZkNWY5OWZkOGEzMjljNjI3MTM3ODk4OGIxYjkyMTA5NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"12_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-306074201,790972400,-1121575225,1171991105],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdkMjE0N2FjNDdhMWM5NTg4NTU3ZjkyZjgzMTA5MjYyYTkzZWNmMzIxNzBhYThiNjIwNTZlMTYyOWY3OTBhMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"13_shepherd_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-501567956,-1335800906,-1353910961,1370831392],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU3NzFiNzM4MzQ5ZDFkZTBlMDFlODk0YWU0MDE2ODZmNTk4Y2ExOWEyMDg4YjA5NTE0OWZkZTliNzZhNDM3NyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"14_toolsmith_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1496193914,1298811483,-1134933466,113925299],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE4NTEyNTg0OTEzNDFjMDAxNDlhOWM5MmRlMWFjZGU2NjViMTMxYzhhNzRjOWZmZTBjYjFlM2E1YWQ5NzQ5In19fQ=='}]}}}"
+					}
+				]
+			}
+		},
+		"15_weaponsmith_taiga_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-8253834,-24886056,-2017173633,1237456401],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwMmZlYmI0YzUyZGIxZmI5ZTFlNWM4NTJhNGU3MmQ4ZGZlNmM0YzA1NWE0NjQ5YWJmM2QzNTdkMjMzZmMxYiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "loot": [
+            "all_mob_heads:taigavillager"
+        ]
+    }
+}

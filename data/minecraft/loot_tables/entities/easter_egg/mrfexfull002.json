@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1112562135,-1505014871,-1912399911,358471900],Name:'MrFexFull002',Properties:{textures:[{Value:'ewogICJ0aW1lc3RhbXAiIDogMTYwODE2NzU1NTkzMCwKICAicHJvZmlsZUlkIiA6ICI0MjUwNTlkN2E2NGI0YmE5OGUwMzE3ZDkxNTVkZDhkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckZleEZ1bGwwMDIiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmYxZWM4N2MwNThiOTg0ZDU1NDNkYzFmMTRiZjAwZWM2ZDI4ZThmMzUwNTI1ZmQ2YzQzMTNkMzU2YTNhOTYwZiIKICAgIH0KICB9Cn0='}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{CustomName:\"{\\\"text\\\":\\\"mrfexfull002\\\"}\"}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

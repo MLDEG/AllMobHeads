@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1516882472,1987856053,-1715769356,1305386042],Name:'Screaming Goat Left Horn',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNiYTgwOTNkMjI2ODhmM2I5ODE4NjVlMGZkMjk2OTIyYWQ1OTdiOWJmNWE1NWVmMjBhYzk0OTVkZDBmNjJlOCJ9fX0='}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{HasLeftHorn: 1b, HasRightHorn: 0b, IsScreamingGoat: 1b}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:grass_block"
+		},
+		"title": "Plains Zombie Villager",
+		"description": "Plains Zombie Villager Heads Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/zombie_villager",
+	"criteria": {
+		"01_armorer_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1927706926,470761742,-1410530162,983316536],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4N2U5YzczODUxZmM0ZjVhOTYzNjE5MjhjZTBmZjQ3YWFkMjdjNzYyYTY4MDVhZjgzNzJlNzBlOGRiNGQ4YSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"02_butcher_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;468703083,-613595307,-1708186280,-1477140],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkxZjczZjA3YmZkMzg1NzI0NmU4MTRjNjkxZDVkZmZkZGI1OGNmNTVhYTYzYzBhYmM3M2FkZGM1YWFlNmUzOCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"03_cartographer_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1781176937,-1767161004,-2135493566,257550441],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFkN2EwZjIwN2RkZTM0YjEzZmE1YTM0ODJiMGJjN2Q4ODAxZjdjYmUyZjI5NmJkNjVhZjIxZjBlZTJkYzc4MyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"04_cleric_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1563041039,1700413650,-1883060641,1111870196],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg0MmE1M2YyMzUxOGNhNjViOTRjYWI1MDg5MDIxYmE2NGU1MzkzYWQ4ZGUwZmE2MDViNmZkZDk3ZTFjZTc2YyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"05_farmer_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1181124929,159401340,-1345017056,-967284960],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU1OTYyNjViOTA1ZjQ1NmQ4OWE1MWZiZTM2M2YwZmI4NzdkMTNmZDY3OGNhM2E0MmM0YjFjZTBmMDE4NmNmYSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"06_fisherman_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-352607706,2071415203,-1975080898,-1800210635],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNjM3N2NmNDI1NWQ0ZGU3MGNjNDAwNDNlMTU2N2VmZGNhZDdlZmE4OTdkOTc1NzdjMTg0M2VmMmZjYjRhNSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"07_fletcher_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-986207985,2104904294,-1797014129,57177708],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY2YzRiOGNiYzFhYjkwZGE2MmUxMmJiMTljOGM0NmQzNzg5MzFhMmY2NjkxNGUzZmI2OTk5YWE4NzNkMGU1ZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"08_leatherworker_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;670105011,-83080953,-1966053688,-1881221620],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFmZTMwMGZkZTQwMDg4NWUwODhiMzY5Nzk1OGQ5ZGI4NjE2MTgyODkzMDdhNTYzMTY4OTM3MmY5OWNlZmI4NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"09_librarian_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1048940190,-1055502747,-2095234774,-565197865],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjczYWYwM2M1ODZmYTgyZjhhYWM3MmVkMjkxMmZlNjM5NWVlYWEwN2VhYTUwYmQ0ZjJiOTg0MGI0NDQ4MzBmMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"10_mason_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1883558231,-555727726,-1266599510,1332971894],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ2ZDRmNTE5OGIxMjkyODg3NDM2ZjJjNmYzYWI1NTgzMzEzZTQxZTE2NDdhZjBmMmYzNDEyMTk2YzczOTVmNSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"11_nitwit_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1405690449,-940883514,-1948715571,741911260],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI5NDBlNzlmOTEzYWE1ZTFlZmY4ZmE5NTA1NWM5ODM0OWNiYjk0MzAzYTRkYjYwYTc5Yzg4NmExN2FhYmU1MiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"12_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1520306237,160909540,-1840375239,2086390769],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM1MmY1ZDVhZTM4ZjE3ZGYxOTE3ZmU1ZmQ5N2RhOTFmNGMzYjY2YTFkZDBhNGI1MTEyNzMwMmI0ZWY3NmYzMyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"13_shepherd_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;2114897982,1907969442,-1514339489,1290102827],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMwOGNjYTNkNjk3YTY0ZjYyYjhlMTY5NTE4MmRhZDdjMGUzMGYyM2RkZjgyZjE2ZTFmZWEzZjIxZDZlNzkzMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"14_toolsmith_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-389206439,2133540997,-1083046312,620601737],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI5NWI0NjJmNmQxYTBkMGZiOTg0ZjcwMTBlZDc0MGUzMjgyZWM2ZmM1OWRjN2VlOTdiOGMxYmRhYTY4MGEyYyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"15_weaponsmith_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;306603195,1420837026,-1905639131,40656457],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY1N2NlODUxNmQ1YzhlYjhkYjg1Mjg4MTU1ODliYjRmODg2Y2YzMDMyOGQyZGYxMzQ5MzJmYjIxMWJlZTNlNyJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "loot": [
+            "all_mob_heads:plainszombievillager"
+        ]
+    }
+}

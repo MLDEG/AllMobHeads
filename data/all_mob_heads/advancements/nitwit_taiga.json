@@ -1,0 +1,19 @@
+{
+"criteria":
+	{
+	"amh:nitwit_taiga":
+		{
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions":
+			{
+			"item":
+				{
+				"item": "minecraft:name_tag",
+				"nbt": "{ \"display\": { \"Name\": '{\"text\":\"nitwit\"}'} }"
+				},
+			"entity": { "type": "minecraft:villager" }
+			}
+		}
+	},
+"rewards": { "function": "all_mob_heads:nitwit_taiga" }
+}

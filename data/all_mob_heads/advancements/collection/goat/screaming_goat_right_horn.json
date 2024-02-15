@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;976604907,-1065988888,-2103065065,-360905863],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhkNWUyZjdkNzJjODg2ZWM1Mjg0MjU1ODk4YjlmOWZiNWE5N2Y2YzVlNzQwZWVhNWZiZWQ5ZGUzY2NlN2I2NiJ9fX0='}]}}}"
+		},
+		"title": "Screaming Goat Right Horn",
+		"description": "100%",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/goat/screaming_goat_left_horn",
+	"criteria": {
+		"screaming_goat_right_horn": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;976604907,-1065988888,-2103065065,-360905863],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhkNWUyZjdkNzJjODg2ZWM1Mjg0MjU1ODk4YjlmOWZiNWE5N2Y2YzVlNzQwZWVhNWZiZWQ5ZGUzY2NlN2I2NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

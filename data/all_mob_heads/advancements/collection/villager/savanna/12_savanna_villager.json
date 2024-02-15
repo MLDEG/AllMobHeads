@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1339769035,-11844204,-1924197902,-2048373450],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIyNTY4MzU0ZjUzNWIwOTQwMzVjZWU4NjhhNGY3OTg1Nzg4YmQ1NzU1YjgwYzBkYzhkZmM0NDM5NjlmYWVhNyJ9fX0='}]}}}"
+		},
+		"title": "Savanna Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/savanna/11_nitwit_savanna_villager",
+	"criteria": {
+		"12_savanna_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1339769035,-11844204,-1924197902,-2048373450],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIyNTY4MzU0ZjUzNWIwOTQwMzVjZWU4NjhhNGY3OTg1Nzg4YmQ1NzU1YjgwYzBkYzhkZmM0NDM5NjlmYWVhNyJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1988608972,-1254142272,-1832140849,1877435609],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1OTcwOTJjYjI1ZmU1YTkzMDZiOWFiOGU5OTVmYjJkZjQwYTZhNzZmMzE0NThkZmIyNzAxYzcxYWI5YWFlMyJ9fX0='}]}}}"
+		},
+		"title": "Brown Mooshroom",
+		"description": "0.1% + 1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/passive/cow",
+	"criteria": {
+		"brown_mooshroom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1988608972,-1254142272,-1832140849,1877435609],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1OTcwOTJjYjI1ZmU1YTkzMDZiOWFiOGU5OTVmYjJkZjQwYTZhNzZmMzE0NThkZmIyNzAxYzcxYWI5YWFlMyJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

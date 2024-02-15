@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;139946958,874465775,-2042200825,-1715885341],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwN2U3MTkxMTQ5NDU4NDNkNWNlOWIxYzQ1Y2NlODgyM2MwZjczMzAwNjU1MjQ4NWE2MTFiMTI2YWNlMTQ4NiJ9fX0='}]}}}"
+		},
+		"title": "Snow Mason Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/snow/09_librarian_snow_villager",
+	"criteria": {
+		"10_mason_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;139946958,874465775,-2042200825,-1715885341],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmUwN2U3MTkxMTQ5NDU4NDNkNWNlOWIxYzQ1Y2NlODgyM2MwZjczMzAwNjU1MjQ4NWE2MTFiMTI2YWNlMTQ4NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

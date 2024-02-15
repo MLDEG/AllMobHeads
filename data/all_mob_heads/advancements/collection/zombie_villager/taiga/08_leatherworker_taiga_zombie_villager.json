@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1957553842,-736867992,-1664868685,-2005439967],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNjNjk4YTYwZTdiOTNiNWQ1NjFhZDg5ZjQ4OTlmYjExOTYwNjRkNjk0NWQ3OTZkN2M3MzRjYThkYmNmMmQyMiJ9fX0='}]}}}"
+		},
+		"title": "Taiga Leatherworker Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/taiga/07_fletcher_taiga_zombie_villager",
+	"criteria": {
+		"08_leatherworker_taiga_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1957553842,-736867992,-1664868685,-2005439967],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNjNjk4YTYwZTdiOTNiNWQ1NjFhZDg5ZjQ4OTlmYjExOTYwNjRkNjk0NWQ3OTZkN2M3MzRjYThkYmNmMmQyMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mutton"
+		},
+		"title": "Wolf",
+		"description": "Wolf Heads Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/canidae",
+	"criteria": {
+		"wolf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-599030647,-525057815,-1460377884,-683357965],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI4MjJhMzQ0OGNjMTZkN2YxY2Q4OWI4ODdjMTVkZDAzNTUxOTVkNTA1NDhmYTJjNGI0YjNiZDFkNDIwYzI3NSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"angry_wolf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;940703989,-318159082,-1739683668,107348489],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJmN2Y4NzJhZDE0ZWY5OTFiMTZiMGUzYzA1NTM0MWI1YTQzZDIxNjgzNmU4ZTM4M2NlYWQ2M2I2NTkzOGY4In19fQ=='}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "experience": 1000
+    }
+}

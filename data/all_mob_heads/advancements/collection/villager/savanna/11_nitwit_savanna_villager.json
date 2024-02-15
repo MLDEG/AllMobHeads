@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1610088570,-2139602392,-1369299420,554045125],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ5ZWU1ZDhiNThmZGRkMjdiYzY3OWMwNTQ4ZjU1YmFhODQ1ZjlmMWRmNWU4OGM3YzViZGE2ZWI5ZGYyYjM5OSJ9fX0='}]}}}"
+		},
+		"title": "Savanna Nitwit Villager",
+		"description": "20% + 20% per looting, Renamed a villager without a profession 'nitwit'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/savanna/10_mason_savanna_villager",
+	"criteria": {
+		"11_nitwit_savanna_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1610088570,-2139602392,-1369299420,554045125],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ5ZWU1ZDhiNThmZGRkMjdiYzY3OWMwNTQ4ZjU1YmFhODQ1ZjlmMWRmNWU4OGM3YzViZGE2ZWI5ZGYyYjM5OSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;474752111,780225315,-1647228277,1842829598],Name:'Goat Without Horns',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU3NDFiYzMwMzFiODNjMDc0YTRjN2I1NDQ5ZGI0M2U5YTIyMTkwMjQxYTlhNTc1NjRmODM3M2M2NTMyNjRlMCJ9fX0='}]}}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.05,
+          "looting_multiplier": 0.10
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{HasLeftHorn: 0b, HasRightHorn: 0b, IsScreamingGoat: 0b}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

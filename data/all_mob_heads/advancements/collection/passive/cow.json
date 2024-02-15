@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-797054839,-1468248486,-1339076869,-874101419],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlNTQ4YzgxYjEwNzQ5NWE4OTM3NTc5NWRkNjEzNzc1NzdjYWEzMzE4MjBlMDJhYTU1ZmVkOTdmOGYxNDRmYSJ9fX0='}]}}}"
+		},
+		"title": "Cow",
+		"description": "0.1% + 1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/passive",
+	"criteria": {
+		"cow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-797054839,-1468248486,-1339076869,-874101419],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlNTQ4YzgxYjEwNzQ5NWE4OTM3NTc5NWRkNjEzNzc1NzdjYWEzMzE4MjBlMDJhYTU1ZmVkOTdmOGYxNDRmYSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

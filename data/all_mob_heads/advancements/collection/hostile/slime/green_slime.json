@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;861750278,537283263,-1491002672,392226576],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5NzU5ODA0MDFkMTQxZGVlY2IwNzQ5Yzk0Y2MwNTVhM2MyN2JmNzU4MTFkOTVjYjdkOWZmYTUzYTE0ZmYzMSJ9fX0='}]}}}"
+		},
+		"title": "Green Slime",
+		"description": "100%. Rename a slime 'green'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/hostile/slime/lime_slime",
+	"criteria": {
+		"green_slime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;861750278,537283263,-1491002672,392226576],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5NzU5ODA0MDFkMTQxZGVlY2IwNzQ5Yzk0Y2MwNTVhM2MyN2JmNzU4MTFkOTVjYjdkOWZmYTUzYTE0ZmYzMSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}
