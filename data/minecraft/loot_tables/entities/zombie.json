@@ -23,7 +23,7 @@
           "term": {
             "condition": "entity_properties",
             "predicate": {
-              "nbt": "{CustomName:\"{\\\"text\\\":\\\"sossur\\\"}\"}"
+              "nbt": "{CustomName:'\"sossur\"'}"
             },
             "entity": "this"
           }
