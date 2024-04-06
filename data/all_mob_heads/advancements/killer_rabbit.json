@@ -1,0 +1,22 @@
+{
+"criteria": {
+	"amh:killer_rabbit": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+			"item": {
+				"items": [ "minecraft:name_tag" ],
+				"nbt": "{display: { Name: '\"killer\"' }}"
+			},
+			"entity": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": { "type": "minecraft:rabbit" },
+					"nbt": "{RabbitType: 1}"
+				}
+			]
+		}
+	}
+},
+"rewards": { "function": "all_mob_heads:killer_rabbit" }
+}
