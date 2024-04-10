@@ -20,7 +20,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;55886896,964250478,-1905940066,-1276475368],Name:'Salmon',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19'}]}}}"
+              "tag": "{SkullOwner:{Id:[I;55886896,964250478,-1905940066,-1276475368],Name:'Salmon',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19'}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.salmon.death'}}"
             }
           ]
         }
@@ -34,7 +34,7 @@
           "term": {
             "condition": "entity_properties",
             "predicate": {
-              "nbt": "{CustomName:\"{\\\"text\\\":\\\"maki\\\"}\"}"
+              "nbt": "{CustomName:'\"maki\"'}"
             },
             "entity": "this"
           }
@@ -44,7 +44,7 @@
           "term": {
             "condition": "entity_properties",
             "predicate": {
-              "nbt": "{CustomName:\"{\\\"text\\\":\\\"sushi\\\"}\"}"
+              "nbt": "{CustomName:'\"sushi\"'}"
             },
             "entity": "this"
           }

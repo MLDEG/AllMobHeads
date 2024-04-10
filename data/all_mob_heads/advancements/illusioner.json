@@ -1,0 +1,22 @@
+{
+"parent": "all_mob_heads:root",
+"criteria": {
+	"amh:illusioner": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+			"item": {
+				"items": [ "minecraft:name_tag" ],
+				"nbt": "{ display: { Name: '\"illusioner\"' } }"
+			},
+			"entity": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": { "type": "minecraft:vindicator" }
+				}
+			]
+		}
+	}
+},
+"rewards": { "function": "all_mob_heads:illusioner" }
+}
