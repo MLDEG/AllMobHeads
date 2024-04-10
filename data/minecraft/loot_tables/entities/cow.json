@@ -50,6 +50,16 @@
           }
         },
         {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{CustomName:'\"potato\"'}"
+            },
+            "entity": "this"
+          }
+        },
+        {
           "condition": "random_chance_with_looting",
           "chance": 0.001,
           "looting_multiplier": 0.01
@@ -71,6 +81,15 @@
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:entities/easter_egg/milk"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:entities/potato/cow"
         }
       ]
     }
