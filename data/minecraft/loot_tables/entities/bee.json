@@ -20,6 +20,16 @@
                 "condition": "killed_by_player"
               },
               {
+                "condition": "inverted",
+                "term": {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{CustomName:'\"potato\"'}"
+                  },
+                  "entity": "this"
+                }
+              },
+              {
                 "condition": "random_chance_with_looting",
                 "chance": 0.01,
                 "looting_multiplier": 0.02
@@ -123,6 +133,15 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:entities/potato/bee"
           }
         ]
       }
