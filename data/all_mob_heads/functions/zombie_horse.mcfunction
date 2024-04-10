@@ -1,3 +1,2 @@
-advancement revoke @s only all_mob_heads:zombie_horse
-execute at @e[type=minecraft:skeleton_horse,name=zombie] run summon minecraft:zombie_horse ~ ~ ~ {Tame: 1}
-kill @e[type=minecraft:skeleton_horse,name=zombie]
+data modify storage amh:params params set value { replaced: "skeleton_horse", name: "zombie", summon: "zombie_horse", copy: ["Age", "SaddleItem", "Tame"] }
+function all_mob_heads:summon1 with storage amh:params params
