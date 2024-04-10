@@ -7,11 +7,11 @@ body:
     attributes:
       value: Before submitting an issue, check if your issue has been submitted before. If it has, please don't submit a duplicate.
   - type: input
-    id: modpack-version
+    id: datapack-version
     attributes:
-      label: Modpack version
+      label: Datapack version
       description: If you are not using the latest version, make sure to update it before submitting your issue.
-      placeholder: "Example: 7.X.X"
+      placeholder: "Example: 8.X.X"
     validations:
       required: true
   - type: textarea
