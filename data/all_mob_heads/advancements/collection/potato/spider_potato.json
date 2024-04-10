@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-191229762,-2070328665,-1763059915,376316348],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E5ODBkMjBiNzljZDJiMTM3NzVkZjFmZjk5OGE0MmRmOTQ2ZWQzMTA1MGYzMTY3N2ZmYTVmOGFhM2RmM2Y3YiJ9fX0='}]}}}"
+		},
+		"title": "Spider Potato",
+		"description": "100%. Rename a Spider 'potato'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/potato/slime_potato",
+	"criteria": {
+		"spider_potato": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-191229762,-2070328665,-1763059915,376316348],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E5ODBkMjBiNzljZDJiMTM3NzVkZjFmZjk5OGE0MmRmOTQ2ZWQzMTA1MGYzMTY3N2ZmYTVmOGFhM2RmM2Y3YiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}
