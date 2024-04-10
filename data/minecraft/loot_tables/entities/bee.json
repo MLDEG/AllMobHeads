@@ -20,6 +20,16 @@
                 "condition": "killed_by_player"
               },
               {
+                "condition": "inverted",
+                "term": {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{CustomName:'\"potato\"'}"
+                  },
+                  "entity": "this"
+                }
+              },
+              {
                 "condition": "random_chance_with_looting",
                 "chance": 0.01,
                 "looting_multiplier": 0.02
@@ -32,7 +42,7 @@
                 "functions": [
                   {
                     "function": "set_nbt",
-                    "tag": "{SkullOwner:{Id:[I;1999906402,-2005908390,-2036338514,-247436483],Name:'Bee',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0='}]}}}"
+                    "tag": "{SkullOwner:{Id:[I;1999906402,-2005908390,-2036338514,-247436483],Name:'Bee',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.bee.loop'}}"
                   }
                 ],
                 "conditions": [
@@ -51,7 +61,7 @@
                 "functions": [
                   {
                     "function": "set_nbt",
-                    "tag": "{SkullOwner:{Id:[I;2003235278,1405764951,-2132605639,-755508983],Name:'Bee Pollinated',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0='}]}}}"
+                    "tag": "{SkullOwner:{Id:[I;2003235278,1405764951,-2132605639,-755508983],Name:'Bee Pollinated',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.bee.loop'}}"
                   }
                 ],
                 "conditions": [
@@ -70,7 +80,7 @@
                 "functions": [
                   {
                     "function": "set_nbt",
-                    "tag": "{SkullOwner:{Id:[I;352237603,-1093908583,-1451367127,286134688],Name:'Bee Angry',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0='}]}}}"
+                    "tag": "{SkullOwner:{Id:[I;352237603,-1093908583,-1451367127,286134688],Name:'Bee Angry',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.bee.loop_aggressive'}}"
                   }
                 ],
                 "conditions": [
@@ -99,7 +109,7 @@
                 "functions": [
                   {
                     "function": "set_nbt",
-                    "tag": "{SkullOwner:{Id:[I;-1589074262,619334070,-1296151011,487786327],Name:'Bee Pollinated Angry',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiNzRlMDUyYjc0Mjg4Nzk5YmE2ZDlmMzVjNWQwMjIxY2Y4YjA0MzMxNTQ3ZWMyZjY4ZDczNTk3YWUyYzliIn19fQ=='}]}}}"
+                    "tag": "{SkullOwner:{Id:[I;-1589074262,619334070,-1296151011,487786327],Name:'Bee Pollinated Angry',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiNzRlMDUyYjc0Mjg4Nzk5YmE2ZDlmMzVjNWQwMjIxY2Y4YjA0MzMxNTQ3ZWMyZjY4ZDczNTk3YWUyYzliIn19fQ=='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.bee.loop_aggressive'}}"
                   }
                 ],
                 "conditions": [
@@ -123,6 +133,15 @@
                 ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:entities/potato/bee"
           }
         ]
       }

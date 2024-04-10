@@ -23,7 +23,17 @@
           "term": {
             "condition": "entity_properties",
             "predicate": {
-              "nbt": "{CustomName:\"{\\\"text\\\":\\\"sossur\\\"}\"}"
+              "nbt": "{CustomName:'\"potato\"'}"
+            },
+            "entity": "this"
+          }
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{CustomName:'\"sossur\"'}"
             },
             "entity": "this"
           }
@@ -41,6 +51,15 @@
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:entities/easter_egg/sossur"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:entities/potato/zombie"
         }
       ]
     }

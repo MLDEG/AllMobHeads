@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{SkullOwner:{Id:[I;1547413463,24791308,-1256532000,526355231],Name:'Potato Bee',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhmZDVlNzIzZDRiMDEzZWQyZWEwOGU4YjljZDdmMDNlMDQ2YTk3ZTQxMmY2MGM4NmNiNTNmMzkzZWUyOTEyZiJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.bee.loop'}}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "predicate": {
+            "nbt": "{CustomName:'\"potato\"'}"
+          },
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}
