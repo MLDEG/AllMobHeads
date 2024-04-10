@@ -30,11 +30,30 @@
           "condition": "killed_by_player"
         },
         {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "predicate": {
+              "nbt": "{CustomName:'\"potato\"'}"
+            },
+            "entity": "this"
+          }
+        },
+        {
           "condition": "entity_properties",
           "predicate": {
             "nbt": "{powered:1b}"
           },
           "entity": "this"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:entities/potato/creeper"
         }
       ]
     }
