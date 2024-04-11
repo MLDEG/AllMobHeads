@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-442851409,-236830365,-1823773212,119021098],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRjOGE2MmFiOWNlZGM1YTQzNTQ5YmIyYTJhYmM1ZTk5MjM3NzU5ZjU2OGQ2MTE3MGMzMTYzNzhmZjkzMmVmZSJ9fX0='}]}}}"
+		},
+		"title": "Cyan Collared Dog",
+		"description": "1% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/canidae/dog/blue_collared_dog",
+	"criteria": {
+		"cyan_collared_dog": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-442851409,-236830365,-1823773212,119021098],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRjOGE2MmFiOWNlZGM1YTQzNTQ5YmIyYTJhYmM1ZTk5MjM3NzU5ZjU2OGQ2MTE3MGMzMTYzNzhmZjkzMmVmZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1221054637,-1452521716,-2022970016,-766303558],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YTQ2Mjc1ZGVjMGMyNDdkZjk4NmRmYjRiMzUxZDI4OWYwMjQyYjVmY2Q2MjBkYWFlMTEzNzI1NzIwYzdjOSJ9fX0='}]}}}"
+		},
+		"title": "Jungle Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/jungle/11_nitwit_jungle_zombie_villager",
+	"criteria": {
+		"12_jungle_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1221054637,-1452521716,-2022970016,-766303558],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YTQ2Mjc1ZGVjMGMyNDdkZjk4NmRmYjRiMzUxZDI4OWYwMjQyYjVmY2Q2MjBkYWFlMTEzNzI1NzIwYzdjOSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

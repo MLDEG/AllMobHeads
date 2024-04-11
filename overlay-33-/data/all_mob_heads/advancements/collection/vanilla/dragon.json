@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": "Dragon",
+		"description": "Dragon heads generate on end ships found in end cities.",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/vanilla/wither_skeleton",
+	"criteria": {
+		"dragon_vanilla": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				  {
+					"items": [
+					  "minecraft:dragon_head"
+					]
+				  }
+				]
+			}
+		}
+	}
+}

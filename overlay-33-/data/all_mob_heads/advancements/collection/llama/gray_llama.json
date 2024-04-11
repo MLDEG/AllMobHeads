@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1500271365,-589478429,-1805612941,1024699983],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZmZjZTlhMTc0ZmUxYzA4NGUyZDgyMDUyMTgyZDk0Zjk1ZWQ0MzZiNzVmZjdlYTdhNGU5NGQ5NGM3MmQ4YSJ9fX0='}]}}}"
+		},
+		"title": "Gray Llama",
+		"description": "4% + 2% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/llama/brown_llama",
+	"criteria": {
+		"gray_llama": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1500271365,-589478429,-1805612941,1024699983],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQyZmZjZTlhMTc0ZmUxYzA4NGUyZDgyMDUyMTgyZDk0Zjk1ZWQ0MzZiNzVmZjdlYTdhNGU5NGQ5NGM3MmQ4YSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

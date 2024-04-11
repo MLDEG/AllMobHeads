@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;301000381,-1884926993,-1736055931,-10510879],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwYTFhYjZkMGU5ODgwNTlkMTk5Y2FjNjEyNjhlNmQ5YjBmMzQwOTE0YmM0MzY0ZjUzZDA3OGM2MTI5NTIxYyJ9fX0='}]}}}"
+		},
+		"title": "Taiga Toolsmith Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/taiga/13_shepherd_taiga_zombie_villager",
+	"criteria": {
+		"14_toolsmith_taiga_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;301000381,-1884926993,-1736055931,-10510879],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwYTFhYjZkMGU5ODgwNTlkMTk5Y2FjNjEyNjhlNmQ5YjBmMzQwOTE0YmM0MzY0ZjUzZDA3OGM2MTI5NTIxYyJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

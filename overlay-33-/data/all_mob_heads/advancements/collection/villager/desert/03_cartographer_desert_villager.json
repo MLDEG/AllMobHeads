@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-913349107,345524927,-1729486292,-910477203],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmMjVlYTFjMzlhM2Q3MzU3OWU1MzMwZTA0YzJiMTczYmEyZmQ1YzBjYTM0NTJiZTVmZjFhYWUwODNmNjMyOCJ9fX0='}]}}}"
+		},
+		"title": "Desert Cartographer Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/desert/02_butcher_desert_villager",
+	"criteria": {
+		"03_cartographer_desert_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-913349107,345524927,-1729486292,-910477203],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZmMjVlYTFjMzlhM2Q3MzU3OWU1MzMwZTA0YzJiMTczYmEyZmQ1YzBjYTM0NTJiZTVmZjFhYWUwODNmNjMyOCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

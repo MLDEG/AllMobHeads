@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;2039953382,994791400,-1730911830,-1290786658],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdlNGViMGZiNDg5ZDZmMjUwYzYwN2QyOGQ2NzJmMTI3ZWJhZWRlOGUwMDdmYTZjZDM0ZTJiYmMwYzJmYzMzYSJ9fX0='}]}}}"
+		},
+		"title": "Cold Strider",
+		"description": "2% + 1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/nether/strider",
+	"criteria": {
+		"cold_strider": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;2039953382,994791400,-1730911830,-1290786658],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdlNGViMGZiNDg5ZDZmMjUwYzYwN2QyOGQ2NzJmMTI3ZWJhZWRlOGUwMDdmYTZjZDM0ZTJiYmMwYzJmYzMzYSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

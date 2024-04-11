@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1924401206,-1236647731,-1735648144,1027460433],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjNGQ2ZmQ2MTc3YzU0OGMwNzhkZmY1MjRhNzA3OWI4YzgxOWQwNDA5NGQ4NTZlYzQ4MDg3ZTEwNzJmMzhhYiJ9fX0='}]}}}"
+		},
+		"title": "Taiga Nitwit Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/taiga/10_mason_taiga_zombie_villager",
+	"criteria": {
+		"11_nitwit_taiga_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1924401206,-1236647731,-1735648144,1027460433],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjNGQ2ZmQ2MTc3YzU0OGMwNzhkZmY1MjRhNzA3OWI4YzgxOWQwNDA5NGQ4NTZlYzQ4MDg3ZTEwNzJmMzhhYiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

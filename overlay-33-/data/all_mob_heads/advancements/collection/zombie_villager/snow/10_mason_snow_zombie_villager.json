@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-473184506,-1591131587,-1182116997,-334564724],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y4NWMyNWVkYWRjYzMwYmZkZWMxYmI5NTM2MmMxMGRmNDA3NGU5YTZkZjg5OGU5ZGQwYmYxYzM2MDhhYTZlMCJ9fX0='}]}}}"
+		},
+		"title": "Snow Mason Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/snow/09_librarian_snow_zombie_villager",
+	"criteria": {
+		"10_mason_snow_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-473184506,-1591131587,-1182116997,-334564724],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y4NWMyNWVkYWRjYzMwYmZkZWMxYmI5NTM2MmMxMGRmNDA3NGU5YTZkZjg5OGU5ZGQwYmYxYzM2MDhhYTZlMCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

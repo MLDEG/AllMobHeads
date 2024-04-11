@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1182328283,-1812184121,-1231580453,1297792129],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NTk3NWY5ZDA3YmYzMjY1NDY3MDg5MDU0ZmY2Mzc0ZDU3OWIxNmFhYzQxMTE0MTdhMWU5MWY2YzA2YWYwZiJ9fX0='}]}}}"
+		},
+		"title": "Snow Librarian Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/snow/08_leatherworker_snow_zombie_villager",
+	"criteria": {
+		"09_librarian_snow_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1182328283,-1812184121,-1231580453,1297792129],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NTk3NWY5ZDA3YmYzMjY1NDY3MDg5MDU0ZmY2Mzc0ZDU3OWIxNmFhYzQxMTE0MTdhMWU5MWY2YzA2YWYwZiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

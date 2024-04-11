@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1163635560,823017476,-1439205288,859301021],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkxYzRhZTlkYjg1Mjk1MTU2ZWNjYTRmN2Q4MWQwZGQyNDU5MmEyOGY2MGVjOTY5YjZhYzljMjY3ODlkZWQ0ZiJ9fX0='}]}}}"
+		},
+		"title": "Jungle Mason Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/jungle/09_librarian_jungle_villager",
+	"criteria": {
+		"10_mason_jungle_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1163635560,823017476,-1439205288,859301021],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkxYzRhZTlkYjg1Mjk1MTU2ZWNjYTRmN2Q4MWQwZGQyNDU5MmEyOGY2MGVjOTY5YjZhYzljMjY3ODlkZWQ0ZiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-637133895,-1455600896,-1813757661,-2002099540],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjljZjE4YjA0NDdmZjFkZmNmYmE5ZTRjNGFjN2Y2ZTI2YTk4NjM1MmRkMTg3OGM2YTFlMDBkMGY1ZGQ2MjExZCJ9fX0='}]}}}"
+		},
+		"title": "Swamp Shepherd Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/swamp/12_swamp_villager",
+	"criteria": {
+		"13_shepherd_swamp_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-637133895,-1455600896,-1813757661,-2002099540],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjljZjE4YjA0NDdmZjFkZmNmYmE5ZTRjNGFjN2Y2ZTI2YTk4NjM1MmRkMTg3OGM2YTFlMDBkMGY1ZGQ2MjExZCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1803837764,-693809505,-1230428248,195693305],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0Mzg5NWIwNGNjZTdiM2FkOTU2NjIwYmI0OGQxYWFhYTZiYmRjYzEwYmIzYThjNGFhMGE1NTkzOWYwNTBiZSJ9fX0='}]}}}"
+		},
+		"title": "Snow Cartographer Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/snow/02_butcher_snow_villager",
+	"criteria": {
+		"03_cartographer_snow_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1803837764,-693809505,-1230428248,195693305],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0Mzg5NWIwNGNjZTdiM2FkOTU2NjIwYmI0OGQxYWFhYTZiYmRjYzEwYmIzYThjNGFhMGE1NTkzOWYwNTBiZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

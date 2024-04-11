@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;770951410,-1367783232,-1393614202,103047139],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYyNWM2NGJlZGVkMTg3NWI4Y2Q5ZmRmODEwZjE2NDMwZTc0MTk3MzcxNTcyMDI0YjczMDdmMjY2Mzc1NzNmNiJ9fX0='}]}}}"
+		},
+		"title": "Swamp Weaponsmith Villager",
+		"description": "20% + 20% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/villager/swamp/14_toolsmith_swamp_villager",
+	"criteria": {
+		"15_weaponsmith_swamp_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;770951410,-1367783232,-1393614202,103047139],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYyNWM2NGJlZGVkMTg3NWI4Y2Q5ZmRmODEwZjE2NDMwZTc0MTk3MzcxNTcyMDI0YjczMDdmMjY2Mzc1NzNmNiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

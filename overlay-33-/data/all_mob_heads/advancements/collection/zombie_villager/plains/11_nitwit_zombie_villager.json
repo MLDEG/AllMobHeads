@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1405690449,-940883514,-1948715571,741911260],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI5NDBlNzlmOTEzYWE1ZTFlZmY4ZmE5NTA1NWM5ODM0OWNiYjk0MzAzYTRkYjYwYTc5Yzg4NmExN2FhYmU1MiJ9fX0='}]}}}"
+		},
+		"title": "Plains Nitwit Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/plains/10_mason_zombie_villager",
+	"criteria": {
+		"11_nitwit_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1405690449,-940883514,-1948715571,741911260],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI5NDBlNzlmOTEzYWE1ZTFlZmY4ZmE5NTA1NWM5ODM0OWNiYjk0MzAzYTRkYjYwYTc5Yzg4NmExN2FhYmU1MiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

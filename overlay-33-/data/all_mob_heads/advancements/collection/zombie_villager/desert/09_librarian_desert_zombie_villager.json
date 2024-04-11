@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-80763747,1445282832,-1545210664,1508626122],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllMWNmOTI1YjczYmQ1ZTE0YTk5N2I4NWU0ZGI2ZmM3NmE2MTljMGRiN2JiNjM2ZTM0YTVhY2UyODViZDBhZSJ9fX0='}]}}}"
+		},
+		"title": "Desert Librarian Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/desert/08_leatherworker_desert_zombie_villager",
+	"criteria": {
+		"09_librarian_desert_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-80763747,1445282832,-1545210664,1508626122],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllMWNmOTI1YjczYmQ1ZTE0YTk5N2I4NWU0ZGI2ZmM3NmE2MTljMGRiN2JiNjM2ZTM0YTVhY2UyODViZDBhZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

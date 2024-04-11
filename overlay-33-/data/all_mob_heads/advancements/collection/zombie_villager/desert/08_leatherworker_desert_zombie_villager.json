@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1899706212,568676032,-1576970566,-162597196],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGViMmVkOTdjODZhZDAwZTI3NTJmNWU2NmRiNjRiNWIyZjBjNmM4ZGE1MzQ0Yjg2MDg3NDdmNzI0YzRjN2E0ZSJ9fX0='}]}}}"
+		},
+		"title": "Desert Leatherworker Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/desert/07_fletcher_desert_zombie_villager",
+	"criteria": {
+		"08_leatherworker_desert_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1899706212,568676032,-1576970566,-162597196],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGViMmVkOTdjODZhZDAwZTI3NTJmNWU2NmRiNjRiNWIyZjBjNmM4ZGE1MzQ0Yjg2MDg3NDdmNzI0YzRjN2E0ZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

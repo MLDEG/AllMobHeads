@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-476062777,262947756,-1934367570,-732564208],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UwY2ZmZDRkMzIwNjA2YmNkZGFlNmU5OWRlNWMyNGU1NzQzOGM3OTFkN2QzZmNhMjc1MTRlNDU4MjI5N2VhOCJ9fX0='}]}}}"
+		},
+		"title": "Slime",
+		"description": "0.1% + 0.1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/hostile/classic/silverfish",
+	"criteria": {
+		"slime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-476062777,262947756,-1934367570,-732564208],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UwY2ZmZDRkMzIwNjA2YmNkZGFlNmU5OWRlNWMyNGU1NzQzOGM3OTFkN2QzZmNhMjc1MTRlNDU4MjI5N2VhOCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

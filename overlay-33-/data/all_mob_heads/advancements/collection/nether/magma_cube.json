@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1167805871,-1483128731,-1707386477,-531704155],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY3ODBiMmZiZmMyNjZiNmQ5N2E4MDIwYjI4MzczNTFkNGM5ZWVkYmJhYmFkMmE4MDQ1MjcyYzMzYzY5MDE1OSJ9fX0='}]}}}"
+		},
+		"title": "Magma Cube",
+		"description": "0.5% + 0.1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/nether/blaze",
+	"criteria": {
+		"magma_cube": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1167805871,-1483128731,-1707386477,-531704155],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY3ODBiMmZiZmMyNjZiNmQ5N2E4MDIwYjI4MzczNTFkNGM5ZWVkYmJhYmFkMmE4MDQ1MjcyYzMzYzY5MDE1OSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

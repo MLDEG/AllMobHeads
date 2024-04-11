@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;1729446359,423446074,-1947870783,416575247],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg2ZjllMzM3OTZlNDE2NTIyYTE4N2Y3MGRmNTY1ZGY0NjExZjc5MjMwMGQ1ODZhODg4Zjc5MzBjZmU2Zjc4In19fQ=='}]}}}"
+		},
+		"title": "Gray Shulker",
+		"description": "100%. Rename a shulker 'gray'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/end/shulker/black_shulker",
+	"criteria": {
+		"gray_shulker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1729446359,423446074,-1947870783,416575247],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg2ZjllMzM3OTZlNDE2NTIyYTE4N2Y3MGRmNTY1ZGY0NjExZjc5MjMwMGQ1ODZhODg4Zjc5MzBjZmU2Zjc4In19fQ=='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

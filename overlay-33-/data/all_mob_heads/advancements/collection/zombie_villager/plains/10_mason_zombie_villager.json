@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1883558231,-555727726,-1266599510,1332971894],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ2ZDRmNTE5OGIxMjkyODg3NDM2ZjJjNmYzYWI1NTgzMzEzZTQxZTE2NDdhZjBmMmYzNDEyMTk2YzczOTVmNSJ9fX0='}]}}}"
+		},
+		"title": "Plains Mason Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/plains/09_librarian_zombie_villager",
+	"criteria": {
+		"10_mason_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1883558231,-555727726,-1266599510,1332971894],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ2ZDRmNTE5OGIxMjkyODg3NDM2ZjJjNmYzYWI1NTgzMzEzZTQxZTE2NDdhZjBmMmYzNDEyMTk2YzczOTVmNSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

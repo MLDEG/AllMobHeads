@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1496064988,678382978,-1743437253,-1744425232],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlYWI2MzlkOTBlOTNiZjM0M2U0OTVkOWNjNjA4ZTkxZWUyZGUyOWVjYTMzZDc5OTNjMjBhYTBjOWM5M2NkMCJ9fX0='}]}}}"
+		},
+		"title": "Pink Shulker",
+		"description": "100%. Rename a shulker 'pink'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/end/shulker/light_blue_shulker",
+	"criteria": {
+		"pink_shulker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1496064988,678382978,-1743437253,-1744425232],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlYWI2MzlkOTBlOTNiZjM0M2U0OTVkOWNjNjA4ZTkxZWUyZGUyOWVjYTMzZDc5OTNjMjBhYTBjOWM5M2NkMCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

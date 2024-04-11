@@ -1,0 +1,8 @@
+{
+   "criteria":{
+      "end":{
+         "trigger":"minecraft:location"
+      }
+   },
+    "parent": "all_mob_heads:collection/villager/jungle/15_weaponsmith_jungle_villager"
+}

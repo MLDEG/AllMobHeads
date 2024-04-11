@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:piglin_head"
+		},
+		"title": "Piglin",
+		"description": "Obtained by Charged Creeper explosion",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/vanilla/dragon",
+	"criteria": {
+		"piglin_vanilla": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				  {
+					"items": [
+					  "minecraft:piglin_head"
+					]
+				  }
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1372035476,-1435417141,-1404086407,1279984117],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjNDU2ZTM5NGQ1Y2YwMGMzZjUzYWVhMWEyNTg1MDg3OTgxN2IyODY4ZTI4YmU0MmYyMjA4ODRjOGNlOTNhMSJ9fX0='}]}}}"
+		},
+		"title": "Savanna Fletcher Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/savanna/06_fisherman_savanna_zombie_villager",
+	"criteria": {
+		"07_fletcher_savanna_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1372035476,-1435417141,-1404086407,1279984117],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjNDU2ZTM5NGQ1Y2YwMGMzZjUzYWVhMWEyNTg1MDg3OTgxN2IyODY4ZTI4YmU0MmYyMjA4ODRjOGNlOTNhMSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

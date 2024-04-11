@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1991083706,-1266400318,-1630177522,1489455149],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMwZDdiOTcxOTJjZDkxOWU0MGJkMjNhMjQxN2E1OWU3OGJhYWUzMWUzMzM2OTdjYzYxZDNmOTU4OTE0OGU1ZCJ9fX0='}]}}}"
+		},
+		"title": "Weak Panda",
+		"description": "2% + 1% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/jungle/panda/playful_panda",
+	"criteria": {
+		"weak_panda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1991083706,-1266400318,-1630177522,1489455149],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMwZDdiOTcxOTJjZDkxOWU0MGJkMjNhMjQxN2E1OWU3OGJhYWUzMWUzMzM2OTdjYzYxZDNmOTU4OTE0OGU1ZCJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

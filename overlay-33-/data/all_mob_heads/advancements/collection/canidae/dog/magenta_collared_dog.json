@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;238599059,2130592018,-1363659469,1062614356],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjljYWY2NWJlZWYxY2FkMjMyNGQ1ZDQxNTc4OGU0ZThiM2ExYmI5M2VjMjk1ZDBjNzBkNjI3NTQxNmU2YWRiYyJ9fX0='}]}}}"
+		},
+		"title": "Magenta Collared Dog",
+		"description": "1% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/canidae/dog/pink_collared_dog",
+	"criteria": {
+		"magenta_collared_dog": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;238599059,2130592018,-1363659469,1062614356],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjljYWY2NWJlZWYxY2FkMjMyNGQ1ZDQxNTc4OGU0ZThiM2ExYmI5M2VjMjk1ZDBjNzBkNjI3NTQxNmU2YWRiYyJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

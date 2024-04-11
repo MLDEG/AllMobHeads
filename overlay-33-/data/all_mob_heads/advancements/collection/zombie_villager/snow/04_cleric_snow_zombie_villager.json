@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1726012419,-1792913618,-1239216097,979015867],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwNzMyYzgxMTE0Y2UwMWE3YmVmMGUwMTc5Y2Q2YmNmMGYyNTA1NjRiMzk0Nzk2ZDQ0OGQ1ZjMzNzk3MjhmYSJ9fX0='}]}}}"
+		},
+		"title": "Snow Cleric Zombie Villager",
+		"description": "6% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villager/snow/03_cartographer_snow_zombie_villager",
+	"criteria": {
+		"04_cleric_snow_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1726012419,-1792913618,-1239216097,979015867],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwNzMyYzgxMTE0Y2UwMWE3YmVmMGUwMTc5Y2Q2YmNmMGYyNTA1NjRiMzk0Nzk2ZDQ0OGQ1ZjMzNzk3MjhmYSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

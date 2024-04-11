@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1944739161,231097756,-2033123811,-312843082],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU5YWI4OGY3MjU1MGE0MDZjZDJmYzE3MTk1NGU1YmFhZjcwNjYyMzJmMGRjNDM4ZmZmOGQ2NDVjYjBmYjE0NSJ9fX0='}]}}}"
+		},
+		"title": "Magenta Slime",
+		"description": "100%. Rename a slime 'magenta'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/hostile/slime/pink_slime",
+	"criteria": {
+		"magenta_slime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1944739161,231097756,-2033123811,-312843082],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU5YWI4OGY3MjU1MGE0MDZjZDJmYzE3MTk1NGU1YmFhZjcwNjYyMzJmMGRjNDM4ZmZmOGQ2NDVjYjBmYjE0NSJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

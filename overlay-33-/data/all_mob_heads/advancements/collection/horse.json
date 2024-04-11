@@ -1,0 +1,140 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:saddle"
+		},
+		"title": "Horse",
+		"description": "Horse Heads Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/root",
+	"criteria": {
+		"black_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-352726032,-2109454443,-1350120869,-2058217397],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZhM2M5ZWViYjhkNjE3ODlkYTU5ZGM2ZjUzZDZlNTM0YjNlNDQzZTc5ZWZmYzYyYWVmNzViMDA3YjMzNTg4OSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"brown_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;363330510,1378828901,-1209122814,1947239167],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJlNWM3ZGE3MTc3ZDExYmUxNDJiZGEzNmZhYTk2MzkyNmQzMDIxNWMwZjBkMjI5NjgwOTNjNGFlMjIxZjE2ZCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"chestnut_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;592571517,1112296930,-1287168042,-274301882],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM0OGZkYTYyZWMwZDA4MzVlMTIzZDA4MmI1Yzk2MDRkZGIyZjE4MjI0ZjExNTQ5NDllYzdhYWNhMzQ1Mjc2OCJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"creamy_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1760146110,-1599323350,-1373262326,2012112580],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZiMWQyZjdiMjEzMDk2MzEwNjdlMmVjMjNjMDJlNGYyZDY3Nzc2YzNiNjg3NmZiZDI4YzVhYWM5YmVhNzIyZSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"donkey": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1828832301,-1236384918,-2088589766,1696879197],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FjNzkwNzQwZGE2NTE2MmNkM2EwNmNmMWZhODY5NzkwZTcyNDE2MzA2NmQzNDlkYmQyNDM0OWFmYWNmYmNhYiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"dark_brown_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;802805626,-1015133528,-1865945120,8159973],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODljYjJmOGVlMzc5NjRhYjdlZGIzYWQxNjE0MzY1YzU1M2I5NGI2MGRjODMzYWM0NGZmODkxMzE2ODUxMWRkMyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"gray_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;1963561359,-1116124132,-2009139598,1115682786],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBlMjE5MTNhZWU4NGFlY2FkZjU0OTcxYzQyY2ZkMzIzNTQzNDI4MzhjOTYyMGUxZTljYTJmZjU5OWFkYTZlYyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"mule": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;983213241,-1180808566,-1498104535,-2063863170],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFlMDQ1OTA2Y2ZjY2JjNjQ4N2JlZDRjOGQ1ZDg1ZTZkYWIyOWFhZDE0OWFjOTllYjY2ZjcyNDNjZTRmZmU3NiJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"skeleton_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1128471105,-2033955230,-1614476087,233393005],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjODZhYWFiYWQ5NTE1MGYwOTIwNDUzMmRmMjQzYmE2MTRlNjdiNTgyZGMwMzllNzI5NmJhNWY0ZjdlNzU5YyJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"white_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-138620642,1000752173,-1089507441,-1648707376],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNkOGMyNGEzZmQ5MGJjYWU2OWZhMWZhZTA4YmExNmMzN2Y0MmNhZGE3MWQ0NGVkZTJjNjRlMDBjOTE1NzZkOSJ9fX0='}]}}}"
+					}
+				]
+			}
+		},
+		"zombie_horse": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-1677328680,-718188585,-1126161758,506132080],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2OTM4ZDRmOTliOGEyMTMzOWU4N2U0M2E0NjFmZDg3NDVlNzY2YjQyNTNhMzU3MTkxYTdkZGI0NjMzNDRiMiJ9fX0='}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "loot": [
+            "all_mob_heads:horse"
+        ]
+    }
+}

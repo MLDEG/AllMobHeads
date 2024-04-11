@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-651812255,1850951748,-1112514775,-1276237180],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA1NzlmODIyZjVkNTM5M2Y2ZmI0ZDVhZmZmZDY5YjFmNGE0MWY5OTU4ODlkM2M5Y2ZjZmI5YjM3ZjRlODZlIn19fQ=='}]}}}"
+		},
+		"title": "Slime Potato",
+		"description": "100%. Rename a Slime 'potato'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/potato/skeleton_potato",
+	"criteria": {
+		"slime_potato": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:[I;-651812255,1850951748,-1112514775,-1276237180],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA1NzlmODIyZjVkNTM5M2Y2ZmI0ZDVhZmZmZDY5YjFmNGE0MWY5OTU4ODlkM2M5Y2ZjZmI5YjM3ZjRlODZlIn19fQ=='}]}}}"
+					}
+				]
+			}
+		}
+	}
+}
