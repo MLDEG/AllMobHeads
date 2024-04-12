@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/allay"
+          "value": "vanilla:entities/allay"
         }
       ]
     },
@@ -19,8 +19,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;1665454944,-312128994,-1823669106,111808665],Name:'Allay',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.allay.ambient_with_item'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.allay.ambient_with_item",
+                "minecraft:item_name": "\"Allay\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -30,19 +41,19 @@
           "condition": "killed_by_player"
         },
         {
-          "condition": "inverted",
-          "term": {
-            "condition": "entity_properties",
-            "predicate": {
-              "nbt": "{CustomName:'\"golden\"'}"
-            },
-            "entity": "this"
-          }
-        },
-        {
           "condition": "random_chance_with_looting",
           "chance": 0.1,
           "looting_multiplier": 0.1
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{CustomName: '\"golden\"'}"
+            }
+          }
         }
       ]
     },
@@ -51,7 +62,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/golden_allay"
+          "value": "minecraft:entities/easter_egg/golden_allay"
         }
       ]
     }
