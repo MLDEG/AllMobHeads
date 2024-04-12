@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:cherry_sapling"
+			"id": "minecraft:cherry_sapling"
 		},
 		"title": "Vanilla",
 		"description": "Vanilla Heads Collection",

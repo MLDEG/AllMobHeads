@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:zombie_head"
+			"id": "minecraft:zombie_head"
 		},
 		"title": "Zombie",
 		"description": "Obtained by Charged Creeper explosion",

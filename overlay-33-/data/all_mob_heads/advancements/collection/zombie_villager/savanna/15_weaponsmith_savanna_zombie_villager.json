@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:{Id:[I;-436332831,595149086,-1365369990,819332889],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MjViYzQxZTQ2NDFjMzQyYjVjYTFiMzQ3YTk3MTEzMmIxZGJhM2NhMWMyMWJhZTI3MzI3NjA1YmIwZTdmYSJ9fX0='}]}}}"
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MjViYzQxZTQ2NDFjMzQyYjVjYTFiMzQ3YTk3MTEzMmIxZGJhM2NhMWMyMWJhZTI3MzI3NjA1YmIwZTdmYSJ9fX0=" }] } }
 		},
 		"title": "Savanna Weaponsmith Zombie Villager",
 		"description": "6% + 10% per looting",
@@ -17,8 +17,8 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:player_head",
-						"nbt": "{SkullOwner:{Id:[I;-436332831,595149086,-1365369990,819332889],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MjViYzQxZTQ2NDFjMzQyYjVjYTFiMzQ3YTk3MTEzMmIxZGJhM2NhMWMyMWJhZTI3MzI3NjA1YmIwZTdmYSJ9fX0='}]}}}"
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MjViYzQxZTQ2NDFjMzQyYjVjYTFiMzQ3YTk3MTEzMmIxZGJhM2NhMWMyMWJhZTI3MzI3NjA1YmIwZTdmYSJ9fX0=" }] } }
 					}
 				]
 			}

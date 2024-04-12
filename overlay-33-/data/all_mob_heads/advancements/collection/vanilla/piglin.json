@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:piglin_head"
+			"id": "minecraft:piglin_head"
 		},
 		"title": "Piglin",
 		"description": "Obtained by Charged Creeper explosion",
