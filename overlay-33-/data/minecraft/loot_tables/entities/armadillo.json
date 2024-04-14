@@ -34,7 +34,7 @@
                   "function": "minecraft:set_components",
                   "components": {
                     "minecraft:note_block_sound": "minecraft:entity.armadillo.death",
-                    "minecraft:item_name": "\"Armadillo\"",
+                    "minecraft:custom_name": "\"Armadillo\"",
                     "minecraft:profile": {
                       "properties": [
                         {
@@ -67,7 +67,7 @@
                   "function": "minecraft:set_components",
                   "components": {
                     "minecraft:note_block_sound": "minecraft:entity.armadillo.roll",
-                    "minecraft:item_name": "\"Armadillo Scared\"",
+                    "minecraft:custom_name": "\"Armadillo Scared\"",
                     "minecraft:profile": {
                       "properties": [
                         {
