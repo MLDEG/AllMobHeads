@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 		"id": "minecraft:player_head",
-		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzEzMjZlZGQyYmU5ZTNjM2EyYTUxYzgyY2JkZDRiY2NiMzQ0NGZlNDFkOTNiYTgzODMwODQ2M2U3MDdhZmRkOSJ9fX0=" }] } }
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRkZDcxYzMxOWJlZTI5ZDRlZjdmMDE2YjRjNWMzNWRhZDI0MjM5MmY0ZDg4NTNlOTJiZDVjNmM5MDI1ZTBiOSJ9fX0=" }] } }
 		},
 		"title": "Yellow Collared Dog",
 		"description": "1% + 10% per looting",
@@ -18,7 +18,7 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzEzMjZlZGQyYmU5ZTNjM2EyYTUxYzgyY2JkZDRiY2NiMzQ0NGZlNDFkOTNiYTgzODMwODQ2M2U3MDdhZmRkOSJ9fX0=" }] } }
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRkZDcxYzMxOWJlZTI5ZDRlZjdmMDE2YjRjNWMzNWRhZDI0MjM5MmY0ZDg4NTNlOTJiZDVjNmM5MDI1ZTBiOSJ9fX0=" }] } }
 					}
 				]
 			}

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0=" }] } }
+		},
+		"title": "Rusty Wolf",
+		"description": "1% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/canidae/wolves/angry_chestnut_wolf",
+	"criteria": {
+		"rusty_wolf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}

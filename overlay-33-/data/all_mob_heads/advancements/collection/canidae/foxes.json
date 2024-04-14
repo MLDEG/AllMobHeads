@@ -3,8 +3,8 @@
 		"icon": {
 			"id": "minecraft:sweet_berries"
 		},
-		"title": "Fox",
-		"description": "Fox Heads Collection",
+		"title": "Foxes",
+		"description": "Foxes Heads Collection",
         "announce_to_chat": true,
         "frame": "goal"
 	},

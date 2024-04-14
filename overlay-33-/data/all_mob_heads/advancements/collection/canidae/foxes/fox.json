@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "show_toast": true
 	},
-	"parent": "all_mob_heads:collection/canidae/fox",
+	"parent": "all_mob_heads:collection/canidae/foxes",
 	"criteria": {
 		"fox": {
 			"trigger": "minecraft:inventory_changed",

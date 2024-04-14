@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhODQ2MTFjOGM4OTU4MzM2ZjY0ZDU4ZGMyMDljN2FiOTU4ZGRkOTlkMmY1ODc2ZGFkNzI2M2Y3MGVjZWIyNyJ9fX0=" }] } }
+		},
+		"title": "Angry Pale Wolf",
+		"description": "1% + 10% per looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/canidae/wolves/pale_wolf",
+	"criteria": {
+		"angry_pale_wolf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhODQ2MTFjOGM4OTU4MzM2ZjY0ZDU4ZGMyMDljN2FiOTU4ZGRkOTlkMmY1ODc2ZGFkNzI2M2Y3MGVjZWIyNyJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}

@@ -4,5 +4,5 @@
          "trigger":"minecraft:location"
       }
    },
-    "parent": "all_mob_heads:collection/canidae/wolf/angry_wolf"
+    "parent": "all_mob_heads:collection/canidae/wolves/angry_snowy_wolf"
 }

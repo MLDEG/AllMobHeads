@@ -4,5 +4,5 @@
          "trigger":"minecraft:location"
       }
    },
-    "parent": "all_mob_heads:collection/canidae/fox/white_fox"
+    "parent": "all_mob_heads:collection/canidae/foxes/white_fox"
 }
