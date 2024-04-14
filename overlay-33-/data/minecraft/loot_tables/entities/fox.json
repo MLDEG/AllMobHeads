@@ -31,8 +31,19 @@
               "name": "minecraft:player_head",
               "functions": [
                 {
-                  "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;595207761,2108179834,-1427491052,-1128163678],Name:'Fox',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.fox.death'}}"
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.fox.death",
+                    "minecraft:custom_name": "\"Fox\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=="
+                        }
+                      ]
+                    }
+                  }
                 }
               ],
               "conditions": [
@@ -50,8 +61,19 @@
               "name": "minecraft:player_head",
               "functions": [
                 {
-                  "function": "set_nbt",
-                  "tag": "{SkullOwner:{Id:[I;-1299416143,-1230419589,-1976749208,1994939037],Name:'Fox',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.fox.ambient'}}"
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.fox.ambient",
+                    "minecraft:custom_name": "\"Snow Fox\"",
+                    "minecraft:profile": {
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0MzYzNzdlYjRjNGI0ZTM5ZmIwZTFlZDg4OTlmYjYxZWUxODE0YTkxNjliOGQwODcyOWVmMDFkYzg1ZDFiYSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
                 }
               ],
               "conditions": [
