@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/wandering_trader"
+          "value": "vanilla:entities/wandering_trader"
         }
       ]
     },
@@ -57,7 +57,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/974"
+          "value": "minecraft:entities/easter_egg/974"
         }
       ]
     },
@@ -66,7 +66,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/cheh"
+          "value": "minecraft:entities/easter_egg/cheh"
         }
       ]
     }

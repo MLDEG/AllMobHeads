@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/skeleton"
+          "value": "vanilla:entities/skeleton"
         }
       ]
     },
@@ -35,7 +35,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/skeleton"
+          "value": "minecraft:entities/potato/skeleton"
         }
       ]
     }

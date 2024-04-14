@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/glow_squid"
+          "value": "vanilla:entities/glow_squid"
         }
       ]
     },

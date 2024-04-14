@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/phantom"
+          "value": "vanilla:entities/phantom"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/darcodo"
+          "value": "minecraft:entities/easter_egg/darcodo"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/tacowl"
+          "value": "minecraft:entities/easter_egg/tacowl"
         }
       ]
     }

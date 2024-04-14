@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/donkey"
+          "value": "vanilla:entities/donkey"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/unicorn"
+          "value": "minecraft:entities/easter_egg/unicorn"
         }
       ]
     }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/sheep/white"
+          "value": "vanilla:entities/sheep/white"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/sheep/jeb_sheep"
+          "value": "minecraft:entities/sheep/jeb_sheep"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/me_controller"
+          "value": "minecraft:entities/easter_egg/me_controller"
         }
       ]
     },
@@ -97,7 +97,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/sheep"
+          "value": "minecraft:entities/potato/sheep"
         }
       ]
     }

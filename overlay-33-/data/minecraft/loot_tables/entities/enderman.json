@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/enderman"
+          "value": "vanilla:entities/enderman"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/amethyst_pot"
+          "value": "minecraft:entities/easter_egg/amethyst_pot"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/enderman"
+          "value": "minecraft:entities/potato/enderman"
         }
       ]
     }

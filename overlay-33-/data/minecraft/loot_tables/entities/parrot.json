@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/parrot"
+          "value": "vanilla:entities/parrot"
         }
       ]
     },
@@ -145,7 +145,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/coconut"
+          "value": "minecraft:entities/easter_egg/coconut"
         }
       ]
     }

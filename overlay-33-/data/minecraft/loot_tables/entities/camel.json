@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/camel"
+          "value": "vanilla:entities/camel"
         }
       ]
     },

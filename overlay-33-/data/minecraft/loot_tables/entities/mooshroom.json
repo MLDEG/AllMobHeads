@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/mooshroom"
+          "value": "vanilla:entities/mooshroom"
         }
       ]
     },
@@ -98,7 +98,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/maxtar"
+          "value": "minecraft:entities/easter_egg/maxtar"
         }
       ]
     },
@@ -107,7 +107,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/moobloom"
+          "value": "minecraft:entities/easter_egg/moobloom"
         }
       ]
     }

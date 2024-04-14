@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/tropical_fish"
+          "value": "vanilla:entities/tropical_fish"
         }
       ]
     },

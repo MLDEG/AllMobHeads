@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/elder_guardian"
+          "value": "vanilla:entities/elder_guardian"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/plaguewhale"
+          "value": "minecraft:entities/potato/plaguewhale"
         }
       ]
     }

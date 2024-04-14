@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/iron_golem"
+          "value": "vanilla:entities/iron_golem"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/ayr0b0t"
+          "value": "minecraft:entities/easter_egg/ayr0b0t"
         }
       ]
     }

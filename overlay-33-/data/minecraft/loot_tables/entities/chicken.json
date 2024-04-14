@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/chicken"
+          "value": "vanilla:entities/chicken"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/choco"
+          "value": "minecraft:entities/easter_egg/choco"
         }
       ]
     },
@@ -80,7 +80,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/pigeon"
+          "value": "minecraft:entities/easter_egg/pigeon"
         }
       ]
     },
@@ -89,7 +89,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/chicken"
+          "value": "minecraft:entities/potato/chicken"
         }
       ]
     }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/blaze"
+          "value": "vanilla:entities/blaze"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/fries"
+          "value": "minecraft:entities/easter_egg/fries"
         }
       ]
     },
@@ -80,7 +80,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/frozen"
+          "value": "minecraft:entities/easter_egg/frozen"
         }
       ]
     },
@@ -89,7 +89,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/bob"
+          "value": "minecraft:entities/easter_egg/bob"
         }
       ]
     }

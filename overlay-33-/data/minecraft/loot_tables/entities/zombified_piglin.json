@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/zombified_piglin"
+          "value": "vanilla:entities/zombified_piglin"
         }
       ]
     },

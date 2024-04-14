@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/axolotl"
+          "value": "vanilla:entities/axolotl"
         }
       ]
     },
@@ -146,7 +146,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/blueaxolotl"
+          "value": "minecraft:entities/easter_egg/blueaxolotl"
         }
       ]
     },
@@ -155,7 +155,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/aled"
+          "value": "minecraft:entities/easter_egg/aled"
         }
       ]
     },
@@ -164,7 +164,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/greenaxolotl"
+          "value": "minecraft:entities/easter_egg/greenaxolotl"
         }
       ]
     }

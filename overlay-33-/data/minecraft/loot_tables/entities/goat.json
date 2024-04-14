@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/goat"
+          "value": "vanilla:entities/goat"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/goatleft"
+          "value": "minecraft:entities/goat/goatleft"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/goatright"
+          "value": "minecraft:entities/goat/goatright"
         }
       ]
     },
@@ -72,7 +72,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/goatnone"
+          "value": "minecraft:entities/goat/goatnone"
         }
       ]
     },
@@ -81,7 +81,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/screamingoat"
+          "value": "minecraft:entities/goat/screamingoat"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/screamingoatleft"
+          "value": "minecraft:entities/goat/screamingoatleft"
         }
       ]
     },
@@ -99,7 +99,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/screamingoatright"
+          "value": "minecraft:entities/goat/screamingoatright"
         }
       ]
     },
@@ -108,7 +108,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/goat/screamingoatnone"
+          "value": "minecraft:entities/goat/screamingoatnone"
         }
       ]
     }

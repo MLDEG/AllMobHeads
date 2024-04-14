@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/sheep/yellow"
+          "value": "vanilla:entities/sheep/yellow"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/sheep/jeb_sheep"
+          "value": "minecraft:entities/sheep/jeb_sheep"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/sheep"
+          "value": "minecraft:entities/potato/sheep"
         }
       ]
     }

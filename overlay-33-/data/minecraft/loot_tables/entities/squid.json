@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/squid"
+          "value": "vanilla:entities/squid"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/mrfexfull002"
+          "value": "minecraft:entities/easter_egg/mrfexfull002"
         }
       ]
     }

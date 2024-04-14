@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/husk"
+          "value": "vanilla:entities/husk"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/husk"
+          "value": "minecraft:entities/potato/husk"
         }
       ]
     }

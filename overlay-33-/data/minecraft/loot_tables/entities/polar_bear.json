@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/polar_bear"
+          "value": "vanilla:entities/polar_bear"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/orlox"
+          "value": "minecraft:entities/easter_egg/orlox"
         }
       ]
     }

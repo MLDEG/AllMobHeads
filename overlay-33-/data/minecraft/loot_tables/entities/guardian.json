@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/guardian"
+          "value": "vanilla:entities/guardian"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/toxifin"
+          "value": "minecraft:entities/potato/toxifin"
         }
       ]
     }

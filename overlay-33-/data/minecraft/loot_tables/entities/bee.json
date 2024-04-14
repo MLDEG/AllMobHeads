@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "vanilla:entities/bee"
+            "value": "vanilla:entities/bee"
           }
         ]
       },
@@ -141,7 +141,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "minecraft:entities/potato/bee"
+            "value": "minecraft:entities/potato/bee"
           }
         ]
       }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/salmon"
+          "value": "vanilla:entities/salmon"
         }
       ]
     },
@@ -61,7 +61,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/maki"
+          "value": "minecraft:entities/easter_egg/maki"
         }
       ]
     },
@@ -70,7 +70,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/sushi"
+          "value": "minecraft:entities/easter_egg/sushi"
         }
       ]
     }

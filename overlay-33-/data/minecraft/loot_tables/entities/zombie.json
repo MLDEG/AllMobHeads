@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/zombie"
+          "value": "vanilla:entities/zombie"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/sossur"
+          "value": "minecraft:entities/easter_egg/sossur"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/zombie"
+          "value": "minecraft:entities/potato/zombie"
         }
       ]
     }

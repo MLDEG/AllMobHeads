@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/cow"
+          "value": "vanilla:entities/cow"
         }
       ]
     },
@@ -71,7 +71,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/boiboite"
+          "value": "minecraft:entities/easter_egg/boiboite"
         }
       ]
     },
@@ -80,7 +80,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/milk"
+          "value": "minecraft:entities/easter_egg/milk"
         }
       ]
     },
@@ -89,7 +89,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/cow"
+          "value": "minecraft:entities/potato/cow"
         }
       ]
     }

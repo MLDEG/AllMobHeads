@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/wither"
+          "value": "vanilla:entities/wither"
         }
       ]
     },
@@ -79,7 +79,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/friendly_wither"
+          "value": "minecraft:entities/easter_egg/friendly_wither"
         }
       ]
     }

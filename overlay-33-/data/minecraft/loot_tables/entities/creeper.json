@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/creeper"
+          "value": "vanilla:entities/creeper"
         }
       ]
     },
@@ -53,7 +53,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/creeper"
+          "value": "minecraft:entities/potato/creeper"
         }
       ]
     }

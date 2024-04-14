@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/pig"
+          "value": "vanilla:entities/pig"
         }
       ]
     },
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/pig"
+          "value": "minecraft:entities/potato/pig"
         }
       ]
     }

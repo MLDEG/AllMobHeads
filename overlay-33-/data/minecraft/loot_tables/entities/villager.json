@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "vanilla:entities/villager"
+          "value": "vanilla:entities/villager"
         }
       ]
     },
@@ -2055,7 +2055,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/easter_egg/pikxee"
+          "value": "minecraft:entities/easter_egg/pikxee"
         }
       ]
     },
@@ -2064,7 +2064,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/potato/villager"
+          "value": "minecraft:entities/potato/villager"
         }
       ]
     }
