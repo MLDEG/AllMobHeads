@@ -19,8 +19,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;671893427,-1508619940,-1866912258,702332848],Name:'Iron Golem',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MTkxM2EzZmM4ZjU2YmRmNmI5MGE0YjRlZDZhMDVjNTYyY2UwMDc2YjUzNDRkNDQ0ZmIyYjA0MGFlNTdkIn19fQ=='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.iron_golem.death'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.iron_golem.death",
+                "minecraft:custom_name": "\"Iron Golem\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MTkxM2EzZmM4ZjU2YmRmNmI5MGE0YjRlZDZhMDVjNTYyY2UwMDc2YjUzNDRkNDQ0ZmIyYjA0MGFlNTdkIn19fQ=="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -33,10 +44,10 @@
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"ayr0b0t\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
