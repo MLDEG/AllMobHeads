@@ -10,8 +10,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-1945286585,39010839,-1536948046,490680144],Name:'Plaguewhale',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRmODhhNjY2NTc3NGFiZWJkYjUwYTIzMTFiNzExMmE2NjgyMmJhYWY4ZWM1OWE3ZTFlMjk1ZWI5OWUyODUxNCJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.elder_guardian.curse'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.elder_guardian.curse",
+                "minecraft:custom_name": "\"Plaguewhale\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRmODhhNjY2NTc3NGFiZWJkYjUwYTIzMTFiNzExMmE2NjgyMmJhYWY4ZWM1OWE3ZTFlMjk1ZWI5OWUyODUxNCJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -22,10 +33,10 @@
         },
         {
           "condition": "entity_properties",
+          "entity": "this",
           "predicate": {
             "nbt": "{CustomName:'\"plaguewhale\"'}"
-          },
-          "entity": "this"
+          }
         }
       ]
     }
