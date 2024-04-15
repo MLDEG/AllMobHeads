@@ -19,8 +19,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;233407588,309611990,-1146603762,-94551640],Name:'Enderman',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.enderman.stare'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.enderman.stare",
+                "minecraft:custom_name": "\"Enderman\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1OWJiMGE3YTMyOTY1YjNkOTBkOGVhZmE4OTlkMTgzNWY0MjQ1MDllYWRkNGU2YjcwOWFkYTUwYjljZiJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -33,20 +44,20 @@
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"amethyst pot\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"potato\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
