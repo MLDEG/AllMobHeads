@@ -19,8 +19,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-797054839,-1468248486,-1339076869,-874101419],Name:'Cow',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlNTQ4YzgxYjEwNzQ5NWE4OTM3NTc5NWRkNjEzNzc1NzdjYWEzMzE4MjBlMDJhYTU1ZmVkOTdmOGYxNDRmYSJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.cow.ambient'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.cow.ambient",
+                "minecraft:custom_name": "\"Cow\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlNTQ4YzgxYjEwNzQ5NWE4OTM3NTc5NWRkNjEzNzc1NzdjYWEzMzE4MjBlMDJhYTU1ZmVkOTdmOGYxNDRmYSJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -33,30 +44,30 @@
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"boiboite\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"lait de meumeu\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"potato\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
