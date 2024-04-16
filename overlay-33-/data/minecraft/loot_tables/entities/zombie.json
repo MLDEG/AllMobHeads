@@ -22,20 +22,20 @@
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"potato\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"sossur\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
