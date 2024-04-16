@@ -19,8 +19,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;-1753017204,886000215,-1108375067,-98113157],Name:'Polar Bear',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QzY2Q4NTQ4ZTdkY2ViNWMyMzk0ZDFiMDBkYTJjNjFmZmMwZGRlNDYyMjliMTA1MDllYjI3YTBkY2IyM2JmYiJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.polar_bear.warning'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.polar_bear.warning",
+                "minecraft:custom_name": "\"Polar Bear\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QzY2Q4NTQ4ZTdkY2ViNWMyMzk0ZDFiMDBkYTJjNjFmZmMwZGRlNDYyMjliMTA1MDllYjI3YTBkY2IyM2JmYiJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
@@ -33,10 +44,10 @@
           "condition": "inverted",
           "term": {
             "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
               "nbt": "{CustomName:'\"orlox\"'}"
-            },
-            "entity": "this"
+            }
           }
         },
         {
