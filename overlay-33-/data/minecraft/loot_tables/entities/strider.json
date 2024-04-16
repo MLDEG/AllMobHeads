@@ -29,8 +29,19 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;1697187143,709706255,-1346375143,822475851],Name:'Strider',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThhOWFkZjc4MGVjN2RkNDYyNWM5YzA3NzkwNTJlNmExNWE0NTE4NjY2MjM1MTFlNGM4MmU5NjU1NzE0YjNjMSJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.strider.happy'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.strider.happy",
+                "minecraft:custom_name": "\"Strider\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThhOWFkZjc4MGVjN2RkNDYyNWM5YzA3NzkwNTJlNmExNWE0NTE4NjY2MjM1MTFlNGM4MmU5NjU1NzE0YjNjMSJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         },
@@ -40,8 +51,19 @@
           "weight": 2,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:{Id:[I;2039953382,994791400,-1730911830,-1290786658],Name:'Cold Strider',Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdlNGViMGZiNDg5ZDZmMjUwYzYwN2QyOGQ2NzJmMTI3ZWJhZWRlOGUwMDdmYTZjZDM0ZTJiYmMwYzJmYzMzYSJ9fX0='}]}},BlockEntityTag:{note_block_sound:'minecraft:entity.strider.retreat'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.strider.retreat",
+                "minecraft:custom_name": "\"Cold Strider\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdlNGViMGZiNDg5ZDZmMjUwYzYwN2QyOGQ2NzJmMTI3ZWJhZWRlOGUwMDdmYTZjZDM0ZTJiYmMwYzJmYzMzYSJ9fX0="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }
