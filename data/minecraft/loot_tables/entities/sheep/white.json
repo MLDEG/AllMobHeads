@@ -62,7 +62,7 @@
           "term": {
             "condition": "entity_properties",
             "predicate": {
-              "nbt": "{CustomName:\"{\\\"text\\\":\\\"me controller\\\"}\"}"
+              "nbt": "{CustomName:'\"me controller\"'}"
             },
             "entity": "this"
           }
