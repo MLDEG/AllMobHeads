@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MxOWE0YzdjNmRhMmNjYmM4ZmZhMjFiMTNkNjMzYTI0OWNjNzRlMzkzZGRkZDU2MjJjYTZmMDllOTVkZmM4MCJ9fX0=" }] } }
+		},
+		"title": "Enderman Potato",
+		"description": "100%. Rename an Enderman 'potato'",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/potato/creeper_potato",
+	"criteria": {
+		"enderman_potato": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MxOWE0YzdjNmRhMmNjYmM4ZmZhMjFiMTNkNjMzYTI0OWNjNzRlMzkzZGRkZDU2MjJjYTZmMDllOTVkZmM4MCJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}

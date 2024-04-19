@@ -1,0 +1,8 @@
+{
+   "criteria":{
+      "end":{
+         "trigger":"minecraft:location"
+      }
+   },
+    "parent": "all_mob_heads:collection/zombie_villager/snow/15_weaponsmith_snow_zombie_villager"
+}

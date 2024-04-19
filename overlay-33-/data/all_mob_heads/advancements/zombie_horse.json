@@ -1,0 +1,22 @@
+{
+"parent": "all_mob_heads:root",
+"criteria": {
+	"amh:zombie_horse": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+			"item": {
+				"items": [ "minecraft:name_tag" ],
+				"nbt": "{ display: { Name: '\"zombie\"' } }"
+			},
+			"entity": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": { "type": "minecraft:skeleton_horse" }
+				}
+			]
+		}
+	}
+},
+"rewards": { "function": "all_mob_heads:zombie_horse" }
+}
