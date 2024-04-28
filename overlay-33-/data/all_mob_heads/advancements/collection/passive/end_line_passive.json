@@ -4,5 +4,5 @@
          "trigger":"minecraft:location"
       }
    },
-    "parent": "all_mob_heads:collection/passive/camel"
+    "parent": "all_mob_heads:collection/passive/armadillo_scared"
 }
