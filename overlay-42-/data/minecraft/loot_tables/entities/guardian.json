@@ -51,9 +51,13 @@
           }
         },
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.002,
-          "looting_multiplier": 0.001
+          "condition": "random_chance_with_enchanted_bonus",
+          "enchantment": "looting",
+          "chance": {
+            "type": "linear",
+            "base": 0.002,
+            "per_level_above_first": 0.001
+          }
         }
       ]
     },
