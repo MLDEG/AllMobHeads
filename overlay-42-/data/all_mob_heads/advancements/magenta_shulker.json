@@ -1,0 +1,21 @@
+{
+"criteria": {
+	"amh:magenta_shulker": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+			"item": {
+				"items": [ "minecraft:name_tag" ],
+				"nbt": "{ display: { Name: '\"magenta\"' } }"
+			},
+			"entity": [
+				{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": { "type": "minecraft:shulker" }
+				}
+			]
+		}
+	}
+},
+"rewards": { "function": "all_mob_heads:magenta_shulker" }
+}
