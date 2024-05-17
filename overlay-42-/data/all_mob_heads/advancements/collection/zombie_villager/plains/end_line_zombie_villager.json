@@ -1,8 +1,0 @@
-{
-   "criteria":{
-      "end":{
-         "trigger":"minecraft:location"
-      }
-   },
-    "parent": "all_mob_heads:collection/zombie_villager/plains/15_weaponsmith_zombie_villager"
-}

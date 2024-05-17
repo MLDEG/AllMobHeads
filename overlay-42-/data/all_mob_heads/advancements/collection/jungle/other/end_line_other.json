@@ -1,8 +1,0 @@
-{
-   "criteria":{
-      "end":{
-         "trigger":"minecraft:location"
-      }
-   },
-    "parent": "all_mob_heads:collection/jungle/other/ocelot"
-}
