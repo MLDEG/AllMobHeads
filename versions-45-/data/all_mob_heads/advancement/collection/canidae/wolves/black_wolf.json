@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0=" }] } }
+		},
+		"title": "Black Wolf",
+		"description": "1% with Looting I then + 10% per Looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/canidae/wolves/angry_ashen_wolf",
+	"criteria": {
+		"black_wolf": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}

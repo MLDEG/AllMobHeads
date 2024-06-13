@@ -1,0 +1,3189 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/zombie_villager"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "conditions": [
+            {
+              "condition": "killed_by_player"
+            },
+            {
+              "condition": "minecraft:random_chance_with_enchanted_bonus",
+              "enchantment": "looting",
+              "unenchanted_chance": 0,
+              "enchanted_chance": {
+                "type": "minecraft:linear",
+                "base": 0.06,
+                "per_level_above_first": 0.1
+              }
+            }
+          ],
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4N2U5YzczODUxZmM0ZjVhOTYzNjE5MjhjZTBmZjQ3YWFkMjdjNzYyYTY4MDVhZjgzNzJlNzBlOGRiNGQ4YSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjViODA5NDNhMTYzMzljOGI3ZTM2NzIxMmM5NjZjNjczNTM5ZmY4OWQyZDFiZTAwN2FkOGJmMTJmZTgzMzUxZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBmNWJlYzBmNTBjZjM3MDc1OWNjYWQwNmNlMzViOGE0NmYwNDk0MmRiNmFmYWUxMGZmMDRmMGZkNjc3YTlhMCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU4Y2I5ODJiM2Q2NjRhZGVmNDI5YjljYzViZmM0NzNlZTcwNWVjNGY0YjczODVjNmM0MTYxMDU0NTgyMWE1NCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRmNzY3NDQ4MmZlODRiYzk1MWMzNjFlNTA1NDg1ZGZiMjRkNzNkYzE1MTgzN2ExYTVhMmU3OTU2OWE4YmIxNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFjMDNhNmY3ODIwY2VhMjlhODI4YmM0ZmE5YThkZjM2NWNjNWM3MDg3OWQ0YmZmMzJkMzY2YWNhZTc1ZmMxZCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Armorer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFiODBmNGQ4OTQ5YWE4OTYwMzBiZTg5NzExZmRmZmQxODk3Nzg5YzMzMzUyYmY4MDJlOTcxYmM4NWI5ZWUwIn19fQ=="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:armorer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkxZjczZjA3YmZkMzg1NzI0NmU4MTRjNjkxZDVkZmZkZGI1OGNmNTVhYTYzYzBhYmM3M2FkZGM1YWFlNmUzOCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ5YmYwYjU0YzhmMzk4YjIxYmE2YWE4NDkwYTQzMDg2OTY2OWU3ZjdlMmI1NDdlZWJiZWVmNmU1ZTViZTE5ZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJkNzkwZGNkMTMzZDI4ZDk1NGQ2MjIzMjNjZjQ3MzE1MWI1ODc3OTM2MTJmZWViNTA5NDljNTIwZGZlOTc1NyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIwZTk4M2RhMjEwNzE2YzgwMDMyNjUzNDU4ZjBiMTJhYjM3YjczNWEzZWRhNDMyOTI5YmVmOWU3NzE5NmIwNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q2YmY5YzdiZWQ1NDQ3YjhiNGMyNmQ4MzMwMzU3OTBkZDZmMTNiMTA0NDM3MjgxMDAwYzBmM2IxMDQ1ZjIxZCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ3N2Q0NzdiYjczZDMzOWRhNTAyY2FkNmJhMzg4OTA0ZTM1NTNlZjI4NWQyOTk0ZGZkODg0Mjc2ZDA1MjY5ZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Butcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU3OTAwZTI0ZmFjNWVhYzQxOWYwMTdiNjY4NTMwY2Y1OTZjN2Q4NWFmODIxZmJkMjFlYmRiY2QyYWIyMGMzNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:butcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFkN2EwZjIwN2RkZTM0YjEzZmE1YTM0ODJiMGJjN2Q4ODAxZjdjYmUyZjI5NmJkNjVhZjIxZjBlZTJkYzc4MyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E3NjE1YTdhNWFlNDVkNmYwNThhMTdhZDY5M2ZjNDljNzdjZjQyOTJmMDAyZTM4MzYwNGJiMmRhMGJmODRlNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhiMzFlODRiYjA0NGEyYjBmZDEwOTc0ZWQ5MTI2ZTE2ZGNlNTdjZGY2NzViN2QxZjA1MjUwNzczMDA0MGI1MiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM0NTRmNmQ2NDY2MDNmYzcxMDU3OGM5NWI2NzcwMzAyYWNlM2E5NmJlMTQ4M2VhODBmNjE0Mzk2Yzg3YjIxMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY3MjkxZjFmY2U4ZmY4ZjBmZDFhMzJjYzAxODE4ZDYxNjNiODFmYWYzZDJmNzFhZTRkYWM0MjRjNWRmYjk2YSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY5MTBlODgxYWU5NjdjM2U5YWVjYzU1YzMyZmY1YTEyMGZiM2JjZDU2ZmNkNjhiNWQxOGNhMDgzYzdlZTFmMCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Cartographer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJhMDY0YzNlOGU2YjIxOWQ3OTcxYTI0ZTcwNDQ4MTlkMTE2YTg0NmU4MzNiOTZhZTU3YmFlODUwNWRhZTViYSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:cartographer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg0MmE1M2YyMzUxOGNhNjViOTRjYWI1MDg5MDIxYmE2NGU1MzkzYWQ4ZGUwZmE2MDViNmZkZDk3ZTFjZTc2YyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdlYTRkZmVlYzIzYTU4YWMwYjllYTUzNWI1ZDllZTNmYjU0OTg1OTk3MWI4NzA3N2ViZDZhODUxMWE5MjQyYyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdhNjgwYWVlMmE4N2ExYzBiMjBmYWI5ZjM1YTIyMjczODM0MjQ0Y2M3NmQ5MDljMTcwMzFlYmUwYjBjNWI2NCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQzMWNiNTE0OTYyMTkyZWQyNWIyM2FhZmM2NTkxMjU3ZjkxYmQxMDA0MjlhMDgxMzM4MDY0OGVjMjM3MGNjNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmMwNzMyYzgxMTE0Y2UwMWE3YmVmMGUwMTc5Y2Q2YmNmMGYyNTA1NjRiMzk0Nzk2ZDQ0OGQ1ZjMzNzk3MjhmYSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZhNTc3MDViNDI1YzI1MGM1MDZkOTVlZmQ0ZDdiZTEyZGE0N2ZjMzgxODM2YTNkMmVlZDhjNmU0NDk4YWNiNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Cleric Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk1YjcyOTQ3ZDIxZjRjOTJmNjQ4MmFmZWU1OGRhOTRlMzNhZmNkNDljN2Q0NjAyMTExNDlkZjRlMjVmNjhiNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:cleric'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU1OTYyNjViOTA1ZjQ1NmQ4OWE1MWZiZTM2M2YwZmI4NzdkMTNmZDY3OGNhM2E0MmM0YjFjZTBmMDE4NmNmYSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE4M2JhYmU2NmZkOWI0Nzk2YWQ3ODE5ODZiZDI3OTI0NTE1NzE3NTA4OTgyZGZhMzY3ODdlNDZmZWQ2YWMwNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFjYjQ4YmI2MmI2YTAxNTMyMTI5MGE0NDU5YzZlOGNiMzYxZTY0NDNhN2ViZjMyMmIwMzk1MmFiYTU4ZTY2YyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0OWRiYmYwZWEzM2RlM2I0NjdmYWJlZjJhMGYwMjg4NDRjOThmODBlYWIxMTkyMjgxOWRlYjdiOTYzMTg0ZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZkMDgyYTlkNmQ3ZjY4ZWZjMTNiNTBhYTBiMDcxMTdmMDNkMDU5ZjRmZDYxMDUxNzljZWVkYzk5Y2FjNDhkYSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU2MGMyNzE5YThkOGJlYjhlMDYwZjFlNzhkMGQ3MjU3Y2M3NDJhYzk1MjYxMjU2OThkNWVlNjZiMDJiMDRmZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Farmer Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIzNDUyMTU0NzVhZDcyYjkzMDhlYTJiNjg2NmVmNDMxM2FkMWVmYzdkMjVjMmNjODFkMTY5OGMwNTY0N2I4In19fQ=="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:farmer'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGExNjM3N2NmNDI1NWQ0ZGU3MGNjNDAwNDNlMTU2N2VmZGNhZDdlZmE4OTdkOTc1NzdjMTg0M2VmMmZjYjRhNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ0NGE3OWVjNDdhZTQ1NzAyNmFmMzY0ZTBiY2FkOWQ0NTRhNTJjZGE4NjQ4YWE0ODU4MzgzMjY2OGY4OTdmMCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFmODljYzc1YjI1NTEwNzc5Njc1MTEzZDg5MTNlNmNkODQ0NGEyOTAzNzdjZmJlYjA4ZTBhYTg5OWJlZjE0NSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZmMzMyZDQzNDM1ZGMwYjI3NDQ3ZTZjMjllMTc1ZDUwYjE5ODVmZmEyYjFiNGVmYTMwNjJiNDI4ZTE4YzRmYSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc4OTRkMjBiOTBlNjQwY2ZiMjI5ZTdmNjY2YTM4NWJjNWRlZmIxNGFmM2YyNTdhNjdhNjZiOWNiMjczNDQyZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAxYWYwMjM3ZDExZmM0YTgzOWE5ZTdjMDk2MmI5ZGZkMzYzMDVlZjJjZGIyOTk4MjdkMGY4MjIxMjAyOWM5MSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Fisherman Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFjZWVlZmVmZTBiNzg3MTVjM2RlZWI0Yjc3YmFkOTM4MjNkMzE4ZGNlYzY0N2ZkMDJmMmJjNmNmN2JiZTcyMSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:fisherman'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY2YzRiOGNiYzFhYjkwZGE2MmUxMmJiMTljOGM0NmQzNzg5MzFhMmY2NjkxNGUzZmI2OTk5YWE4NzNkMGU1ZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2M5NmI5NDhiZWI5NDI2ZjIyN2ZiMmUyODVkMzY0ZDM3YjM2OTVlZjA0ZTE4YWFiMGQxNjMwMjRjZGM1MTcyMCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ0MDVmMTRlOGNiMDhiNDc0MGUwNDBiOGIwYjZmMDI1ZTU2MzY5OTJlNDFjMWI4Y2JmODFiNGFlODgxNmY2YyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjNDU2ZTM5NGQ1Y2YwMGMzZjUzYWVhMWEyNTg1MDg3OTgxN2IyODY4ZTI4YmU0MmYyMjA4ODRjOGNlOTNhMSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY4NDE1Y2NkN2YwYTM3YTZjZGE1YTE0YWY3NWNjNzIyZTNmNzY2NzlmZGZkYjM3M2IzYjkxM2EzZDYxMjQ2MSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiYjdiNzFmYzE2MjM4MDRhY2U3NjlmZjQ2ZDFmYzJhODFmNDEzZDEwNWIzOWI0ZTQ0NDdmOTRkNzU2NGYxMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Fletcher Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzZmIyMzNiZDNlZWVjZjViODllMzg0MmZjY2EwYmZjNDMxZjVmZTgxNjJmM2M4OTczZGVkZTEwYzYyZWU3YSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:fletcher'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDFmZTMwMGZkZTQwMDg4NWUwODhiMzY5Nzk1OGQ5ZGI4NjE2MTgyODkzMDdhNTYzMTY4OTM3MmY5OWNlZmI4NiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGViMmVkOTdjODZhZDAwZTI3NTJmNWU2NmRiNjRiNWIyZjBjNmM4ZGE1MzQ0Yjg2MDg3NDdmNzI0YzRjN2E0ZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU0ZGExM2E1NjAwNTI0N2IwZDhiNzhlYTVkMTRmYTI0OGQ5NmU1N2MwYmY0MzMzNTljYTAyYmM5YjVjN2E5MiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIxNjg5ZTM5M2YxODgzNDhmZmU1YmM4ZDE5OTY4NjEwZTRjYjcxMWNjODU1N2E5MTY4ZDRkZjgyYmNiZDk0YyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI3YmY3MWQ1Yzg0MjdmNzEzMGYyNTM0Njg3N2VhNDk3MGFlNDBiNWI0MTg5YWI4YTYyZWI0ZmFhYTQ2YTU1YiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYzZjRjMjViZTQ0MDE0MTk4YjEyM2I3NmQ2Y2ZhMTA5ZGZiYWNiOWY3YWIxYzcwYzYwOGM2NmE2ZGZkN2QzMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Leatherworker Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNjNjk4YTYwZTdiOTNiNWQ1NjFhZDg5ZjQ4OTlmYjExOTYwNjRkNjk0NWQ3OTZkN2M3MzRjYThkYmNmMmQyMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:leatherworker'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjczYWYwM2M1ODZmYTgyZjhhYWM3MmVkMjkxMmZlNjM5NWVlYWEwN2VhYTUwYmQ0ZjJiOTg0MGI0NDQ4MzBmMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTllMWNmOTI1YjczYmQ1ZTE0YTk5N2I4NWU0ZGI2ZmM3NmE2MTljMGRiN2JiNjM2ZTM0YTVhY2UyODViZDBhZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA2NTNmZDgzYjU3MzM2MzU2ZmEzNDgxZDEzMWFkMDUxMmViZWM1YjZkNTI4ZDE2NmM1ZDM5MGQzNGYzNzBiMSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTEzYjllZjkxNDMwYjUwNmM0ODNhOWEzOWVkMjQyMDA4NDQ3Y2UxMDJkZjc2NTZjNjJlNmRkZTg0MzNmNzI2MSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODU4NTk3NWY5ZDA3YmYzMjY1NDY3MDg5MDU0ZmY2Mzc0ZDU3OWIxNmFhYzQxMTE0MTdhMWU5MWY2YzA2YWYwZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJmZDE0NjcwMTJkMDY4YmJmZDc4MjVhODg2MTFjYzM0MWYwOGZjMWExYmRmYzY4NTgxN2I4ZGU0Y2RhOTc2ZCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Librarian Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTEwZDc4MTA1NDVhYzIyNjVhZTkyOGJjMjlhYmJlOWRmNjgyMTAwOTVhNmEyNzUwZTAzODliNzViOWQwMTAwZCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:librarian'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ2ZDRmNTE5OGIxMjkyODg3NDM2ZjJjNmYzYWI1NTgzMzEzZTQxZTE2NDdhZjBmMmYzNDEyMTk2YzczOTVmNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBmMTBhOTQ1ZDUyMTViYmJkODBiZDA3YjliZTFmMDQ1M2FhOGU4YmE1NjQwMzU2NDc0MzM0MGVkNzAyM2E5ZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRkOGNkYTBlMjY4YmIxOTgyZjk2NWQ3ZDVmZjJiNTkwNmQ2YzIzOTg4ZjQ5NDMyNDE4NDNjODIxZjdhZGYwNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU3YTJlMzRjMGE5ZjI2MTc1NGFjMzkzOWQ5NGZlMGI2OTIzM2QzOWJkOTgwNzNhYzAwYmUwYTYyMTBhZGQ0NSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y4NWMyNWVkYWRjYzMwYmZkZWMxYmI5NTM2MmMxMGRmNDA3NGU5YTZkZjg5OGU5ZGQwYmYxYzM2MDhhYTZlMCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODhkMzRmY2M1MTM0ODliY2IxYmFmYzM4YzJjMDM2YjhmZjdiZjJjYTFiNGEyYmI0NWQ4YmJlODI4NjhkMmJjNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Mason Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFhMTNmNzYxMzRjMTUxMjc2YTgyOTIxMDEyZDFmMGI0OWI5NTEwZmNjN2FmN2VjYTliODE0NDJkYWU0NGQ1YSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:mason'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI5NDBlNzlmOTEzYWE1ZTFlZmY4ZmE5NTA1NWM5ODM0OWNiYjk0MzAzYTRkYjYwYTc5Yzg4NmExN2FhYmU1MiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODViMWYxN2ZlMDQxNWYyYzBjMGQzNzYzOGQzYjkyMTUzNjZkZTYzNjIwMDQzNTZjNGM1ZGZjOTJlYjA4YmNlMSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBiMjZjYTIyYzc2M2QzNTJmMzBiYmMzZWVlODc0NzcxMjU3NzNjZTE2ZTY2NGYxZmIwZjljOTZjOWE4ZGI4MCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEzMjg3ZjE1ZTIxZDgwMmZhNGFlOGJhMDdmYTdkM2RiMGEzZDgwYTUxZjUyMzAzNGQ1NzVmZWFiYzU2NGQ1In19fQ=="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjBlYTQ4OWE4ZWQyOTkxZjk3ZGE0NzYwYjkzNzlkMDA5MjVlN2M3OTFmZjRkZjRmNThiM2VlNmM3YzlmMGU5YiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2YwYzIxYjBkOGRjN2FjMTU4NWU4MWExZWU2OGJmY2M5MjkyYTkwZWEzODU4ODU4NmY3M2E2ZDZhZTIzYmQ1NiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Nitwit Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjNGQ2ZmQ2MTc3YzU0OGMwNzhkZmY1MjRhNzA3OWI4YzgxOWQwNDA5NGQ4NTZlYzQ4MDg3ZTEwNzJmMzhhYiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:nitwit'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM1MmY1ZDVhZTM4ZjE3ZGYxOTE3ZmU1ZmQ5N2RhOTFmNGMzYjY2YTFkZDBhNGI1MTEyNzMwMmI0ZWY3NmYzMyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVhYmRlN2JhOTllNWNmZGFhZWFjNTE0YzZhYTFkNGI0YWVhMGQxZTNjNTY5MWQ1NjA4MjhkNjYxZjQzM2RkMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ5YTQ2Mjc1ZGVjMGMyNDdkZjk4NmRmYjRiMzUxZDI4OWYwMjQyYjVmY2Q2MjBkYWFlMTEzNzI1NzIwYzdjOSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIyNGVjMzk5ODI1MGY5NTA4MzYxMDM5MTgyMjY2Njg3MTAzYjg5NGVjOGI5NDg4M2ZlYWNkM2MzNTFkYjUwNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYxMmI3YjUzMDAxZWY4NTE3MTlmZGY4YzA4OGRlMDNiMTFkNGFlNDNmNmZmNTNhYzVhMjY3ZDI0ZGYxZGM2MCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJjY2EyZDlmMGFlZjQyY2MzMDg2NDE1ZTE0MTk1NjBmMzQzMzRiMTY3YmViZmVmZWNjNDM0OTJjYjE0MTc4OSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjc5ODYyMTI0ZmNmOTVhZWNlNzA4NjI0ZDQwYTRmZTQ2NTgzNTExMTNlNDM2NTI0ZWI1ZjIwZjhmZTVlNjZiNiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:none'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMwOGNjYTNkNjk3YTY0ZjYyYjhlMTY5NTE4MmRhZDdjMGUzMGYyM2RkZjgyZjE2ZTFmZWEzZjIxZDZlNzkzMiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE1ZDM2NjdkMWNiNWE5MjAyMmYwOWQyMDA4ZmZhODQ4ODU3YzU4NjdiZGUxOTU1MmViMTQ3ZjA3ZDZjMjMxYyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY1OWNmZGQxMmY3ODUzMWIyYTI5YzIyYTA5YmNlMDQ0OTE2N2JmMDNjZjYyZThlYmI5MTkxNGQ3Yjg1NzU2NiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ0ZmI4NDNjNGRlMWI3YmY5NzExMTQyNTk5OWJhYjgxODFlMGFmYmE1MmViYzNkMWIzMjA3ZjgxOWEzMjRiZiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MzQwOTI4M2YwYmY0MGZjNDFlN2NiM2UwMzQ5ZTg5MzZhMzJmNTRkYjA0YjhlMjcyZjZjYjQzZjIxNWY5In19fQ=="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE1MmNhNTBhN2M3MDRlYWQ2ZjQyOGMwMmRlZjRlNzAwMDUwNmJmYTIzNjA0MTQ0YjgyM2M4NzI5MDA2ZjQ4NSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Shepherd Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTJmOWI0NzVhMGU3NTAwNTYxNGExOTZkNTRiZTdkNjVhNzA2YzZjNjA1ZWI5M2EzODg2NGU1MTE2YzgxYWY5NCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:shepherd'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI5NWI0NjJmNmQxYTBkMGZiOTg0ZjcwMTBlZDc0MGUzMjgyZWM2ZmM1OWRjN2VlOTdiOGMxYmRhYTY4MGEyYyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThmNjIwNWFlMzMwYzYzODc0ZTk0ZWI5ZmY1OTI3M2ZhYzEzNWQyZThkMGRlNjIwZTgzYzEyMjFmZTU0YjEwMSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTFjMjg0YTAyODUyYmNlM2YxZDMwYTU2ZGIyZDc0NmM5YzQ4NDY5MzNmNTg0ZTYzOWQ0MTAzMDE3ZmZkNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjFmMTFkYTQ0OTU5ZGJlNmZiMzFhNmViMzgxNzEyNDgyNmQyZmJkMGUxMzk5NjVkNWFkMzZjOTA3YzhkZGExYyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkOGU3ZjZkMjVmZmIzY2U3MDM4YTRhMDVjZjQ2YzgzMmFmOTExYjQwZDA1NjMwYzc3MDZhMjQzNDU2OWE5NCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY3YWVmYjdmYWZiYzcwZjhhYjZkOGIwNTdmZWJhZDg3YWE2MzVmNDllNzhiOTY0NWY5ZmM5MjAyNjg2MzkzZCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Toolsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWIwYTFhYjZkMGU5ODgwNTlkMTk5Y2FjNjEyNjhlNmQ5YjBmMzQwOTE0YmM0MzY0ZjUzZDA3OGM2MTI5NTIxYyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:toolsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY1N2NlODUxNmQ1YzhlYjhkYjg1Mjg4MTU1ODliYjRmODg2Y2YzMDMyOGQyZGYxMzQ5MzJmYjIxMWJlZTNlNyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:plains', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Desert Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiY2ZjYWVjYWNlOTIwYTEwYmNhN2Y5YmJjZmJmZWFiNmIxNTI5MjQzNjI3NmNiY2ExNjJiZWQ1YTIzN2I3NiJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:desert', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Jungle Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk0YTk3ZjBkZWQzNWQxMDllYWJhMGIyNjU1NTYxMTE1MjVjOTdhOGEyNDI1NTMzODM3ZGYyMDc0OGYwZGY1OCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:jungle', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Savanna Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ4MjViYzQxZTQ2NDFjMzQyYjVjYTFiMzQ3YTk3MTEzMmIxZGJhM2NhMWMyMWJhZTI3MzI3NjA1YmIwZTdmYSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:savanna', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Snow Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk4OWVlN2YwZWUxNmFjY2NkYzhlM2EwZmU4MWI3ZjUzMmY4ZjY5ODQ0ZjE5M2RjNmUxYWNmYTAyZDJlZmMyNyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:snow', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Swamp Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk3M2YyN2QyYmJkNjhjYjg0OGU4Y2UxNjI1ZTRkNDg0NzQzYTMyNTVjZjI3YTFhYjFmNmNjOTExOGYzODkwNSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:swamp', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                "minecraft:custom_name": "\"Taiga Weaponsmith Zombie Villager\"",
+                "minecraft:profile": {
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YxMmQ2ZTczNzBiMTNkYWVjMjcwNTBlNzBjMjMyNjJkZWY3YzBiM2E2MDYwYjNkOTRlZTQ3ODQ0MmE1NjY5NCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{VillagerData:{type:'minecraft:taiga', profession:'minecraft:weaponsmith'}}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

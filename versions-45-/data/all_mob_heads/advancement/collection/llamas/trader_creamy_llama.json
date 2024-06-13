@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYzMDdmNDJmYzg4ZWJjMjExZTA0ZWEyYmI0ZDI0N2I3NDI4YjcxMWRmOWE0ZTBjNmQxYjkyMTU4OWU0NDNhMSJ9fX0=" }] } }
+		},
+		"title": "Creamy Trader Llama",
+		"description": "5% with Looting I then + 2% per Looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/llamas/white_llama",
+	"criteria": {
+		"trader_creamy_llama": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYzMDdmNDJmYzg4ZWJjMjExZTA0ZWEyYmI0ZDI0N2I3NDI4YjcxMWRmOWE0ZTBjNmQxYjkyMTU4OWU0NDNhMSJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}
