@@ -1,0 +1,8 @@
+{
+   "criteria":{
+      "end":{
+         "trigger":"minecraft:location"
+      }
+   },
+    "parent": "all_mob_heads:collection/zombie_villagers/desert/15_weaponsmith_desert_zombie_villager"
+}

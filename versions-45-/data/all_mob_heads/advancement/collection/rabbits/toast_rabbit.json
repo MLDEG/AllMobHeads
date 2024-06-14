@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUxMzJmMjg4NjVjZTRkYzA2MDYzNjkzOTQ0NzQ0MGZmMDQzMzk3N2YzYjZjNzNhZGM2NzRkYjJmYjRkYjY5NiJ9fX0=" }] } }
+		},
+		"title": "Toast Rabbit",
+		"description": "5% with Looting I then + 5% per Looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/rabbits/black_and_white_rabbit",
+	"criteria": {
+		"toast_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUxMzJmMjg4NjVjZTRkYzA2MDYzNjkzOTQ0NzQ0MGZmMDQzMzk3N2YzYjZjNzNhZGM2NzRkYjJmYjRkYjY5NiJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}

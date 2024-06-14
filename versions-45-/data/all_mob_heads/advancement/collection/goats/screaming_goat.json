@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+		"id": "minecraft:player_head",
+		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlMDAyOGQzOWM5Y2ViYTNjZTU0NTA0ZWU1MzJhNzg3YTExNTI3NjI1MTk0ZDgxZjgyNDE0NDYxOTc1Zjc0MCJ9fX0=" }] } }
+		},
+		"title": "Screaming Goat",
+		"description": "100% with Looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/goats/goat_without_horns",
+	"criteria": {
+		"screaming_goat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlMDAyOGQzOWM5Y2ViYTNjZTU0NTA0ZWU1MzJhNzg3YTExNTI3NjI1MTk0ZDgxZjgyNDE0NDYxOTc1Zjc0MCJ9fX0=" }] } }
+					}
+				]
+			}
+		}
+	}
+}

@@ -2,16 +2,21 @@
    "pack":
       {
       "pack_format": 16,
-      "supported_formats": { "min_inclusive": 16, "max_inclusive": 999999999 },
+      "supported_formats": { "min_inclusive": 16, "max_inclusive": 999 },
       "description": "All Mob Heads",
       "author": "MLDEG",
-      "last_update": "2024-04-19"
+      "last_update": "2024-06-13"
       },
    "overlays":
       {
       "entries":
          [
-         { "formats": { "min_inclusive": 33, "max_inclusive": 999999999 }, "directory": "overlay-33-" }
+         {"formats": { "min_inclusive": 16, "max_inclusive": 32 }, "directory": "versions-16-44",
+         "__comment": "From 23w31a to 24w07a (1.20.2 to 1.20.4)"},
+         {"formats": { "min_inclusive": 33, "max_inclusive": 44 }, "directory": "versions-33-44",
+         "__comment": "From 24w09a to 1.20.6 (1.20.5 to 1.20.6)"},
+         {"formats": { "min_inclusive": 45, "max_inclusive": 999 }, "directory": "versions-45-",
+         "__comment": "From 24w21a to # (1.21 to 1.#)"}
          ]
       }
 }

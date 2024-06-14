@@ -1,0 +1,199 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "vanilla:entities/bee"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "conditions": [
+              {
+                "condition": "killed_by_player"
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{CustomName: '\"potato\"'}"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:random_chance_with_enchanted_bonus",
+                "enchantment": "minecraft:looting",
+                "unenchanted_chance": 0.0,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.01,
+                  "per_level_above_first": 0.02
+                }
+              }
+            ],
+            "children": [
+              {
+                "type": "item",
+                "name": "minecraft:player_head",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:note_block_sound": "minecraft:entity.bee.loop",
+                      "minecraft:custom_name": "\"Bee\"",
+                      "minecraft:profile": {
+                        "properties": [
+                          {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0="
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{HasNectar:0b, AngerTime:0}"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:player_head",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:note_block_sound": "minecraft:entity.bee.loop",
+                      "minecraft:custom_name": "\"Bee Pollinated\"",
+                      "minecraft:profile": {
+                        "properties": [
+                          {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjcyN2QwYWIwM2Y1Y2QwMjJmODcwNWQzZjdmMTMzY2E0OTIwZWFlOGUxZTQ3YjUwNzQ0MzNhMTM3ZTY5MWU0ZSJ9fX0="
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{HasNectar:1b, AngerTime:0}"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:player_head",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:note_block_sound": "minecraft:entity.bee.loop_aggressive",
+                      "minecraft:custom_name": "\"Bee Angry\"",
+                      "minecraft:profile": {
+                        "properties": [
+                          {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQwMDIyM2YxZmE1NDc0MWQ0MjFkN2U4MDQ2NDA5ZDVmM2UxNWM3ZjQzNjRiMWI3Mzk5NDAyMDhmM2I2ODZkNCJ9fX0="
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
+                  }
+                },
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{HasNectar:0b}"
+                  }
+                }
+                ]
+              },
+              {
+                "type": "item",
+                "name": "minecraft:player_head",
+                "functions": [
+                  {
+                    "function": "minecraft:set_components",
+                    "components": {
+                      "minecraft:note_block_sound": "minecraft:entity.bee.loop_aggressive",
+                      "minecraft:custom_name": "\"Bee Pollinated Angry\"",
+                      "minecraft:profile": {
+                        "properties": [
+                          {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiNzRlMDUyYjc0Mjg4Nzk5YmE2ZDlmMzVjNWQwMjIxY2Y4YjA0MzMxNTQ3ZWMyZjY4ZDczNTk3YWUyYzliIn19fQ=="
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ],
+                "conditions": [
+                  {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
+                  }
+                },
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{HasNectar:1b}"
+                  }
+                }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:entities/potato/bee"
+          }
+        ]
+      }
+    ]
+  }
+  
