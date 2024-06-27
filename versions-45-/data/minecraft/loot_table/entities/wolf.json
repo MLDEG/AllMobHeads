@@ -58,7 +58,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -138,7 +138,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -218,7 +218,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -298,7 +298,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -378,7 +378,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -458,7 +458,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -538,7 +538,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -618,7 +618,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
@@ -698,7 +698,7 @@
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
-                    "nbt": "{Attributes:[{Name: 'minecraft:generic.max_health'}]}"
+                    "nbt": "{attributes:[{id: 'minecraft:generic.max_health'}]}"
                   }
                 }
               },
