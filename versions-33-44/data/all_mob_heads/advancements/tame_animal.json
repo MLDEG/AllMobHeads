@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"all_mob_heads:tame_animal": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": {
+					"type": "#all_mob_heads:tameable_animal"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "all_mob_heads:tame_animal"
+	}
+}
