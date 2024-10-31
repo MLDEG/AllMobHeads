@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"all_mob_heads:bred_animals": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"child": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#all_mob_heads:tameable_animal"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "all_mob_heads:bred_animals"
+	}
+}
