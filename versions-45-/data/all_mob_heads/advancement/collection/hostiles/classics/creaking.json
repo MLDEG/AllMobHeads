@@ -21,7 +21,10 @@
             }
         },
         "title": "Creaking",
-        "description": "10% natural or 0.5% crafted, must be active.",
+        "description": [
+            "Drops by breaking the Creaking Heart.   ",
+            "10% natural or 0.5% crafted, must be active."
+        ],
         "frame": "task",
         "announce_to_chat": false,
         "show_toast": true
