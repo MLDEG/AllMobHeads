@@ -15,6 +15,13 @@
 								"minecraft:note_block_sound": "minecraft:entity.allay.ambient_without_item",
 								"minecraft:custom_name": "\"Golden Allay\"",
 								"minecraft:profile": {
+									"name": "",
+									"id": [
+										0,
+										0,
+										0,
+										0
+									],
 									"properties": [
 										{
 											"name": "textures",

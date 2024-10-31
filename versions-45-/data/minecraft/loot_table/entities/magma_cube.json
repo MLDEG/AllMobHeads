@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.magma_cube.jump",
                 "minecraft:custom_name": "\"Magma Cube\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

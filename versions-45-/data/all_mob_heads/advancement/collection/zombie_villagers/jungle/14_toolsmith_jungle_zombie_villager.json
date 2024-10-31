@@ -1,14 +1,30 @@
 {
 	"display": {
 		"icon": {
-		"id": "minecraft:player_head",
-		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTFjMjg0YTAyODUyYmNlM2YxZDMwYTU2ZGIyZDc0NmM5YzQ4NDY5MzNmNTg0ZTYzOWQ0MTAzMDE3ZmZkNSJ9fX0=" }] } }
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [
+						0,
+						0,
+						0,
+						0
+					],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTFjMjg0YTAyODUyYmNlM2YxZDMwYTU2ZGIyZDc0NmM5YzQ4NDY5MzNmNTg0ZTYzOWQ0MTAzMDE3ZmZkNSJ9fX0="
+						}
+					]
+				}
+			}
 		},
 		"title": "Jungle Toolsmith Zombie Villager",
 		"description": "6% with Looting I then + 10% per Looting",
-        "frame": "task",
-        "announce_to_chat": false,
-        "show_toast": true
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
 	},
 	"parent": "all_mob_heads:collection/zombie_villagers/jungle/13_shepherd_jungle_zombie_villager",
 	"criteria": {
@@ -18,7 +34,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTFjMjg0YTAyODUyYmNlM2YxZDMwYTU2ZGIyZDc0NmM5YzQ4NDY5MzNmNTg0ZTYzOWQ0MTAzMDE3ZmZkNSJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdmMTFjMjg0YTAyODUyYmNlM2YxZDMwYTU2ZGIyZDc0NmM5YzQ4NDY5MzNmNTg0ZTYzOWQ0MTAzMDE3ZmZkNSJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}

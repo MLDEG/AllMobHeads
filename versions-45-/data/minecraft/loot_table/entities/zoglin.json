@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.zoglin.ambient",
                 "minecraft:custom_name": "\"Zoglin\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.cow.ambient",
                     "minecraft:custom_name": "\"Red Mooshroom\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -71,6 +78,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.cow.hurt",
                     "minecraft:custom_name": "\"Brown Mooshroom\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

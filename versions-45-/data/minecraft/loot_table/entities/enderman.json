@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.enderman.stare",
                 "minecraft:custom_name": "\"Enderman\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

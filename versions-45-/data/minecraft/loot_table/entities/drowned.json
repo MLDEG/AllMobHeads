@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.drowned.ambient_water",
                 "minecraft:custom_name": "\"Drowned\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -5,8 +5,8 @@
 		},
 		"title": "Dogs",
 		"description": "Dogs Heads Collection",
-        "announce_to_chat": true,
-        "frame": "goal"
+		"announce_to_chat": true,
+		"frame": "goal"
 	},
 	"parent": "all_mob_heads:collection/canidae",
 	"criteria": {
@@ -16,7 +16,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY1ZWVhNzZhMGRlMzJmMzk5NDQ0ODgzYjM2OTNhNzI5NTAyODBmNGQxNzE0ZjU1ZWNkYThkZGY1YmY5MjBjNSJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY1ZWVhNzZhMGRlMzJmMzk5NDQ0ODgzYjM2OTNhNzI5NTAyODBmNGQxNzE0ZjU1ZWNkYThkZGY1YmY5MjBjNSJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -27,7 +43,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MWM4NjhjODJmMGU3OGRlZjgyZmJmOTg4YzVjZjdjZWRmYTQ4MDM4Y2IxMTVmYmE5OGEwMTc4YTM1MDA0ZSJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MWM4NjhjODJmMGU3OGRlZjgyZmJmOTg4YzVjZjdjZWRmYTQ4MDM4Y2IxMTVmYmE5OGEwMTc4YTM1MDA0ZSJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -38,7 +70,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMyMTJlNDQ4Yjk1YzI2NmMwYTFkZDRmMjA2NGYwM2MwNDYwNmFlYzFhZGJkY2ZmOTJhNGNiNDI3YTdiYTRlIn19fQ==" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMyMTJlNDQ4Yjk1YzI2NmMwYTFkZDRmMjA2NGYwM2MwNDYwNmFlYzFhZGJkY2ZmOTJhNGNiNDI3YTdiYTRlIn19fQ=="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -49,7 +97,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjZDYzNmU5MzlkODY4MGM1YWRlYTFjOTA0OTA4ZjEwMWQ4Nzk5YTA3YjdmOTgxYWY2ZGM0OWE1MTc3YzExIn19fQ==" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjZDYzNmU5MzlkODY4MGM1YWRlYTFjOTA0OTA4ZjEwMWQ4Nzk5YTA3YjdmOTgxYWY2ZGM0OWE1MTc3YzExIn19fQ=="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -60,7 +124,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2OTNlNTk2N2MwZTc4NWE3ZGU4MTNkMWI2MmM0YTc1YTBjMGE1OGMzYzNlNGVhN2Q0OTlkZjE3YmEwZmQ4NyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2OTNlNTk2N2MwZTc4NWE3ZGU4MTNkMWI2MmM0YTc1YTBjMGE1OGMzYzNlNGVhN2Q0OTlkZjE3YmEwZmQ4NyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -71,7 +151,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2NGUwY2M5M2MxZTE0NjAxMjY3MmJkMDMzMWRjNmE0NDRmNDEzYjEwYTg5MDlhODYzZmRmOWU3YTM0OWE4NyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2NGUwY2M5M2MxZTE0NjAxMjY3MmJkMDMzMWRjNmE0NDRmNDEzYjEwYTg5MDlhODYzZmRmOWU3YTM0OWE4NyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -82,7 +178,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzNTU0ODljYzU4MzgyMjFiOTRmM2UxOWRjMjYyOTJiZGNjMDFlM2RkNzBhOGIyMmM4MjhmMjI1ZTE5ODE0MCJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzNTU0ODljYzU4MzgyMjFiOTRmM2UxOWRjMjYyOTJiZGNjMDFlM2RkNzBhOGIyMmM4MjhmMjI1ZTE5ODE0MCJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -93,7 +205,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI0M2RiYTk3MjQxNjU5N2M2YTg5MDBhYjViZmNhMDVjYzE1Nzg2NDMxNmJlYmM2M2RmN2Q2OTU4NDI5N2ExYiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI0M2RiYTk3MjQxNjU5N2M2YTg5MDBhYjViZmNhMDVjYzE1Nzg2NDMxNmJlYmM2M2RmN2Q2OTU4NDI5N2ExYiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -104,7 +232,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNkMDRjYjUzOGM0Y2M1MGM0ODllYWViMWQyMjFjZWVjZDkxYzk1MzI4MjM5ZDNjZmY3YjJhZDM5ZTQ2Zjc4NiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNkMDRjYjUzOGM0Y2M1MGM0ODllYWViMWQyMjFjZWVjZDkxYzk1MzI4MjM5ZDNjZmY3YjJhZDM5ZTQ2Zjc4NiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -115,7 +259,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyYWQ0OGUzODRmMDZkZDU5ZTY0NWMzMjBjNzBjYzIzYTE5ZGZhYjc4YmIwOWE5ODI3Y2YzOGFhZTgwNzc2ZiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMyYWQ0OGUzODRmMDZkZDU5ZTY0NWMzMjBjNzBjYzIzYTE5ZGZhYjc4YmIwOWE5ODI3Y2YzOGFhZTgwNzc2ZiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -126,7 +286,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM0NTNkOTcwODg0ZWZkMDgzZDc1MWQ4ODNjMTgwMGJmZGVmY2I0OWJmZDEzYzM1NTZlNjYzZTk1ZmEwZTdjZCJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM0NTNkOTcwODg0ZWZkMDgzZDc1MWQ4ODNjMTgwMGJmZGVmY2I0OWJmZDEzYzM1NTZlNjYzZTk1ZmEwZTdjZCJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -137,7 +313,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjMzM3ZWJiZjk4ZDU3YzFhNzUxOGNiNjlkYWQ2YjI3OTJjMGM1ZjI5YWJhMzdjYzVmYTRiZDlkNWRlMmMwMyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjMzM3ZWJiZjk4ZDU3YzFhNzUxOGNiNjlkYWQ2YjI3OTJjMGM1ZjI5YWJhMzdjYzVmYTRiZDlkNWRlMmMwMyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -148,7 +340,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcwNjExZTA3MzRjYWFhOWQ2YjkxNWQ1MTVmNGFhNWFhODgwMzJlOTAyZGFiNGQ2YTIzMWYwNWQ0ZmNlYWRlNyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTcwNjExZTA3MzRjYWFhOWQ2YjkxNWQ1MTVmNGFhNWFhODgwMzJlOTAyZGFiNGQ2YTIzMWYwNWQ0ZmNlYWRlNyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -159,7 +367,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBhZjdkOThjYmU0ZTIyODc1MzUxOWYwNTBhODkzNmUwYmM3NmQyZDVhNTBmYjBmZDQ3ZWU1MDc1YzQ5YTRlYiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBhZjdkOThjYmU0ZTIyODc1MzUxOWYwNTBhODkzNmUwYmM3NmQyZDVhNTBmYjBmZDQ3ZWU1MDc1YzQ5YTRlYiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -170,7 +394,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBiNjgyYTdmOWEzMDM1NjhhODc3NDNiOTlhMmI4ODRmZDAzNGU5ZWI4ZGNiODAzZWQwNTM2MTIzNTMxN2M0MiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBiNjgyYTdmOWEzMDM1NjhhODc3NDNiOTlhMmI4ODRmZDAzNGU5ZWI4ZGNiODAzZWQwNTM2MTIzNTMxN2M0MiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -181,13 +421,29 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRkZDcxYzMxOWJlZTI5ZDRlZjdmMDE2YjRjNWMzNWRhZDI0MjM5MmY0ZDg4NTNlOTJiZDVjNmM5MDI1ZTBiOSJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRkZDcxYzMxOWJlZTI5ZDRlZjdmMDE2YjRjNWMzNWRhZDI0MjM5MmY0ZDg4NTNlOTJiZDVjNmM5MDI1ZTBiOSJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
 		}
 	},
-    "rewards": {
-        "experience": 1000
-    }
+	"rewards": {
+		"experience": 1000
+	}
 }

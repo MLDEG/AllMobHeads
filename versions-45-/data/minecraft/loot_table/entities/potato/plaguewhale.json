@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.elder_guardian.curse",
                 "minecraft:custom_name": "\"Plaguewhale\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

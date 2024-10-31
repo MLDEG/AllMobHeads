@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.generic.eat",
                 "minecraft:custom_name": "\"Maki\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

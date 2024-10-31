@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.mooshroom.convert",
                 "minecraft:custom_name": "\"Moobloom\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.cow.milk",
                 "minecraft:custom_name": "\"Milk Bucket\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

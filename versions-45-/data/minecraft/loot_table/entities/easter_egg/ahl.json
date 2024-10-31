@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:item.lodestone_compass.lock",
                 "minecraft:custom_name": "\"ahl\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

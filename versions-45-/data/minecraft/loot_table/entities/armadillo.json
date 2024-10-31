@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.armadillo.death",
                     "minecraft:custom_name": "\"Armadillo\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -74,6 +81,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.armadillo.roll",
                     "minecraft:custom_name": "\"Armadillo Scared\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

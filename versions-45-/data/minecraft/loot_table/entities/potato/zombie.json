@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.zombie.ambient",
                 "minecraft:custom_name": "\"Potato Zombie\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -1,14 +1,30 @@
 {
 	"display": {
 		"icon": {
-		"id": "minecraft:player_head",
-		"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2OTM4ZDRmOTliOGEyMTMzOWU4N2U0M2E0NjFmZDg3NDVlNzY2YjQyNTNhMzU3MTkxYTdkZGI0NjMzNDRiMiJ9fX0=" }] } }
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [
+						0,
+						0,
+						0,
+						0
+					],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2OTM4ZDRmOTliOGEyMTMzOWU4N2U0M2E0NjFmZDg3NDVlNzY2YjQyNTNhMzU3MTkxYTdkZGI0NjMzNDRiMiJ9fX0="
+						}
+					]
+				}
+			}
 		},
 		"title": "Zombie Horse",
 		"description": "100%. renamed a Skeleton Horse 'zombie'",
-        "frame": "task",
-        "announce_to_chat": false,
-        "show_toast": true
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
 	},
 	"parent": "all_mob_heads:collection/horses/skeleton_horse",
 	"criteria": {
@@ -18,7 +34,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2OTM4ZDRmOTliOGEyMTMzOWU4N2U0M2E0NjFmZDg3NDVlNzY2YjQyNTNhMzU3MTkxYTdkZGI0NjMzNDRiMiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2OTM4ZDRmOTliOGEyMTMzOWU4N2U0M2E0NjFmZDg3NDVlNzY2YjQyNTNhMzU3MTkxYTdkZGI0NjMzNDRiMiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}

@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.spider.ambient",
                 "minecraft:custom_name": "\"Potato Spider\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

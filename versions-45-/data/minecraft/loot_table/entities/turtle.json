@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.turtle.hurt",
                 "minecraft:custom_name": "\"Turtle\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

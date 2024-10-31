@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Pale Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -53,22 +60,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:pale', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -81,6 +88,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Pale Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -93,22 +107,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:pale'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -121,6 +135,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Woods Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -133,22 +154,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:woods', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -161,6 +182,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Woods Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -173,22 +201,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:woods'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -201,6 +229,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Ashen Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -213,22 +248,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:ashen', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -241,6 +276,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Ashen Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -253,22 +295,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:ashen'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -281,6 +323,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Black Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -293,22 +342,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:black', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -321,6 +370,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Black Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -333,22 +389,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:black'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -361,6 +417,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Chestnut Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -373,22 +436,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:chestnut', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -401,6 +464,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Chestnut Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -413,22 +483,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:chestnut'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -441,6 +511,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Rusty Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -453,22 +530,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:rusty', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -481,6 +558,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Rusty Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -493,22 +577,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:rusty'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -521,6 +605,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Spotted Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -533,22 +624,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:spotted', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -561,6 +652,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Spotted Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -573,22 +671,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:spotted'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -601,6 +699,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Striped Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -613,22 +718,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:striped', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -641,6 +746,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Striped Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -653,22 +765,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:striped'}"
                   }
-              }
+                }
               ]
             },
             {
@@ -681,6 +793,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Snowy Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -693,22 +812,22 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{ Tags: ['AMHTamed'] }"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{ Tags: ['AMHTamed'] }"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:snowy', AngerTime:0}"
                   }
-              }
+                }
               ]
             },
             {
@@ -721,6 +840,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.growl",
                     "minecraft:custom_name": "\"Angry Snowy Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -733,25 +859,25 @@
               ],
               "conditions": [
                 {
-                "condition": "minecraft:inverted",
-                "term": {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "nbt": "{AngerTime:0}"
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{AngerTime:0}"
+                    }
                   }
-                }
-              },
+                },
                 {
                   "condition": "minecraft:entity_properties",
                   "entity": "this",
                   "predicate": {
                     "nbt": "{variant: 'minecraft:snowy'}"
                   }
-              }
+                }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -761,6 +887,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"White Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -781,7 +914,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -791,6 +924,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Orange Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -811,7 +951,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -821,6 +961,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Magenta Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -841,7 +988,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -851,6 +998,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Light Blue Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -871,7 +1025,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -881,6 +1035,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Yellow Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -901,7 +1062,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -911,6 +1072,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Lime Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -931,7 +1099,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -941,6 +1109,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Pink Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -961,7 +1136,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -971,6 +1146,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Gray Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -991,7 +1173,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1001,6 +1183,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Light Gray Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1021,7 +1210,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1031,6 +1220,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Cyan Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1051,7 +1247,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1061,6 +1257,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Purple Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1081,7 +1284,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1091,6 +1294,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Blue Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1111,7 +1321,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1121,6 +1331,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Brown Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1141,7 +1358,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1151,6 +1368,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Green Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1171,7 +1395,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1181,6 +1405,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Red Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -1201,7 +1432,7 @@
                 }
               ]
             },
-            { 
+            {
               "type": "item",
               "name": "minecraft:player_head",
               "functions": [
@@ -1211,6 +1442,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
                     "minecraft:custom_name": "\"Black Collared Wolf\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

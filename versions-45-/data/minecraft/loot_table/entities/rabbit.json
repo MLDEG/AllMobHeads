@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
                     "minecraft:custom_name": "\"Toast\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -71,6 +78,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.hurt",
                     "minecraft:custom_name": "\"Brown Rabbit\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -101,6 +115,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
                     "minecraft:custom_name": "\"White Rabbit\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -131,6 +152,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.hurt",
                     "minecraft:custom_name": "\"Black Rabbit\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -161,6 +189,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
                     "minecraft:custom_name": "\"Black and White Rabbit\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -191,6 +226,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.hurt",
                     "minecraft:custom_name": "\"Gold Rabbit\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -221,6 +263,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
                     "minecraft:custom_name": "\"Salt and Pepper Rabbit\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -251,6 +300,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.rabbit.attack",
                     "minecraft:custom_name": "\"The Killer Bunny\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

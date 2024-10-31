@@ -39,6 +39,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.strider.happy",
                 "minecraft:custom_name": "\"Strider\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",
@@ -61,6 +68,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.strider.retreat",
                 "minecraft:custom_name": "\"Cold Strider\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

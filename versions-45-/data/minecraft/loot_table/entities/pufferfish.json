@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.puffer_fish.death",
                 "minecraft:custom_name": "\"Pufferfish\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

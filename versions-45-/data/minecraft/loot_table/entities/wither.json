@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.wither.ambient",
                 "minecraft:custom_name": "\"Wither\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",
@@ -46,6 +53,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.wither.spawn",
                 "minecraft:custom_name": "\"Invulnerable Wither\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",
@@ -68,6 +82,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.wither.ambient",
                 "minecraft:custom_name": "\"Wither\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",
@@ -90,6 +111,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.wither.spawn",
                 "minecraft:custom_name": "\"Invulnerable Wither\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -5,8 +5,8 @@
 		},
 		"title": "Anti Villagers",
 		"description": "Anti Villager Heads Collection",
-        "announce_to_chat": true,
-        "frame": "goal"
+		"announce_to_chat": true,
+		"frame": "goal"
 	},
 	"parent": "all_mob_heads:collection/hostiles",
 	"criteria": {
@@ -16,7 +16,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIwYTZhNWY2ZDAwNzMxODVjOTUwYTFiNTc0NDRiYTZhODdmNDM2MWNiMjIxZDg3YjA2Mzc5MDNkYzFjNmU1MiJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmIwYTZhNWY2ZDAwNzMxODVjOTUwYTFiNTc0NDRiYTZhODdmNDM2MWNiMjIxZDg3YjA2Mzc5MDNkYzFjNmU1MiJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -27,7 +43,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhhZWNkYTRkNjgyZjJiNjQxNjM1YjU3NmRiN2ViYjZjOGU1YjFhMzMxNzJkMjhmNmE4MWUzMjg3MjkzYzQ3NyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhhZWNkYTRkNjgyZjJiNjQxNjM1YjU3NmRiN2ViYjZjOGU1YjFhMzMxNzJkMjhmNmE4MWUzMjg3MjkzYzQ3NyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -38,7 +70,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzOWQzMjVmNDQ5NDI1OGE0NzNhOTNhM2I0N2YzNGEwYzUxYjNmY2VhZjU5ZmVlODcyMDVhNWU3ZmYzMWY2OCJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYzOWQzMjVmNDQ5NDI1OGE0NzNhOTNhM2I0N2YzNGEwYzUxYjNmY2VhZjU5ZmVlODcyMDVhNWU3ZmYzMWY2OCJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -49,7 +97,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUzOWI0NmY4MWZkNmUxMjYxZTE0ODU4OGNkOWEzOWYxZjA5OWQzMDA1YTExODljN2JmN2IzZjc4MGNkMGU3NyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmUzOWI0NmY4MWZkNmUxMjYxZTE0ODU4OGNkOWEzOWYxZjA5OWQzMDA1YTExODljN2JmN2IzZjc4MGNkMGU3NyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -60,7 +124,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QyMGJmNTJlYzM5MGEwNzk5Mjk5MTg0ZmM2NzhiZjg0Y2Y3MzJiYjFiZDc4ZmQxYzRiNDQxODU4ZjAyMzVhOCJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QyMGJmNTJlYzM5MGEwNzk5Mjk5MTg0ZmM2NzhiZjg0Y2Y3MzJiYjFiZDc4ZmQxYzRiNDQxODU4ZjAyMzVhOCJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -71,7 +151,23 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY5YTdjNmYwYTczNThjNTk0YzI5ZDNkNDJjZjdiNjk2MzhlZjNiNWIzZWMxZjlkMzgxNTBjOGIyYmZmNzgxMyJ9fX0=" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY5YTdjNmYwYTczNThjNTk0YzI5ZDNkNDJjZjdiNjk2MzhlZjNiNWIzZWMxZjlkMzgxNTBjOGIyYmZmNzgxMyJ9fX0="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
@@ -82,15 +178,31 @@
 				"items": [
 					{
 						"items": "minecraft:player_head",
-						"components": { "minecraft:profile": { "properties": [ { "name": "textures", "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0YjEwMzUwMWE0NWNiYmZmOWRhMzY4ZWY5ZTFkYjU1OTE2MTU1YTQ0Y2E4ODEyZjg3MWRmZDYxZGI1YWRlIn19fQ==" }] } }
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0YjEwMzUwMWE0NWNiYmZmOWRhMzY4ZWY5ZTFkYjU1OTE2MTU1YTQ0Y2E4ODEyZjg3MWRmZDYxZGI1YWRlIn19fQ=="
+									}
+								]
+							}
+						}
 					}
 				]
 			}
 		}
 	},
-    "rewards": {
-        "loot": [
-            "all_mob_heads:antivillager"
-        ]
-    }
+	"rewards": {
+		"loot": [
+			"all_mob_heads:antivillager"
+		]
+	}
 }

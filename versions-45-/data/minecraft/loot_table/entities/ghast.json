@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.ghast.ambient",
                 "minecraft:custom_name": "\"Ghast\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",
@@ -46,6 +53,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.ghast.warn",
                 "minecraft:custom_name": "\"Screaming Ghast\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

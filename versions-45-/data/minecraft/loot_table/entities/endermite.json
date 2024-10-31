@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.endermite.hurt",
                 "minecraft:custom_name": "\"Endermite\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

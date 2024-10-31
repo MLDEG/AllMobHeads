@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.wither.death",
                 "minecraft:custom_name": "\"The Pinkinator\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

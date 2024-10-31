@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.tadpole.death",
                 "minecraft:custom_name": "\"Tadpole\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

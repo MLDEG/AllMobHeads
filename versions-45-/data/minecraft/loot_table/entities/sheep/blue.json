@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.sheep.ambient",
                 "minecraft:custom_name": "\"Blue Sheep\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

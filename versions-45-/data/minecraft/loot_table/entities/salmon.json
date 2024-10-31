@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.salmon.death",
                 "minecraft:custom_name": "\"Salmon\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.goat.death",
                 "minecraft:custom_name": "\"Goat Without Horns\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

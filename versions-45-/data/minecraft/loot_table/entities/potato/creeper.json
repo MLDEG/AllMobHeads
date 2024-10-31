@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.creeper.hurt",
                 "minecraft:custom_name": "\"Potato Creeper\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

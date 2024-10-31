@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.evoker.prepare_summon",
                 "minecraft:custom_name": "\"Evoker\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

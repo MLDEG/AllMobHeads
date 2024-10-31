@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.snow_golem.death",
                     "minecraft:custom_name": "\"Snow Golem\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -71,6 +78,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.snow_golem.death",
                     "minecraft:custom_name": "\"Snowman\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

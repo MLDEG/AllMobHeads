@@ -24,6 +24,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.zombie_horse.ambient",
                 "minecraft:custom_name": "\"Zombie Horse\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

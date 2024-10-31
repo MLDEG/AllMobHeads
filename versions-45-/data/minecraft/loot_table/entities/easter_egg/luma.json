@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.cat.purreow",
                 "minecraft:custom_name": "\"Luma\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

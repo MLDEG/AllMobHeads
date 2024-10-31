@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:weather.rain",
                 "minecraft:custom_name": "\"thoyy\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

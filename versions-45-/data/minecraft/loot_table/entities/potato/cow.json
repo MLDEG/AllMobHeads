@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.cow.ambient",
                 "minecraft:custom_name": "\"Potato Cow\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

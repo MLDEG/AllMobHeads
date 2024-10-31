@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.goat.screaming.prepare_ram",
                 "minecraft:custom_name": "\"Screaming Goat Right Horn\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

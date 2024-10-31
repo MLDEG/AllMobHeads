@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.bee.loop",
                 "minecraft:custom_name": "\"Potato Bee\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

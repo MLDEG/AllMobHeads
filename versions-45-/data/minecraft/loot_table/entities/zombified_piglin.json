@@ -31,6 +31,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.zombified_piglin.ambient",
                     "minecraft:custom_name": "\"Zombified Piglin\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

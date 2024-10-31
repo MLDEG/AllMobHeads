@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.axolotl.death",
                     "minecraft:custom_name": "\"Axolotl Lucy\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -71,6 +78,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.axolotl.death",
                     "minecraft:custom_name": "\"Axolotl Wild\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -101,6 +115,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.axolotl.death",
                     "minecraft:custom_name": "\"Axolotl Gold\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -131,6 +152,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.axolotl.death",
                     "minecraft:custom_name": "\"Axolotl Cyan\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -162,6 +190,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.axolotl.death",
                     "minecraft:custom_name": "\"Axolotl Blue\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

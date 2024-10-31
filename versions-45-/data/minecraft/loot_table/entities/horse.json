@@ -41,6 +41,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.ambient",
                     "minecraft:custom_name": "\"White Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -104,6 +111,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.angry",
                     "minecraft:custom_name": "\"Creamy Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -167,6 +181,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.death",
                     "minecraft:custom_name": "\"Chestnut Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -230,6 +251,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.gallop",
                     "minecraft:custom_name": "\"Brown Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -293,6 +321,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.hurt",
                     "minecraft:custom_name": "\"Black Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -356,6 +391,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.land",
                     "minecraft:custom_name": "\"Gray Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",
@@ -419,6 +461,13 @@
                     "minecraft:note_block_sound": "minecraft:entity.horse.ambient",
                     "minecraft:custom_name": "\"Dark Brown Horse\"",
                     "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
                       "properties": [
                         {
                           "name": "textures",

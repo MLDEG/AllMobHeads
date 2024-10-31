@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.wandering_trader.drink_milk",
                 "minecraft:custom_name": "\"Beer\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",

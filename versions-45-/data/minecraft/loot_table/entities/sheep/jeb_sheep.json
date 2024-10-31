@@ -15,6 +15,13 @@
                 "minecraft:note_block_sound": "minecraft:entity.sheep.ambient",
                 "minecraft:custom_name": "\"Jeb_ Sheep\"",
                 "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
                   "properties": [
                     {
                       "name": "textures",
