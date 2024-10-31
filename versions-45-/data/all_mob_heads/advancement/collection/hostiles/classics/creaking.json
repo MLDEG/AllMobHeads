@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "",
+                    "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0OTI5NGY3YjQyMDJhYTg1MTg2YTFjMzQ3NzM1NjM2Y2UyMThlYzRkNDgxODhiY2E2ZDM2ZjM2ZDhjMDc4NSJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "title": "Creaking",
+        "description": "10% natural or 0.5% crafted, must be active.",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "all_mob_heads:collection/hostiles/classics/breeze",
+    "criteria": {
+        "creaking": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:player_head",
+                        "components": {
+                            "minecraft:profile": {
+                                "name": "",
+                                "id": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ0OTI5NGY3YjQyMDJhYTg1MTg2YTFjMzQ3NzM1NjM2Y2UyMThlYzRkNDgxODhiY2E2ZDM2ZjM2ZDhjMDc4NSJ9fX0="
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

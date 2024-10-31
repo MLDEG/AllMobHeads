@@ -1,8 +1,8 @@
 {
-   "criteria":{
-      "end":{
-         "trigger":"minecraft:location"
+   "criteria": {
+      "end": {
+         "trigger": "minecraft:location"
       }
    },
-    "parent": "all_mob_heads:collection/hostiles/classics/breeze"
+   "parent": "all_mob_heads:collection/hostiles/classics/creaking"
 }
