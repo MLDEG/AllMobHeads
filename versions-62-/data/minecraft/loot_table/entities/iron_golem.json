@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/iron_golem"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.iron_golem.death",
+                "minecraft:custom_name": "\"Iron Golem\"",
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI3MTkxM2EzZmM4ZjU2YmRmNmI5MGE0YjRlZDZhMDVjNTYyY2UwMDc2YjUzNDRkNDQ0ZmIyYjA0MGFlNTdkIn19fQ=="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": {
+                "CustomName": "ayr0b0t"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "looting",
+          "unenchanted_chance": 0,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.05,
+            "per_level_above_first": 0.01
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:entities/easter_egg/ayr0b0t"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:weather.rain",
+                "minecraft:custom_name": "\"thoyy\"",
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc1ZTA2NDQ4MGFjNjhjOWJkNTEwOTFmMjA2MDNhNWVmY2ZjNmY1NWVkNjZjOTI0ZTQzYjkyODU2ZDBiOWIzNyJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": {
+              "CustomName": "thoyy"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
