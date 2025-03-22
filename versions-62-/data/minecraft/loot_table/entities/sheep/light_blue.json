@@ -6,9 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "vanilla:entities/sheep/light_blue"
+          "value": "vanilla:entities/sheep"
         }
       ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_wool"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "rolls": 1,

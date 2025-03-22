@@ -6,9 +6,19 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "vanilla:entities/sheep/green"
+          "value": "vanilla:entities/sheep"
         }
       ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_wool"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "rolls": 1,
