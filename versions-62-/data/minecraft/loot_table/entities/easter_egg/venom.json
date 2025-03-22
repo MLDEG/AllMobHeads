@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:item.lodestone_compass.lock",
+                "minecraft:custom_name": "\"Venom\"",
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJhNzQ0YTA2MTQ0MzFlMWU2OTUwZWZhYjY4ZDNjYzNmMjQ5ZmJiNWQ5N2ZkMDY3ZmZjNTg4NWQ4YjRmMWI4MSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": {
+              "CustomName": "venom"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
