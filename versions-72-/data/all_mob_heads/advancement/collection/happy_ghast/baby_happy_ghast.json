@@ -21,7 +21,7 @@
 			}
 		},
 		"title": "Baby Happy Ghast",
-		"description": "100% with Looting",
+		"description": "10% with Looting I then + 10% per Looting",
 		"frame": "task",
 		"announce_to_chat": false,
 		"show_toast": true

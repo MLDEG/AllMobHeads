@@ -32,9 +32,6 @@
         }
     },
     "rewards": {
-        "function": "all_mob_heads:kill_baby_happy_ghast",
-        "loot": [
-            "all_mob_heads:baby_happy_ghast"
-        ]
+        "function": "all_mob_heads:kill_baby_happy_ghast"
     }
 }
