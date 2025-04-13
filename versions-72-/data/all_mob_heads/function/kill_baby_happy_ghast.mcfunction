@@ -1,0 +1,1 @@
+advancement revoke @s only all_mob_heads:kill_baby_happy_ghast
