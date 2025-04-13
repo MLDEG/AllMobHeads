@@ -53,9 +53,7 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": {
-                "CustomName": "jeb_"
-              }
+              "nbt": "{CustomName:'\"jeb_\"'}"
             }
           }
         },
@@ -65,9 +63,7 @@
             "condition": "entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": {
-                "CustomName": "potato"
-              }
+              "nbt": "{CustomName:'\"potato\"'}"
             }
           }
         },
