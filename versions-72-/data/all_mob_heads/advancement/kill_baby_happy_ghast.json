@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "all_mob_heads:kill_baby_happy_ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:happy_ghast",
+                    "flags": {
+                        "is_baby": true
+                    }
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:looting",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_mob_heads:kill_baby_happy_ghast"
+    }
+}

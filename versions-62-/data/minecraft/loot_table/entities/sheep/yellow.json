@@ -11,16 +11,6 @@
       ]
     },
     {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_wool"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
       "rolls": 1,
       "entries": [
         {

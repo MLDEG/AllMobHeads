@@ -1,0 +1,772 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "vanilla:entities/happy_ghast"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "minecraft:random_chance_with_enchanted_bonus",
+                            "enchantment": "looting",
+                            "unenchanted_chance": 0,
+                            "enchanted_chance": {
+                                "type": "minecraft:linear",
+                                "base": 0.1,
+                                "per_level_above_first": 0.1
+                            }
+                        }
+                    ],
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.death",
+                                        "minecraft:custom_name": "\"Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFhMzZjYjkzZDAxNjc1YzQ2MjJkZDVjOGQ4NzIxMTA5MTFlYzEyYzM3MmU4OWFmYThiYTAzODYyODY3ZjZmYiJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:inverted",
+                                    "term": {
+                                        "condition": "minecraft:entity_properties",
+                                        "entity": "this",
+                                        "predicate": {
+                                            "equipment": {
+                                                "body": {
+                                                    "count": 1
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Red Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVjN2M5MDI2YjA1MTliZTJhZmZkMTMyNWI2MzU5ZWE4ZDk0NjUwY2YzZDQ2YTFlMjUwOGRkMWRmNjQzM2NiNSJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:red_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Yellow Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdkYjVlMjVkNjM0YzQxMzVmMzlhZDM0MTE0NTI4ZjA4NDZhZmNlOThiNzFmYTc4Njc0YTYxMTExNjgwNmI3YyJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:yellow_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"White Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I5YWMzMDgyNmFmMmI2MzVjZmFkYjA3ZWVlODA5ZmIzMjVhYjA4ZmExNTllODY4Yjk1YzQwN2YwYzcxOGY1MiJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:white_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Purple Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTIyY2QxY2M1M2IxNjdhNjkwYTM0MDExY2RjY2Y2NDhjNzkzMzAwMjk3ZWQ4MWQ0MWU5MWMxN2Q2ODMzMTc5In19fQ=="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:purple_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Pink Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM3OWY5MDgyZjZhYmVlZDk3NTA3NDQ0M2JlOGM4YTc5ZWExMDYwZDYxMDk0ZmY3OWEwNDk4OTM0MDQzMDYyNCJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:pink_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Orange Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDgxNGIzMzc3Njc1YmMxZGVhM2M0YzI2NmNkNTVlZGRjNzJlOGE0MTlhMmNiZGI4NWE2NmUzYWM0ZjNjYjI4NyJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:orange_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Magenta Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3MzNkZGFlZDEwYTExMGFmYjY4NTlmNGEyMjIwMzlkMmVmMjkyZDIyNGQ3OTA0ZWQ4YjM4YTE1ZmM5ZGQwZCJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:magenta_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Lime Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRiNWE0NzJkY2U5MzUwNWQ0YTQ0MDFhNzRjZTI5ZWNlZTg4ZTMyNjQyOGJjMTAzY2JhZDRkOTM5YWJlZDFiIn19fQ=="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:lime_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Light Gray Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg2OTVlMTRhNTYzMjYzNTZjMTkwM2E2MWMyNjk2ZmY3NmVjYTNjNDcyZjU4NDVjZDc3MjMxN2Y5Njg4NzJiZCJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:light_gray_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Light Blue Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE1YzdjZDVhZTljNTBhOGFlYmU5YmJjZGI0NmNmNTczYTMyYmZkMzdlNTM3NmMxMGNhZWNiNDBiZmQ0NjBkYSJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:light_blue_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Green Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ3MDI2OThmZGI4NTMzMTAwMzRlOTAxZDNiZWFjYWY4MTI0NjljZWY1MGE0NmE5OWYwZmQ0YjFhZTE0NjQ2MiJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:green_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Gray Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0NDVjYjAxZjEyZmIwZTA0MjE3ZjNmZGM1MTc2YmE1YjhlMjQ5NDZiY2VmMDQxZGU3MDRkNzU4MzVhZTVjMyJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:gray_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Cyan Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDBjMGU4NjUzNjVkY2QwMjc3NjA3NzE2NjM1NjhlZmZkYzcxMWY3ODEyNDY0ZTBmMmJmNGViZmMyN2FkNmFkZiJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:cyan_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Brown Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdlMTJhNTk1OTk5MmNlMTUzY2VkMjM2YWE2NzMyMzk2NTMxODM0ZDAwZjI4M2JjZTE5NTJkMDRmMzU5MWQ5OSJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:brown_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Blue Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI3ZWY2MDlhYTMyN2Y4OGZkNmRkMjNhNTgxNWQzMmQxYzI3OWViZjIxNDgxYWI1NTM0MGRkMDFiMmM0YmNmMCJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:blue_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.happy_ghast.harness_goggles_down",
+                                        "minecraft:custom_name": "\"Black Harness Happy Ghast\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhZWU4ODM0MTg4ZmVjMWMzMmUxZjYyYzE0ODVmZjk3MmVhOWI3NzE2OTM0MjRlMDEyYjZhYjhhMDcxMzUxYSJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "equipment": {
+                                            "body": {
+                                                "items": "minecraft:black_harness",
+                                                "count": 1
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

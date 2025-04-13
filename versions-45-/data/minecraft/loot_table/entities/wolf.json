@@ -226,6 +226,598 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Woods Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3MmJiODk5ODY5Yjc2ZTFhMmIwZDUxMzczNmI4ZDZiZGM1MTM4ZjM3NGE4NTc3ZTFjNWM3NmI3MmZkNDIxOCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:woods', CollarColor:15b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Ashen Wolf\"",
                     "minecraft:profile": {
@@ -310,6 +902,598 @@
                   "predicate": {
                     "nbt": "{variant: 'minecraft:ashen'}"
                   }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Ashen Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdkZGM1MWZhZWJkYThhOGU5MTAxYTkwMGUxYWVmMzM3ODE5YThkMGUzZTkxNTY2MGY2ZjM3ZGY5YTM5OGE0OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:ashen', CollarColor:15b}"
+                  },
+                  "entity": "this"
                 }
               ]
             },
@@ -414,6 +1598,598 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Black Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjA0NWYyZDQ3YmE1YzQ0YzA2MmRlZjcyNWQ0YTRmOTZlNTc0M2Y4MDJkMWZiNGRjZTliNDI3ZGU5NDc1MjBiMyJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:black', CollarColor:15b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Chestnut Wolf\"",
                     "minecraft:profile": {
@@ -498,6 +2274,598 @@
                   "predicate": {
                     "nbt": "{variant: 'minecraft:chestnut'}"
                   }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Chestnut Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY3MTg5N2E2MTgyYjEwMTY2MGFiMjQzOGU0NTBmNTdjZGFkMmIwOGMyMWI0MDU2NzQ5NTU2MTg1YTRlZjg0ZiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:chestnut', CollarColor:15b}"
+                  },
+                  "entity": "this"
                 }
               ]
             },
@@ -602,6 +2970,598 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Rusty Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjcwZWVjZWE3OGZjYzg3ZjgwZTgxMjU3MzM0MjNjOTZhODhiYjYwNDA4YzcwMjVkZDU0OTk4ZDYyOWJlZTUxNCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:rusty', CollarColor:15b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Spotted Wolf\"",
                     "minecraft:profile": {
@@ -686,6 +3646,598 @@
                   "predicate": {
                     "nbt": "{variant: 'minecraft:spotted'}"
                   }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Spotted Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQzZTM0YzMwNjNkMWE1MzAxNmI2MmRhYTViYjE1YjcyMjllOWMwYjc3MjVlYTRlODk1Y2JhYmM1ZmE3ODQwMCJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:spotted', CollarColor:15b}"
+                  },
+                  "entity": "this"
                 }
               ]
             },
@@ -790,6 +4342,598 @@
                 {
                   "function": "minecraft:set_components",
                   "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Striped Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNjZDBlMGRmZjkyYzA3OWY4NTlhYzVlOTAzNjkyMWI1MjBiNjhiYmQ4MmE4ZTY1ZWZjMzNkZjQ2NmUyZDk2YiJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:striped', CollarColor:15b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
                     "minecraft:note_block_sound": "minecraft:entity.wolf.howl",
                     "minecraft:custom_name": "\"Snowy Wolf\"",
                     "minecraft:profile": {
@@ -874,6 +5018,598 @@
                   "predicate": {
                     "nbt": "{variant: 'minecraft:snowy'}"
                   }
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:0b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:1b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:2b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:3b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:4b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:5b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:6b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:7b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:8b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:9b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:10b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:11b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:12b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:13b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:14b}"
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "functions": [
+                {
+                  "function": "minecraft:set_components",
+                  "components": {
+                    "minecraft:note_block_sound": "minecraft:entity.wolf.ambient",
+                    "minecraft:custom_name": "\"Snowy Wolf\"",
+                    "minecraft:profile": {
+                      "name": "",
+                      "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                      ],
+                      "properties": [
+                        {
+                          "name": "textures",
+                          "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4YWNmNDU1ZjY0ODMyYjZjOWRlYmIwM2EyYzI2MTZkNDI2ZmVhOTllY2E5MTA5OWI2MWZhZThiNmRiODg2OSJ9fX0="
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "predicate": {
+                    "nbt": "{variant: 'minecraft:snowy', CollarColor:15b}"
+                  },
+                  "entity": "this"
                 }
               ]
             },
