@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "vanilla:entities/wither_skeleton"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "inverted",
+                    "term": {
+                        "condition": "entity_properties",
+                        "predicate": {
+                            "nbt": "{CustomName:'\"red skull\"'}"
+                        },
+                        "entity": "this"
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:entities/easter_egg/red_skull"
+                }
+            ]
+        }
+    ]
+}
