@@ -12,8 +12,7 @@
     },
     {
       "rolls": 1,
-      "entries": [
-      ],
+      "entries": [],
       "conditions": [
         {
           "condition": "killed_by_player"

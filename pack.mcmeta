@@ -5,7 +5,7 @@
       "supported_formats": { "min_inclusive": 16, "max_inclusive": 999 },
       "description": "All Mob Heads",
       "author": "MLDEG",
-      "last_update": "2025-14-04"
+      "last_update": "2025-19-06"
       },
    "overlays":
       {
@@ -28,7 +28,11 @@
          {"formats": { "min_inclusive": 66, "max_inclusive": 999 }, "directory": "versions-66-",
          "__comment": "From 25w06a to # (1.21.5 to 1.#)"},
          {"formats": { "min_inclusive": 72, "max_inclusive": 999 }, "directory": "versions-72-",
-         "__comment": "From 25w15a to # (1.21.6 to 1.#)"}
+         "__comment": "From 25w15a to # (1.21.6 to 1.#)"},
+         {"formats": { "min_inclusive": 77, "max_inclusive": 999 }, "directory": "versions-77-",
+         "__comment": "From 1.21.6 to # (1.21.6 to 1.#)"},
+         {"formats": { "min_inclusive": 81, "max_inclusive": 999 }, "directory": "versions-81-",
+         "__comment": "From 1.21.7 to # (1.21.7 to 1.#)"}
          ]
       }
 }
