@@ -1,38 +1,138 @@
 {
-   "pack":
-      {
+   "pack": {
       "pack_format": 16,
-      "supported_formats": { "min_inclusive": 16, "max_inclusive": 999 },
+      "min_format": 16,
+      "max_format": 999,
+      "supported_formats": {
+         "min_inclusive": 16,
+         "max_inclusive": 999
+      },
       "description": "All Mob Heads",
       "author": "MLDEG",
-      "last_update": "2025-19-06"
-      },
-   "overlays":
-      {
-      "entries":
-         [
-         {"formats": { "min_inclusive": 16, "max_inclusive": 32 }, "directory": "versions-16-44",
-         "__comment": "From 23w31a to 24w07a (1.20.2 to 1.20.4)"},
-         {"formats": { "min_inclusive": 33, "max_inclusive": 44 }, "directory": "versions-33-44",
-         "__comment": "From 24w09a to 1.20.6 (1.20.5 to 1.20.6)"},
-         {"formats": { "min_inclusive": 45, "max_inclusive": 999 }, "directory": "versions-45-",
-         "__comment": "From 24w21a to 1.21.3 (1.21 to 1.21.3)"},
-         {"formats": { "min_inclusive": 58, "max_inclusive": 999 }, "directory": "versions-58-",
-         "__comment": "From 24w44a to 1.21.4 (1.21.4 to 1.21.4)"},
-         {"formats": { "min_inclusive": 62, "max_inclusive": 999 }, "directory": "versions-62-",
-         "__comment": "From 25w02a to # (1.21.5 to 1.#)"},
-         {"formats": { "min_inclusive": 64, "max_inclusive": 999 }, "directory": "versions-64-",
-         "__comment": "From 25w04a to # (1.21.5 to 1.#)"},
-         {"formats": { "min_inclusive": 65, "max_inclusive": 999 }, "directory": "versions-65-",
-         "__comment": "From 25w05a to # (1.21.5 to 1.#)"},
-         {"formats": { "min_inclusive": 66, "max_inclusive": 999 }, "directory": "versions-66-",
-         "__comment": "From 25w06a to # (1.21.5 to 1.#)"},
-         {"formats": { "min_inclusive": 72, "max_inclusive": 999 }, "directory": "versions-72-",
-         "__comment": "From 25w15a to # (1.21.6 to 1.#)"},
-         {"formats": { "min_inclusive": 77, "max_inclusive": 999 }, "directory": "versions-77-",
-         "__comment": "From 1.21.6 to # (1.21.6 to 1.#)"},
-         {"formats": { "min_inclusive": 81, "max_inclusive": 999 }, "directory": "versions-81-",
-         "__comment": "From 1.21.7 to # (1.21.7 to 1.#)"}
-         ]
-      }
+      "last_update": "2025-10-05"
+   },
+   "overlays": {
+      "entries": [
+         {
+            "formats": {
+               "min_inclusive": 16,
+               "max_inclusive": 32
+            },
+            "directory": "versions-16-44",
+            "__comment": "From 23w31a to 24w07a (1.20.2 to 1.20.4)",
+            "min_format": 16,
+            "max_format": 32
+         },
+         {
+            "formats": {
+               "min_inclusive": 33,
+               "max_inclusive": 44
+            },
+            "directory": "versions-33-44",
+            "__comment": "From 24w09a to 1.20.6 (1.20.5 to 1.20.6)",
+            "min_format": 33,
+            "max_format": 44
+         },
+         {
+            "formats": {
+               "min_inclusive": 45,
+               "max_inclusive": 999
+            },
+            "directory": "versions-45-",
+            "__comment": "From 24w21a to 1.21.3 (1.21 to 1.21.3)",
+            "min_format": 45,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 58,
+               "max_inclusive": 999
+            },
+            "directory": "versions-58-",
+            "__comment": "From 24w44a to 1.21.4 (1.21.4 to 1.21.4)",
+            "min_format": 58,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 62,
+               "max_inclusive": 999
+            },
+            "directory": "versions-62-",
+            "__comment": "From 25w02a to # (1.21.5 to 1.#)",
+            "min_format": 62,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 64,
+               "max_inclusive": 999
+            },
+            "directory": "versions-64-",
+            "__comment": "From 25w04a to # (1.21.5 to 1.#)",
+            "min_format": 64,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 65,
+               "max_inclusive": 999
+            },
+            "directory": "versions-65-",
+            "__comment": "From 25w05a to # (1.21.5 to 1.#)",
+            "min_format": 65,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 66,
+               "max_inclusive": 999
+            },
+            "directory": "versions-66-",
+            "__comment": "From 25w06a to # (1.21.5 to 1.#)",
+            "min_format": 66,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 72,
+               "max_inclusive": 999
+            },
+            "directory": "versions-72-",
+            "__comment": "From 25w15a to # (1.21.6 to 1.#)",
+            "min_format": 72,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 77,
+               "max_inclusive": 999
+            },
+            "directory": "versions-77-",
+            "__comment": "From 1.21.6 to # (1.21.6 to 1.#)",
+            "min_format": 77,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 81,
+               "max_inclusive": 999
+            },
+            "directory": "versions-81-",
+            "__comment": "From 1.21.7 to # (1.21.7 to 1.#)",
+            "min_format": 81,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 88,
+               "max_inclusive": 999
+            },
+            "directory": "versions-88-",
+            "__comment": "From 1.21.9 to # (1.21.9 to 1.#)",
+            "min_format": 88,
+            "max_format": 999
+         }
+      ]
+   }
 }

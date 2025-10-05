@@ -1,0 +1,191 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "vanilla:entities/copper_golem"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "conditions": [
+                        {
+                            "condition": "killed_by_player"
+                        },
+                        {
+                            "condition": "minecraft:random_chance_with_enchanted_bonus",
+                            "enchantment": "looting",
+                            "unenchanted_chance": 0,
+                            "enchanted_chance": {
+                                "type": "minecraft:linear",
+                                "base": 0.1,
+                                "per_level_above_first": 0.1
+                            }
+                        }
+                    ],
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.copper_golem.hurt",
+                                        "minecraft:custom_name": "\"Copper Golem\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ4ZTBmOWViMjRhMTA2MDA3Mjk0MzhkZDk5OTk3ODM5ZTFhOTllMjc2ZDc2ZTMyZmQ0MzRiZGI1ZjU0Mjk2YyJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{weather_state: 'unaffected'}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.copper_golem.death",
+                                        "minecraft:custom_name": "\"Exposed Copper Golem\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmRiMWM0NDViODBhYjliNGM5MWZjYTdjOGNhMzZkMDRiZTZiYWY1ZTI1MDdiYTFiNDE2MTYwYjg5MjVhODk1MyJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{weather_state: 'exposed'}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.copper_golem.spin",
+                                        "minecraft:custom_name": "\"Weathered Copper Golem\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRlODViNTJlMzc4ZDM5YzY2N2I4MDQ0OGU1M2ViZmY0ODhjNWYwNmNhZTNhZWEwMGQ5NTcwYmQ2Y2MzMmE5OSJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{weather_state: 'weathered'}"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:player_head",
+                            "weight": 1,
+                            "functions": [
+                                {
+                                    "function": "minecraft:set_components",
+                                    "components": {
+                                        "minecraft:note_block_sound": "minecraft:entity.copper_golem.item_drop",
+                                        "minecraft:custom_name": "\"Oxidized Copper Golem\"",
+                                        "minecraft:profile": {
+                                            "name": "",
+                                            "id": [
+                                                0,
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "properties": [
+                                                {
+                                                    "name": "textures",
+                                                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFiZjI0YWU4ODk1YmZkYjlkMGU3NWZlNGQ0MTVkNzZmOTk0ZGM3YTVmZjM2OGQ5NDE0OWQ3NjU5YzM5NmExYiJ9fX0="
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{weather_state: 'oxidized'}"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "",
+                    "id": [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFiZjI0YWU4ODk1YmZkYjlkMGU3NWZlNGQ0MTVkNzZmOTk0ZGM3YTVmZjM2OGQ5NDE0OWQ3NjU5YzM5NmExYiJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "title": "Oxidized Copper Golem",
+        "description": "10% with Looting I then + 10% per Looting",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "all_mob_heads:collection/copper_golem/weathered_copper_golem",
+    "criteria": {
+        "oxidized_copper_golem": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:player_head",
+                        "components": {
+                            "minecraft:profile": {
+                                "name": "",
+                                "id": [
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFiZjI0YWU4ODk1YmZkYjlkMGU3NWZlNGQ0MTVkNzZmOTk0ZGM3YTVmZjM2OGQ5NDE0OWQ3NjU5YzM5NmExYiJ9fX0="
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
