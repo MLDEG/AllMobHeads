@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/nautilus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:note_block_sound": "minecraft:entity.nautilus.dash",
+                "minecraft:custom_name": "\"Nautilus\"",
+                "minecraft:profile": {
+                  "name": "",
+                  "id": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JiMzQwZGQzMzAyNjE1MzQ4ZGU1MTYyZmUxNjcwYjljNWM5YzYxNmNkOTJkMmRlOWQ4Mzk4Y2IzM2U4NDJhZSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.0,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.02,
+            "per_level_above_first": 0.01
+          }
+        }
+      ]
+    }
+  ]
+}
