@@ -21,7 +21,7 @@
 			}
 		},
 		"title": "Toast Rabbit",
-		"description": "5% with Looting I then + 5% per Looting",
+		"description": "Rename a rabbit 'Toast', 5% with Looting I then + 5% per Looting",
 		"frame": "task",
 		"announce_to_chat": false,
 		"show_toast": true

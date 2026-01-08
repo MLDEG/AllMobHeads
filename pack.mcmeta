@@ -9,7 +9,7 @@
       },
       "description": "All Mob Heads",
       "author": "MLDEG",
-      "last_update": "2025-11-06"
+      "last_update": "2026-01-08"
    },
    "overlays": {
       "entries": [
@@ -161,6 +161,16 @@
             "directory": "overlay-93-",
             "__comment": "From 25w45a to # (1.21.10 to 1.#)",
             "min_format": 93,
+            "max_format": 999
+         },
+         {
+            "formats": {
+               "min_inclusive": 94.1,
+               "max_inclusive": 999
+            },
+            "directory": "overlay-94.1-",
+            "__comment": "From 1.21.11 to # (1.21.11 to 1.#)",
+            "min_format": 94.1,
             "max_format": 999
          }
       ]

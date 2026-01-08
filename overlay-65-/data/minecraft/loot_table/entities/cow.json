@@ -25,8 +25,8 @@
               "unenchanted_chance": 0,
               "enchanted_chance": {
                 "type": "minecraft:linear",
-                "base": 0.001,
-                "per_level_above_first": 0.01
+                "base": 0.01,
+                "per_level_above_first": 0.002
               }
             }
           ],
@@ -186,16 +186,6 @@
                 "CustomName": "potato"
               }
             }
-          }
-        },
-        {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "enchantment": "looting",
-          "unenchanted_chance": 0,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.001,
-            "per_level_above_first": 0.01
           }
         }
       ]

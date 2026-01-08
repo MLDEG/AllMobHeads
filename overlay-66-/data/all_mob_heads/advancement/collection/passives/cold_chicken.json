@@ -21,7 +21,7 @@
             }
         },
         "title": "Cold Chicken",
-        "description": "0.1% with Looting I then + 1% per Looting",
+        "description": "1% with Looting I then + 0.2% per Looting",
         "frame": "task",
         "announce_to_chat": false,
         "show_toast": true
