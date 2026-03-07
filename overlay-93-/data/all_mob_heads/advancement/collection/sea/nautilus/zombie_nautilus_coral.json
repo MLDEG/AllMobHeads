@@ -21,7 +21,7 @@
             }
         },
         "title": "Zombie Nautilus Coral",
-        "description": "10% + 10% per looting",
+        "description": "10% with Looting I then + 10% per looting",
         "frame": "task",
         "announce_to_chat": false,
         "show_toast": true

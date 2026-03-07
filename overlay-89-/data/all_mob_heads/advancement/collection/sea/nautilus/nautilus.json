@@ -21,7 +21,7 @@
             }
         },
         "title": "Nautilus",
-        "description": "2% + 1% per looting",
+        "description": "2% with Looting I then + 1% per looting",
         "frame": "task",
         "announce_to_chat": false,
         "show_toast": true
