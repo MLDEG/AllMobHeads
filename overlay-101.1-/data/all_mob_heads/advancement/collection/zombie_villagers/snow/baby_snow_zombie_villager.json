@@ -1,0 +1,59 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [
+						0,
+						0,
+						0,
+						0
+					],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAxZmFkOGM4Y2NiN2U1NTYzMjUzMTJjYzAxNTZkYTQ4MzkzZmQ4MzNlMDA0MjQzMjljYzBmYjRiZjg4YWJlYiJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Baby Snow Zombie Villager",
+		"description": "10% with Looting I then + 10% per Looting",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"parent": "all_mob_heads:collection/zombie_villagers/snow/15_weaponsmith_snow_zombie_villager",
+	"criteria": {
+		"baby_snow_zombie_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTAxZmFkOGM4Y2NiN2U1NTYzMjUzMTJjYzAxNTZkYTQ4MzkzZmQ4MzNlMDA0MjQzMjljYzBmYjRiZjg4YWJlYiJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,233 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:rabbit_spawn_egg"
+		},
+		"title": "Baby Rabbits",
+		"description": "Baby Rabbit Heads Collection",
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "all_mob_heads:collection/rabbits",
+	"criteria": {
+		"baby_black_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDllMTI0Njc4NGNmNWFkYjFhMjUxOGE0YTc1NWQ2MWE2YmMyMTY5OTYxY2JjYzRmYmJmOWMwMjVmMDRhNzY3MyJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_black_and_white_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjIwMjBmNjk4NzZiYmZlMWRjMDAyYTAyODBmMDQ4NTJkOGVlMTA3YjU5NjU0OWZiNDRlMDcyM2VmYTFhMGI2NSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_brown_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0ZmFmNzczOWYwZTRjYTE1NjIzMWRmOGNhOGFiODFlMTYyZjYxOTVkMmM5ZmQ0MWYyZjNiNjM2ZTdhYjZmNiJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_gold_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY3NWVmOGZjODZmYjg3MTczYWM2MDJiNmNhZTdkYjcxZmU1ZTk1YjRlZGZhMTZlNWNiNjcyZjFjZjM5NTdiNiJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_killer_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUwNzAxZWI5MTYyNTI3MWZkYjI3YTAxZGQwYTQ4ZjE5N2E4ZTQ5ZGJkMmZmNjFmODE5M2ZkYWI3Yzk5YTU3NSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_salt_and_pepper_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJlYjVmOTExZmFiNzMzZWQ1MTRjNDA5YzkyZmM1MTJkNDU0YTAyZGZhMWY4YWQ2ZDVhM2Y0M2ZmMDFmNzNhYSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_toast_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRhMGIwOTczM2NkZjlmNzJlMmJhY2MwYjQ1YzUwYmY2MzA0MjVjNWI3Zjk4MDRlYmYxYWFiY2JkMGI4MTNmYiJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		},
+		"baby_white_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU1NTIwM2EzMTE0NDdjYmZhMDhjOGRkNWI0ZGVmNWRkMWYxNzAwMjk0MjBlYWRlYjEzZjg4NmQ4OGE2ODQ5OSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"experience": 1000
+	}
+}

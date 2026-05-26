@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.sheep.ambient",
+								"minecraft:custom_name": "\"Baby Magenta Sheep\"",
+								"minecraft:profile": {
+									"name": "",
+									"id": [
+										0,
+										0,
+										0,
+										0
+									],
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY3YmExYjhjOGU5MGI2NzYwNzE2NTNmMzQ0MzU5NzNkZGM1YjlmNTY0OTVkNmUwYzE5ODk5ZWI3NWU5MjBkOSJ9fX0="
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

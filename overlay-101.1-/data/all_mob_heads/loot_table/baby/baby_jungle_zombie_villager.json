@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+								"minecraft:custom_name": "\"Baby Jungle Zombie Villager\"",
+								"minecraft:profile": {
+									"name": "",
+									"id": [
+										0,
+										0,
+										0,
+										0
+									],
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJkMjM4NDIzZWM0YzEzMjFkM2UwODFmODUyYjQzMDczYTQ4NmM3YTEzNzU1M2MxNTY5ZGE4YmU1MWZhNDgxMCJ9fX0="
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
