@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "all_mob_heads:kill_baby_pink_sheep": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:6b}",
+                    "flags": {
+                        "is_baby": true
+                    }
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:looting",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_mob_heads:baby/kill_baby_pink_sheep"
+    }
+}

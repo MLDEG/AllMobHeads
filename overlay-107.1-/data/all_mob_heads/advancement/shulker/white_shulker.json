@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"amh:white_shulker": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "name_tag",
+					"components": {
+						"custom_name": "white"
+					}
+				},
+				"entity": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "shulker"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "all_mob_heads:shulker/white_shulker"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [
+						0,
+						0,
+						0,
+						0
+					],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiNDgyZGZkMzU1MzUzNzhiZTI3N2M3OGMxZWViNTg4OTk3ODJjMzdhM2VlZTc4ZTk4OWI0Y2YzNTBmY2E5MCJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Baby Gray Sheep",
+		"description": "10% with Looting I then + 10% per Looting",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"parent": "all_mob_heads:collection/sheeps/baby_sheeps/baby_light_gray_sheep",
+	"criteria": {
+		"baby_gray_sheep": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiNDgyZGZkMzU1MzUzNzhiZTI3N2M3OGMxZWViNTg4OTk3ODJjMzdhM2VlZTc4ZTk4OWI0Y2YzNTBmY2E5MCJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

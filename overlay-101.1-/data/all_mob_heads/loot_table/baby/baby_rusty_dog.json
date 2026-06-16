@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.baby_wolf.ambient",
+								"minecraft:custom_name": "\"Baby Rusty Dog\"",
+								"minecraft:profile": {
+									"name": "",
+									"id": [
+										0,
+										0,
+										0,
+										0
+									],
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VlMzE3NThjZDAwOTc4MmNjMTI2ODAxNTU0NTg4NzdjOGI4YmQyYTlkZDY3NjYyMzI0ZjQxMzcwYjliZjFkZiJ9fX0="
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"amh:black_shulker": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "name_tag",
+					"components": {
+						"custom_name": "black"
+					}
+				},
+				"entity": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"entity_type": "shulker"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "all_mob_heads:shulker/black_shulker"
+	}
+}

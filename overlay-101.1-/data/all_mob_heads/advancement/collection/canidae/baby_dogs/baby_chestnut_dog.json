@@ -1,0 +1,59 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "",
+					"id": [
+						0,
+						0,
+						0,
+						0
+					],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJmOTcxNzdiMDgzOTZkYThhMzMxMzU4NjNiNTU1MmJmYTk3OTA4OTI1YmI0MzE5ODg3ODAxMTBiYzE2MWMwMSJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Baby Chestnut Dog",
+		"description": "10% with Looting I then + 10% per Looting",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"parent": "all_mob_heads:collection/canidae/baby_dogs/baby_black_dog",
+	"criteria": {
+		"baby_chestnut_dog": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"name": "",
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJmOTcxNzdiMDgzOTZkYThhMzMxMzU4NjNiNTU1MmJmYTk3OTA4OTI1YmI0MzE5ODg3ODAxMTBiYzE2MWMwMSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

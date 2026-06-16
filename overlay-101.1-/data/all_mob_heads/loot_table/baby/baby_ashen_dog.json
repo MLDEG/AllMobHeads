@@ -1,0 +1,37 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:note_block_sound": "minecraft:entity.baby_wolf.growl",
+								"minecraft:custom_name": "\"Baby Ashen Dog\"",
+								"minecraft:profile": {
+									"name": "",
+									"id": [
+										0,
+										0,
+										0,
+										0
+									],
+									"properties": [
+										{
+											"name": "textures",
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MGJjNzkzMGRmNGFkMjU5NGUwZDU0Y2Y4OTUzZmMxZGIyZmNiY2UzNDM0NDI5ZWVjM2NiYTk2N2Q3OWIxZiJ9fX0="
+										}
+									]
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
