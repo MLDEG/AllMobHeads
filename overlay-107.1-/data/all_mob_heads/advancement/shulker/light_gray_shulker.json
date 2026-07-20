@@ -6,7 +6,7 @@
 				"item": {
 					"items": "name_tag",
 					"components": {
-						"custom_name": "light_gray"
+						"custom_name": "light gray"
 					}
 				},
 				"entity": [
