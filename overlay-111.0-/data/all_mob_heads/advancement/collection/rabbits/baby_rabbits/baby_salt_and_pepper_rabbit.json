@@ -1,0 +1,57 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"id": [
+						0,
+						0,
+						0,
+						0
+					],
+					"properties": [
+						{
+							"name": "textures",
+							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJlYjVmOTExZmFiNzMzZWQ1MTRjNDA5YzkyZmM1MTJkNDU0YTAyZGZhMWY4YWQ2ZDVhM2Y0M2ZmMDFmNzNhYSJ9fX0="
+						}
+					]
+				}
+			}
+		},
+		"title": "Baby Salt and Pepper Rabbit",
+		"description": "10% with Looting I then + 10% per Looting",
+		"frame": "task",
+		"announce_to_chat": false,
+		"show_toast": true
+	},
+	"parent": "all_mob_heads:collection/rabbits/baby_rabbits/baby_brown_rabbit",
+	"criteria": {
+		"baby_salt_and_pepper_rabbit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:profile": {
+								"id": [
+									0,
+									0,
+									0,
+									0
+								],
+								"properties": [
+									{
+										"name": "textures",
+										"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJlYjVmOTExZmFiNzMzZWQ1MTRjNDA5YzkyZmM1MTJkNDU0YTAyZGZhMWY4YWQ2ZDVhM2Y0M2ZmMDFmNzNhYSJ9fX0="
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

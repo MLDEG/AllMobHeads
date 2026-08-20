@@ -1,0 +1,280 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/horse"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:killed_by_player"
+              },
+              {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
+                "enchantment": "minecraft:looting",
+                "unenchanted_chance": 0,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.02,
+                  "per_level_above_first": 0.01
+                }
+              }
+            ]
+          },
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.ambient",
+                  "minecraft:custom_name": "White Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWNkOGMyNGEzZmQ5MGJjYWU2OWZhMWZhZTA4YmExNmMzN2Y0MmNhZGE3MWQ0NGVkZTJjNjRlMDBjOTE1NzZkOSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "white"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.angry",
+                  "minecraft:custom_name": "Creamy Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTZiMWQyZjdiMjEzMDk2MzEwNjdlMmVjMjNjMDJlNGYyZDY3Nzc2YzNiNjg3NmZiZDI4YzVhYWM5YmVhNzIyZSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "creamy"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.death",
+                  "minecraft:custom_name": "Chestnut Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM0OGZkYTYyZWMwZDA4MzVlMTIzZDA4MmI1Yzk2MDRkZGIyZjE4MjI0ZjExNTQ5NDllYzdhYWNhMzQ1Mjc2OCJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "chestnut"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.gallop",
+                  "minecraft:custom_name": "Brown Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJlNWM3ZGE3MTc3ZDExYmUxNDJiZGEzNmZhYTk2MzkyNmQzMDIxNWMwZjBkMjI5NjgwOTNjNGFlMjIxZjE2ZCJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "brown"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.hurt",
+                  "minecraft:custom_name": "Black Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZhM2M5ZWViYjhkNjE3ODlkYTU5ZGM2ZjUzZDZlNTM0YjNlNDQzZTc5ZWZmYzYyYWVmNzViMDA3YjMzNTg4OSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "black"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.land",
+                  "minecraft:custom_name": "Gray Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBlMjE5MTNhZWU4NGFlY2FkZjU0OTcxYzQyY2ZkMzIzNTQzNDI4MzhjOTYyMGUxZTljYTJmZjU5OWFkYTZlYyJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "gray"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.horse.ambient",
+                  "minecraft:custom_name": "Dark Brown Horse",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODljYjJmOGVlMzc5NjRhYjdlZGIzYWQxNjE0MzY1YzU1M2I5NGI2MGRjODMzYWM0NGZmODkxMzE2ODUxMWRkMyJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:horse/variant": "dark_brown"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "minecraft:set_lore",
+              "entity": "attacking_player",
+              "lore": [
+                {
+                  "text": "Killed by",
+                  "color": "dark_red",
+                  "bold": true
+                },
+                {
+                  "selector": "@s",
+                  "color": "gold",
+                  "italic": true
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "type": "minecraft:fill_player_head",
+              "entity": "this"
+            }
+          ]
+        }
+      ],
+      "modifier": {
+        "type": "minecraft:set_components",
+        "components": {
+          "minecraft:note_block_sound": "minecraft:entity.player.levelup"
+        }
+      },
+      "condition": {
+        "type": "minecraft:killed_by_player"
+      }
+    }
+  ]
+}

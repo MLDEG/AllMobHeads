@@ -1,0 +1,43 @@
+{
+    "criteria": {
+        "all_mob_heads:kill_cold_baby_cow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "minecraft:cow",
+                        "flags": {
+                            "is_baby": true
+                        },
+                        "components": {
+                            "minecraft:cow/variant": "minecraft:cold"
+                        }
+                    }
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:looting",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_mob_heads:baby/kill_cold_baby_cow"
+    }
+}

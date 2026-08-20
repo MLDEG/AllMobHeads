@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_skull"
+		},
+		"title": "Skeleton",
+		"description": "Obtained by Charged Creeper explosion",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "all_mob_heads:collection/vanilla/creeper",
+	"criteria": {
+		"skeleton_vanilla": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+				  {
+					"items": [
+					  "minecraft:skeleton_skull"
+					]
+				  }
+				]
+			}
+		}
+	}
+}

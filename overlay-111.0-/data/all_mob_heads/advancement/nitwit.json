@@ -1,0 +1,26 @@
+{
+	"criteria": {
+		"amh:nitwit": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "name_tag",
+					"components": {
+						"custom_name": "nitwit"
+					}
+				},
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:villager",
+						"minecraft:nbt": "{ VillagerData: { profession: \"minecraft:none\" } }"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "all_mob_heads:nitwit"
+	}
+}

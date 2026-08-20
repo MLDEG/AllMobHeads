@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "modifier": {
+                        "type": "minecraft:copy_components",
+                        "source": "block_entity"
+                    }
+                }
+            ]
+        }
+    ],
+    "random_sequence": "minecraft:blocks/player_head"
+}

@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"amh:lime_shulker": {
+			"trigger": "player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "name_tag",
+					"components": {
+						"custom_name": "lime"
+					}
+				},
+				"entity": {
+					"type": "entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:shulker"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "all_mob_heads:shulker/lime_shulker"
+	}
+}

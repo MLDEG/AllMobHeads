@@ -1,0 +1,314 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/rabbit"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:killed_by_player"
+              },
+              {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
+                "enchantment": "minecraft:looting",
+                "unenchanted_chance": 0,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.05,
+                  "per_level_above_first": 0.05
+                }
+              }
+            ]
+          },
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
+                  "minecraft:custom_name": "Toast",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ0ZGQwMDZlY2I0OGMwNmIwMWY1OGY3N2M0YjNkYjg0OWQ4MzI1Y2IwZDQxZDYxYzNkMmQ5MDc0ZmJlOTkxZSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:custom_name": "Toast"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.hurt",
+                  "minecraft:custom_name": "Brown Rabbit",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE3MDgwMDVmMmU5MmI2OGM0ODNlOTgwMzEwYjAzOTNiM2UxNjMwMTY5NTYxNDQxMzQyNjkzZmE5MDJkYzg1ZSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "brown"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
+                  "minecraft:custom_name": "White Rabbit",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUyOGFjM2U3Yjg4Y2VjOTA5NzNhMTY5MmE3N2MwZmUyNjJkMWM3MGU0MmI4ZDdhODAyMzU2NzZhMTY5MGQ1ZiJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "white"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.hurt",
+                  "minecraft:custom_name": "Black Rabbit",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg2MmFmZGY2N2VjMjZiY2ZjNjVhZjUzMWQ2Y2EzZTg0ZmFiNmJlNjlkYmNlM2ViYTYxZDM3MjdjZGMxZjU5YSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "black"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
+                  "minecraft:custom_name": "Black and White Rabbit",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZkOGU0MDAxMzVhY2M4OTdlOGNlMGM2ZmE0NmExODYyYTM3OTc3ZWQwYjZmZGIwYjNkNmE2NzZhYmI5MmE1OSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "white_splotched"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.hurt",
+                  "minecraft:custom_name": "Gold Rabbit",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzlkZjM0ODUzMjkzODJmODE5NGM2NTAyNmJkYTgwMzY5M2Q4ZjE4NWNhYjUwYzQzMmQyN2ExZTgwZGY3M2IyYyJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "gold"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.death",
+                  "minecraft:custom_name": "Salt and Pepper Rabbit",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTA2ZjdjMmQ2ZGNmZmUyNDZiY2IwYjc0M2ViZTE3ZTI5YTI3ZWJhNmE3OTdjZDdlYTg5ZjgwYjRiNzZmODY3ZSJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "salt"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.rabbit.attack",
+                  "minecraft:custom_name": "The Killer Bunny",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5MGUyM2FiYWIxMmZmNTdhMTUzM2ZlM2UwZjFkYjJkNDUwODhiNTBjNDE3MTYxNjI4ZDliOTgwOGRkYWZhMyJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:rabbit/variant": "evil"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

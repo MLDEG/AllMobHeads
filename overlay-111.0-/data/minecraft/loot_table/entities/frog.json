@@ -1,0 +1,144 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "vanilla:entities/frog"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              {
+                "type": "minecraft:killed_by_player"
+              },
+              {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
+                "enchantment": "minecraft:looting",
+                "unenchanted_chance": 0,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.01,
+                  "per_level_above_first": 0.05
+                }
+              }
+            ]
+          },
+          "children": [
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.frog.ambient",
+                  "minecraft:custom_name": "Temperate Frog",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYzZTI5ZGQ5NDdhMTc3ODk1ZjYxMjFkMjMzMWI2NWFjM2Y4OTZmZGE0YmRkMTE1MTQ5MWU0MGI4MDQ5NTJhNyJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:frog/variant": "minecraft:temperate"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.frog.death",
+                  "minecraft:custom_name": "Warm Frog",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU5MzEyYjViMmJhYjlhZDUxZWE0YjZhNDA3ZDZkMzkwYmI1MDQzNDA4NzU3Yjk3NmE3NTU2ODk4YWM0M2RlMCJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:frog/variant": "minecraft:warm"
+                  }
+                }
+              }
+            },
+            {
+              "type": "item",
+              "name": "minecraft:player_head",
+              "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:note_block_sound": "minecraft:entity.frog.hurt",
+                  "minecraft:custom_name": "Cold Frog",
+                  "minecraft:profile": {
+                    "id": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdiY2NjYzEyNWE0MTEwNDM0YTg1YzQwYWRhMDM5ZDA1MGYxNGVmN2RiMzRhMzQ0NDA2NzMxMGY4Y2U2OTYwNiJ9fX0="
+                      }
+                    ]
+                  }
+                }
+              },
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:frog/variant": "minecraft:cold"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

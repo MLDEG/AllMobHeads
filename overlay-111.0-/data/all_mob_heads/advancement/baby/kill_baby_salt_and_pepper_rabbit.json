@@ -1,0 +1,41 @@
+{
+    "criteria": {
+        "all_mob_heads:kill_baby_salt_and_pepper_rabbit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "minecraft:rabbit",
+                        "nbt": "{RabbitType:5}",
+                        "flags": {
+                            "is_baby": true
+                        }
+                    }
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "predicates": {
+                                    "minecraft:enchantments": [
+                                        {
+                                            "enchantments": "minecraft:looting",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "all_mob_heads:baby/kill_baby_salt_and_pepper_rabbit"
+    }
+}

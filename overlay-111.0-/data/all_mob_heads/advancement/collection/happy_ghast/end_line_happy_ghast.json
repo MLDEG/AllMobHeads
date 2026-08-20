@@ -1,0 +1,8 @@
+{
+   "criteria": {
+      "end": {
+         "trigger": "minecraft:location"
+      }
+   },
+   "parent": "all_mob_heads:collection/happy_ghast/white_harness_happy_ghast"
+}
