@@ -4,7 +4,7 @@
       "max_format": 999,
       "description": "All Mob Heads",
       "author": "MLDEG",
-      "last_update": "2026-10-05"
+      "last_update": "2026-10-07"
    },
    "overlays": {
       "entries": [
@@ -24,6 +24,12 @@
             "directory": "overlay-111.0-",
             "__comment": "From 26.3 to #",
             "min_format": 111.0,
+            "max_format": 999
+         },
+         {
+            "directory": "overlay-122.0-",
+            "__comment": "From 26.4 to #",
+            "min_format": 122.0,
             "max_format": 999
          }
       ]
